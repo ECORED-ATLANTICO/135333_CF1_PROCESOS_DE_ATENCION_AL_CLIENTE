@@ -4,11 +4,19 @@
     position: absolute
     top: 20%
     right: 10%
+    width: 90px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
     right: 30%
+    width: 90px
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 10%
+    width: 90px
 
 @keyframes float1
   0%
@@ -26,13 +34,14 @@
 .banner-interno__titulo__icono i
   color: $color-primario
 
-figcaption
+figcaption, caption
   font-weight: normal
 
 .banner-principal__row .banner-principal__img
-  width: 500px !important
-  @media screen and (max-width: $bp-max-xl)
-    width: 400px !important
+  width: 400px !important
+  @media screen and (min-width: $bp-min-xl)
+    padding-bottom: 0 !important
+    padding-top: 0 !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: $color-sistema-texto !important
@@ -43,3 +52,839 @@ figcaption
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
   @media screen and (max-width: $bp-max-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+// TAMAÑO IMAGENES //
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img70
+   max-width: 70px !important
+.img80
+   max-width: 80px !important
+.img90
+  max-width: 90px !important
+.img120
+  max-width: 120px !important
+.img140
+  max-width: 140px !important
+.img160
+  max-width: 160px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img420
+  max-width: 420px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img800
+  max-width: 800px !important
+.img900
+  max-width: 900px !important
+
+//ALINEACION DE CONTENIDO //
+.justify-center
+  display: flex
+  justify-content: center
+  flex-direction: row
+.justify-end
+  display: flex
+  justify-content: flex-end
+  flex-direction: row
+.justify-star
+  display: flex
+  justify-content: flex-start
+  flex-direction: row
+.align-items-center
+  display: flex
+  align-items: flex-center
+  flex-direction: row
+.align-items-end
+  display: flex
+  align-items: flex-end
+  flex-direction: row
+.justify-align
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: center
+  flex-direction: row
+
+
+//FONDOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  figure, p, .cajon, .video
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-image: url("../assets/curso/fondo-intro.png")
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 20px
+.bg_grad-02
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-image: url("../assets/curso/tema2/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 20px
+.bg_grad-03
+  background-image: url("../assets/curso/tema2/fondo2.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 10px
+  &_1
+    background-image: url("../assets/curso/tema2/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-04
+  background-image: url("../assets/curso/tema2/fondo3.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 10px
+  &_1
+    background-image: url("../assets/curso/tema2/fondo3.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-05
+  background-image: url("../assets/curso/tema2/fondo4.svg")
+  background-repeat: no-repeat
+  background-size: cover
+  border-radius: 10px
+  &_1
+    background-image: url("../assets/curso/tema2/fondo4.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-07
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 59px
+    left: 0
+    width: calc( 100% + 6rem )
+    height: 67%
+    background-color: #373660
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      margin: 0 
+      width: 100%
+      height: 100%
+      top: 20px
+.bg_grad-08
+  position: relative
+  img, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 36px
+    left: 0
+    width: 62%
+    height: 30%
+    background-color: #FFF0E1
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 20px
+.bg_grad-09
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 45px
+    left: 0
+    width: 100%
+    height: 84%
+    background-color: #FFF0E1
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 60px
+.bg_grad-10
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: 99px
+    left: 0
+    width: 100%
+    height: 74%
+    background-color: #FFE7E4
+    background-repeat: no-repeat
+    background-size: contain
+    border-top-right-radius: 100px
+    @media screen and ( max-width: 420px )
+      margin: 0 -23px
+      width: calc(100% + 46px)
+      top: 20px
+      height: 96%
+.bg_grad-11
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 85px
+    left: 0
+    width: 100%
+    height: 61%
+    background-color: #FFE7E4
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px  )
+      height: 87%
+      width: 100%
+      left: 0
+      top: 73px
+.bg_grad-12
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 85px
+    left: 0
+    width: 100%
+    height: 67%
+    background-color: #FFF6E6
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px  )
+      height: 84%
+      width: 100%
+      left: 0
+      top: 73px
+.bg_grad-13
+  position: relative
+  .row, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 40px
+    left: 0
+    width: 100%
+    height: 80%
+    background-color: #FFE7E4
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px  )
+      height: 84%
+      width: 100%
+      left: 0
+      top: 73px
+.bg_grad-14
+  position: relative
+  .row, .col
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 27px
+    left: 0
+    width: 100%
+    height: 80%
+    background-color: #D9D9E9
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px  )
+      height: 90%
+      width: 100%
+      left: 0
+      top: 73px
+
+.bgr
+  background-color: #FAF9EA
+  &_1
+    background-image: url("../assets/curso/tema1/t1-8.png")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+      
+  &_2
+    background-color: #FFE1C2
+    border-radius: 10px
+    margin-left: 1px
+    margin-right: 1px
+  &_4
+    background-color: #FFA648
+    border-radius: 10px
+  &_5
+    background-color: #FFB6B0
+  &_6
+    background-color: #E8E8E8
+  &_7
+    background-color: #FFEDCC
+    border-radius: 10px
+  &_8
+    background-color: white
+    opacity: 0.9
+    margin-top: -223px
+    width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
+  &_9
+    background-color: white
+    opacity: 0.9
+    margin-top: -286px
+    width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
+  &_10
+    background-color: white
+    opacity: 0.9
+    margin-top: -381px
+    width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
+  &_11
+    background-color: white
+    opacity: 0.9
+    margin-top: -139px
+    width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
+  &_12
+    background-color: white
+    opacity: 0.9
+    margin-top: -228px
+    width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
+  &_13
+    background-color: white
+    opacity: 0.9
+    margin-top: -364px
+    width: 504px
+    @media screen and ( max-width: 420px  )
+      margin-top: 0
+      width: 100%
+  &_14
+    background-color: white
+    border-radius: 10px
+    width: fit-content
+    padding: 10px
+  &_15
+    background-image: url("../assets/curso/tema2/fondo5.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width:420px )
+      background-image: none
+      background-color: #FFE4B3
+  &_16
+    background-color: #FFF6E6
+    opacity: 0.9
+  &_17
+    background-color: #D9D9E9
+  &_18
+    background-color: $color-acento-contenido
+    border-radius: 10px
+  &_19
+    background-color: #FFE7E4
+  &_20
+    background-color: $color-primario
+    border-radius: 10px
+  &_21
+    background-color: #FFE7E4
+  &_22
+    background-color: #FFEDCC
+   
+//BORDES//
+.bord
+  border: 3px solid
+  border-color: #FF6D60
+  padding: 0.5rem
+  border-radius: 10px
+  &_1
+    border: 3px solid
+    border-color: #373660
+    padding: 0.5rem
+    border-radius: 10px
+  &_2
+    border: 3px solid
+    border-color: #FFC967
+    padding: 0.5rem
+    border-radius: 10px
+
+    
+.colr
+  color: black
+  &_1
+    color: white !important
+  &_2
+    color: $color-acento-contenido
+  &_3
+    color: #12263F
+  &_4
+    color: #FF6D60
+
+.w-200px  
+  width: 195px
+
+.fuente14
+  font-size: 14px
+.fuente13
+  font-size: 13px
+.fuente18
+  font-size: 18px
+.fuente30
+  font-size: 30px
+//posicion de contenido en pantalla//
+
+.ml
+  margin-left: 30px
+  &_1
+    margin-left: 35px
+.m_t
+  margin-top: 64px
+  &_1
+    margin-top: 5rem
+  &_2
+    margin-top: 107px
+
+
+.alto
+  height: 81px
+
+.posit
+  width: 704px
+  &_1
+    z-index: 1
+    right: 38%
+    width: 64% !important
+    opacity: 0.9
+    @media screen and ( max-width: 420px  )
+      right: 0%
+      width: 100% !important
+  &_2
+    z-index: 0
+    left: 50% !important
+    @media screen and ( max-width: 420px )
+      left: 0 !important
+  &_3
+    z-index: 1
+    right: 47%
+    width: 55% !important
+    opacity: 0.9
+    @media screen and ( max-width: 420px  )
+      right: 0%
+      width: 100% !important
+  &_4
+    top: 0
+    left: 0 
+    width: 56%
+    margin-top: 70px
+    margin-bottom: 83px
+    margin-left: 70%
+    @media screen and ( max-width: 420px  )
+      top: 0
+      left: 0px
+      width: 224px
+      margin-top: 114px
+      margin-bottom: 74px
+      margin-left: 0%
+  &_5
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: -12px
+      left: 111px
+      width: 73%
+  &_6
+    top: 118px
+    left: 90px
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 37px
+      left: 19px
+      width: 73%
+  &_7
+    top: 229px
+    left: 469px
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 57px
+      left: 19px
+      width: 73%
+  &_8
+    top: 312px
+    left: 126px
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 77px
+      left: 19px
+      width: 73%
+  &_9
+    top: 413px
+    left: 429px
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 97px
+      left: 19px
+      width: 73%
+  &_10
+    left: 86%
+    bottom: 14px
+    @media screen and ( max-width: 420px  )
+      left: 19%
+      bottom: 21px
+  &_11
+    position: absolute
+    top: 0
+    left: 535px
+    width: 149px
+    opacity: 0
+    &:hover
+      opacity: 1
+  &_12
+    position: absolute
+    top: 156px
+    left: 829px
+    width: 149px
+    opacity: 0
+    &:hover
+      opacity: 1
+  &_13
+    position: absolute
+    top: 156px
+    left: 247px
+    width: 149px
+    opacity: 0
+    &:hover
+      opacity: 1
+  &_14
+    position: absolute
+    top: 50px
+    left: 497px
+    width: 567px
+    opacity: 0
+    &:hover
+      opacity: 1
+    @media screen and ( max-width: 420px  )
+      top: 8px
+      left: 150px
+      width: 214px
+  &_15
+    position: absolute
+    top: 146px
+    left: 526px
+    width: 567px
+    opacity: 0
+    &:hover
+      opacity: 1
+    @media screen and ( max-width: 420px  )
+      top: 39px
+      left: 159px
+      width: 209px
+  &_16
+    position: absolute
+    top: 257px
+    left: 509px
+    width: 567px
+    opacity: 0
+    &:hover
+      opacity: 1
+    @media screen and ( max-width: 420px  )
+      top: 77px
+      left: 153px
+      width: 214px
+  &_17
+    z-index: 1
+    right: 31%
+    width: 69% !important
+    opacity: 0.9
+    @media screen and ( max-width: 420px  )
+      width: 100% !important
+      right: 0
+  &_18
+    margin: 0 -3rem
+    background-color: #FFC967
+  &_19
+    top: 50px
+  &_20
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: -45px
+      left: 79px
+      width: 82%
+  &_21
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 79px
+      left: 91px
+      width: 79%
+  &_22
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 140px
+      left: 85px
+      width: 81%
+  &_23
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 218px
+      left: 59px
+      width: 87%
+  &_24
+    top: -31px
+    left: 500px 
+    width: 100%
+    @media screen and ( max-width: 420px  )
+      top: 277px
+      left: 65px
+      width: 87%
+    
+
+// ANIMACIONES //
+.tranform
+  background-color: #FF6D60
+  &:hover
+    background-color: #373660
+    h4, p
+      color: white !important
+  &_1
+    transition: transform .2s
+    &:hover
+      transform: scale(1.10)
+  &_2
+    transform: rotate(180deg)
+  &_3
+    background-color: #FFC967
+    &:hover
+      background-color: #FF6D60
+  
+
+.infografia-torta
+  position: relative
+  &__img
+    img
+      position: absolute
+      transition: opacity 0.3s ease-in-out
+      opacity: 0
+      &:hover
+        opacity: 1
+.tarjetas-up
+  overflow: hidden
+  border-radius: 10px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 10px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -85%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -15%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+
+//CLASES SOBRE-ESCRITAS//
+.video iframe
+  height: 86% !important
+  @media screen and (max-width: $bp-max-xs)
+    height: 70% !important
+.tabs-a__tab
+  background-color: #DBE3FB
+  &__selected
+    color: $white !important
+.tarjeta.color-acento-botones--borde
+  border: 0
+  background-color: #D9D9E9
+.tabla-a thead
+  background-color: #DBE3FB
+.tabla-b__header
+  background-color: #F6F8FE
+  border-top: 5px solid
+  border-color: $color-primario
+  padding: 20px
+.tabla-a.color-primario thead
+  border-top: none
+.tabla-b__header *
+  color: black
+.tarjeta-avatar-b .tarjeta 
+  width: 100%
+  margin-left: -20%
+  padding-left: 10%
+.tarjeta-avatar-b__img 
+    min-width: 28%
+    max-width: 28%
+.slyder-a__tipo-a .slyder-a__btn--sigt 
+  right: 0
+.slyder-a__tipo-a .slyder-a__btn--atrs
+  left: 0
+.slyder-a__tipo-a .slyder-a__bullets
+    bottom: 20px
+.horizontal-scroll
+  align-items: stretch !important
+.slyder-a__tipo-b
+  margin-top: -4rem !important
+.tabs-b__tab
+  background-color: #FFF6E6
+.tabs-b__tab--active
+  background-color: rgba(255,255,255,0.5) !important
+.linea-tiempo-e__item__body
+  width: 90%
+.linea-tiempo-e:before
+  left: 10%
+.linea-tiempo-e__item__header
+  width: 10%
+.linea-tiempo-e__item__header h3
+  margin-top: 17px
+  &:hover
+    background-color: $color-acento-contenido
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: $color-secundario !important
+      color: white
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-image: url("../assets/curso/tema3/fondo1.svg")
+      background-repeat: no-repeat
+      @media screen and ( max-width: 420px  )
+        background-image: none
+        background-color: #FFE1C2
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #FFF0E1
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #FFF0E1
+
+.tarjeta--azul
+  background-image: url("../assets/curso/tema5/fondo1.svg") !important
+  background-repeat: no-repeat
+  background-size: cover
+.linea-tiempo-d__item__content__title 
+  @media screen and ( max-width: 420px  )
+    height: 100px
+.manito1
+  &::after
+    top: -188px  
+    left: 275px 
+  &::before
+    display: flex
+    top: -188px   
+    left: 275px 
+  @media screen and ( max-width: 420px )
+    &::after
+      top: -142px
+      left: -78px 
+    &::before
+      top: -142px
+      left: -78px 
+.manito2
+  &::after
+    top: -112px
+    left: -115px
+  &::before
+    display: flex
+    top: -112px
+    left: -115px
+  @media screen and ( max-width: 420px )
+    &::after
+      top: -36px
+      left: -36px 
+    &::before
+      top: -36px
+      left: -36px 
+.sld
+  @media screen and (max-width: 420px) 
+    .slyder-a__bullets 
+      width: 83%
+    .slyder-a__btn--atrs
+      width: 42px
+      height: 32px
+    .slyder-a__btn--sigt
+      width: 42px
+      height: 32px
+
+.fullwidth-bg
+  position: relative
+  z-index: 0
+
+  &--1::after
+    top: 340px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/tema1/bg-1.png')
+
+.bg-color-primario-p1
+  background-color: $color-primario-p1
