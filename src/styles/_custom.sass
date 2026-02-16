@@ -92,6 +92,8 @@ figcaption, caption
   max-width: 800px !important
 .img900
   max-width: 900px !important
+.himg70
+  max-height: 70px
 
 //ALINEACION DE CONTENIDO //
 .justify-center
@@ -229,6 +231,7 @@ figcaption, caption
       top: 20px
 .bg_grad-09
   position: relative
+  margin-top: 100px
   .row
     position: relative
   &::before
@@ -239,7 +242,7 @@ figcaption, caption
     left: 0
     width: 100%
     height: 84%
-    background-color: #FFF0E1
+    background-color: #BCEFEA
     background-repeat: no-repeat
     background-size: contain
     @media screen and ( max-width: 420px )
@@ -357,16 +360,16 @@ figcaption, caption
     border-radius: 10px
     margin-left: 1px
     margin-right: 1px
+  &_3
+    background-color: #12263F
   &_4
-    background-color: #FFA648
-    border-radius: 10px
+    background-color: #FAF9EA
   &_5
-    background-color: #FFB6B0
+    background-color: #BCEFEA
   &_6
-    background-color: #E8E8E8
+    background-color: #EAE7AD
   &_7
-    background-color: #FFEDCC
-    border-radius: 10px
+    background-color: #F6F8FE
   &_8
     background-color: white
     opacity: 0.9
@@ -443,6 +446,8 @@ figcaption, caption
     background-color: #FFE7E4
   &_22
     background-color: #FFEDCC
+  &_caption
+    background-color: #E8E8E8
    
 //BORDES//
 .bord
@@ -787,12 +792,14 @@ figcaption, caption
     bottom: 20px
 .horizontal-scroll
   align-items: stretch !important
-.slyder-a__tipo-b
-  margin-top: -4rem !important
+// .slyder-a__tipo-b
+//   margin-top: -4rem !important
 .tabs-b__tab
-  background-color: #FFF6E6
+  background-color: #F6F8FE
 .tabs-b__tab--active
-  background-color: rgba(255,255,255,0.5) !important
+  background-color: #FDFCF9 !important
+.tabs-b__content-item
+  background-color: #FDFCF9
 .linea-tiempo-e__item__body
   width: 90%
 .linea-tiempo-e:before
@@ -807,32 +814,38 @@ figcaption, caption
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .col-auto.linea-tiempo-d__item__col-number
     .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
-      background-color: $color-secundario !important
-      color: white
+      background-color: $color-primario !important
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
       background-image: url("../assets/curso/tema3/fondo1.svg")
       background-repeat: no-repeat
+      background-color: #F6F8FE
+      padding-top: 10px
+
       @media screen and ( max-width: 420px  )
         background-image: none
-        background-color: #FFE1C2
+        background-color: #F6F8FE
 
 /// non selected
 .linea-tiempo-d__item.row
   .col-auto.linea-tiempo-d__item__col-number
     .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
-      background-color: #FFF0E1
+      background-color: #FAF9EA
     .linea-tiempo-d__item__dots:after
       border-left: 4px dotted #adb8c2 !important
   .col
     .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
-      background-color: #FFF0E1
+      background-color: #FAF9EA
+
 
 .tarjeta--azul
   background-image: url("../assets/curso/tema5/fondo1.svg") !important
   background-repeat: no-repeat
   background-size: cover
 .linea-tiempo-d__item__content__title 
+  min-height: 40px
+  height: fit-content
+  // background-color: #FAF9EA
   @media screen and ( max-width: 420px  )
     height: 100px
 .manito1
@@ -877,6 +890,9 @@ figcaption, caption
       height: 32px
 
 .fullwidth-bg
+  display: none
+  @media screen and (min-width: 768px)
+    display: block
   position: relative
   z-index: 0
 
@@ -885,6 +901,45 @@ figcaption, caption
     left: -50px
     position: absolute
     content: url('../assets/curso/tema1/bg-1.png')
+  &--2::after
+    top: 200px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/tema1/bg-2.png')
 
 .bg-color-primario-p1
   background-color: $color-primario-p1
+
+.bloque-texto-f
+  background-color: #FFF2EE
+  padding-bottom: 20px
+
+.bloque-texto-f__comillas i
+  color: $color-acento-botones
+
+.slider-wrapper
+  position: relative
+  .bg-fullwidth
+    background-image: url(../assets/curso/tema3/bg-slider.png)
+    background-position: center
+    background-size: cover
+    position: absolute
+    top: -40px
+    left: -47px
+    bottom: -20px
+    right: -60px
+    width: calc( 100% + 96px )
+    height: calc( 100% + 80px )
+    border-radius: 20px
+
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt
+    background-color: #FF7E5D
+    border-color: #FF7E5D
+    background-image: url(../assets/bullets/arrow-white.svg)
+
+  .slyder-a__bullets__item
+    background-color: #CBC232
+    border-color: #CBC232
+    opacity: 0.5
+    &--active
+      opacity: 1

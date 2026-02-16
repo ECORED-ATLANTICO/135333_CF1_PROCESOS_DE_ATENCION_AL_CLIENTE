@@ -7,72 +7,82 @@
         span 3
       h1 Inclusión 
     
-    .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+    .row.mb-5.align-items-center
+      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")  
         figure.justify-center
           img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8(data-aos="fade-left")
         p La inclusión es un término mucho más amplio de lo que se piensa, es un concepto que si bien tuvo sus inicios en la perspectiva social ahora permea también el contexto empresarial. Inclusión significa la capacidad de poder derribar barreras, de que todos tengan igualdad de derechos, dar accesibilidad y no ser excluyentes, en últimas la inclusión es un asunto de todos. Lastimosamente, a veces se ve permeada negativamente por diversas barreras, ya que los prejuicios sociales hacen que se jerarquicen las relaciones entre las personas de acuerdo con roles y estereotipos.
         p Para mayor entendimiento, en la siguiente imagen, se muestran los tipos de inclusión que suelen abordarse con mayor frecuencia en los estudios sociales y económicos.
     
-    TabsB.color-acento-contenido(data-aos="zoom-in")
-      .py-4.py-md-5(titulo="Inclusión familiar" :icono="require('@/assets/curso/tema3/t3-2.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+    .fullwidth-bg.fullwidth-bg--2
+    TabsB.color-secundario(data-aos="zoom-in")
+      .p-4.py-md-5(titulo="Inclusión familiar")
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-9.col-lg-7
             h4 Inclusión familiar
             p Que cada miembro se sienta parte activa de la familia, compartir las obligaciones del hogar entre todos teniendo en cuenta la edad y estado físico-emocional, valorar lo que cada uno aporta y no crear prejuicios asociados al género, son las definiciones más cercanas a lo que representa la inclusión familiar. De hecho es interesante, porque algunos estudiosos del tema han planteado que la familia es el eje central de la inclusión.
-          .col-md-6
+          .col-6.col-md-3.col-lg-2
             figure
-              img(src='@/assets/curso/tema3/t3-7.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Inclusión social" :icono="require('@/assets/curso/tema3/t3-3.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+              img(src='@/assets/curso/tema3/t3-2.svg', alt='Texto que describa la imagen')
+      .p-4.py-md-5(titulo="Inclusión social")
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-9.col-lg-7
             h4 Inclusión social
             p La CEPAL (2018) define la inclusión social como “el aseguramiento de que todas las personas puedan ejercer sus derechos y garantías, aprovechando sus habilidades y beneficiándose de las oportunidades que se encuentran en su entorno”. En este sentido, no basta con asociar este término solo a los derechos, ya que incluye adicionalmente la posibilidad que las personas puedan tener participación activa en diferentes escenarios
-          .col-md-6
+          .col-6.col-md-3.col-lg-2
             figure
-              img(src='@/assets/curso/tema3/t3-8.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Inclusión laboral" :icono="require('@/assets/curso/tema3/t3-4.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+              img(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')
+      .p-4.py-md-5(titulo="Inclusión laboral")
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-9.col-lg-7
             h4 Inclusión laboral
             p Este tipo de inclusión se da desde el momento en que la empresa está realizando sus procesos de selección hasta que los empleados están trabajando en ella. En el primer escenario, consiste en abrir las posibilidades de contratación a todas las personas sin ningún tipo de discriminación garantizando una remuneración justa, en un segundo escenario con los empleados activos, la inclusión consiste en generar espacios que promuevan el desarrollo de los colaboradores de una organización.
-          .col-md-6
+          .col-6.col-md-3.col-lg-2
             figure
-              img(src='@/assets/curso/tema3/t3-9.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Inclusión educativa" :icono="require('@/assets/curso/tema3/t3-5.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+              img(src='@/assets/curso/tema3/t3-4.svg', alt='Texto que describa la imagen')
+      .p-4.py-md-5(titulo="Inclusión educativa")
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-9.col-lg-7
             h4 Inclusión educativa
             p Consiste en garantizar a los estudiantes el derecho a la educación en igualdad de condiciones bajo criterios de calidad, también es reconocer la diversidad y permitir que cualquier estudiante, independiente de sus características personales o culturales, sea acogido por la institución educativa. La Unesco (2020, p. 8) en su resumen del informe de seguimiento de la educación en el mundo, define la inclusión en la educación como “velar por que cada educando se sienta valorado y respetado, y pueda disfrutar de un claro sentido de pertenencia”.
-          .col-md-6
+          .col-6.col-md-3.col-lg-2
             figure
-              img(src='@/assets/curso/tema3/t3-10.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Inclusión empresarial" :icono="require('@/assets/curso/tema3/t3-6.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
+              img(src='@/assets/curso/tema3/t3-5.svg', alt='Texto que describa la imagen')
+      .p-4.py-md-5(titulo="Inclusión empresarial")
+        .row.justify-content-center.align-items-center
+          .col-12.col-md-9.col-lg-7
             h4 Inclusión empresarial
             p Hace alusión a que las empresas dispongan de los canales y medios para que todos sus grupos de interés (propietarios, accionistas, colaboradores, proveedores, distribuidores), incluidos por supuesto los clientes puedan acceder a la empresa de una forma amigable y sencilla.
-          .col-md-6
+          .col-6.col-md-3.col-lg-2
             figure
-              img(src='@/assets/curso/tema3/t3-11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema3/t3-6.svg', alt='Texto que describa la imagen')
     
     separador
 
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Discapacidad y sus tipos
-    
-    p.mb-5 Según la Ley Colombiana 762 de 2002, que aprueba la Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad, la discapacidad es entendida como:
 
-    .row.mb-5
-      .col-12.col-lg-6.p-4.bg_grad-08(data-aos="fade-right")
-        img.img30.tranform_2(src='@/assets/componentes/icon-bloque-texto-c.svg', alt='Texto que describa la imagen')
-        p.mb-0.fuente18 Una deficiencia física, mental o sensorial, ya sea de naturaleza permanente o temporal, que limita la capacidad de ejercer una o más actividades esenciales de la vida diaria, que puede ser causada o agravada por el entorno económico y social
-          img.img30.posit_10(src='@/assets/componentes/icon-bloque-texto-c.svg', alt='Texto que describa la imagen')
-        p.fuente13 (CIPETFDPD, 2002, p. 2)
-      .col-12.col-lg-6.p-4(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-9
+        p.mb-5 Según la Ley Colombiana 762 de 2002, que aprueba la Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad, la discapacidad es entendida como:
+        .bloque-texto-f.pt-4.px-5
+          .bloque-texto-f__comillas
+            i.fas.fa-quote-left
+            i.fas.fa-quote-right
+          h4.text-regular.bloque-texto-f__texto Una deficiencia física, mental o sensorial, ya sea de naturaleza permanente o temporal, que limita la capacidad de ejercer una o más actividades esenciales de la vida diaria, que puede ser causada o agravada por el entorno económico y social
+          .bloque-texto-f__autor
+            p.mb-0 (CIPETFDPD, 2002, p. 2)
+      .col-10.col-md-6.col-lg-3
+        figure
+          img(src='@/assets/curso/tema3/1.png', alt='Texto que describa la imagen')
+
+    .row.align-items-center.bg-color-1.p-4.mb-5
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/curves.svg", style="max-width: 90px").mx-auto
+      .col-lg
         p Esto quiere decir que, en línea con lo visto previamente, de alguna manera se podría afirmar que la inclusión es el concepto general y la discapacidad es una especificación técnica y bastante importante que surge dentro de la inclusión.
-        p La discapacidad es un tema tan relevante dentro de la inclusión, que vale la pena mirarlo con más detalle. En el informe Mundial de la Discapacidad de la OMS y el Banco Mundial, se mencionan algunas cifras que ponen de manifiesto la importancia de la discapacidad, a continuación, se mencionan como contexto algunas consideraciones:
+        p.mb-0 La discapacidad es un tema tan relevante dentro de la inclusión, que vale la pena mirarlo con más detalle. En el informe Mundial de la Discapacidad de la OMS y el Banco Mundial, se mencionan algunas cifras que ponen de manifiesto la importancia de la discapacidad, a continuación, se mencionan como contexto algunas consideraciones:
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Figura 2
@@ -80,63 +90,80 @@
     
     .row.mb-3.mb-lg-5(data-aos="zoom-in")
       .col-12.col-lg-4.mb-3.mb-lg-0
-        .tranform_3.h-100.p-4
-          figure.justify-center.mb-5  
-            img.img70(src='@/assets/curso/tema3/t3-12.svg' alt='AvatarTop')
-          p.p-3.text-center Se estima que más de mil millones de personas viven con discapacidad, o sea, alrrededor de 15% de la población mundial.
+        .bgr_5.h-100.p-4
+          figure.justify-center.mb-4  
+            img.img70.himg70(src='@/assets/curso/tema3/t3-12.svg' alt='AvatarTop')
+          p.p-3.text-center.mb-0 Se estima que más de mil millones de personas viven con discapacidad, o sea, alrrededor de 15% de la población mundial.
       .col-12.col-lg-4.mb-3.mb-lg-0
-        .tranform_3.h-100.p-4
-          figure.justify-center.mb-5  
-            img.img70(src='@/assets/curso/tema3/t3-13.svg' alt='AvatarTop')
-          p.p-3.text-center En promedio, las personas con discapacidad y familias con miembros con discapacidad tienen mayores tasas de privaciones.
+        .bgr_6.h-100.p-4
+          figure.justify-center.mb-4  
+            img.img70.himg70(src='@/assets/curso/tema3/t3-13.svg' alt='AvatarTop')
+          p.p-3.text-center.mb-0 En promedio, las personas con discapacidad y familias con miembros con discapacidad tienen mayores tasas de privaciones.
       .col-12.col-lg-4
-        .tranform_3.h-100.p-4
-          figure.justify-center.mb-3  
-            img.img70(src='@/assets/curso/tema3/t3-14.svg' alt='AvatarTop')
-          p.p-3.text-center El número de personas con discapacidad está creciendo como resultado del envejecimiento de la población y al incremento global de los problemas crónicos de salud. 
+        .bgr_7.h-100.p-4
+          figure.justify-center.mb-4
+            img.img70.himg70(src='@/assets/curso/tema3/t3-14.svg' alt='AvatarTop')
+          p.p-3.text-center.mb-0 El número de personas con discapacidad está creciendo como resultado del envejecimiento de la población y al incremento global de los problemas crónicos de salud. 
       .col-12.col-lg-12
-        div.bgr_6.my-3.d-flex
+        div.bgr_caption.my-3.d-flex
           p.my-3.px-3  <b>Nota.</b> Tomado del Informe Mundial de la Discapacidad de la OMS y el Banco Mundial. 2011.  https://apps.who.int/iris/handle/10665/75356
     
-    p.mb-5 También, lastimosamente, como confirma la fundación con trabajo (López MJ, 2021), se han tejido algunos mitos respecto al tema de discapacidad, por ejemplo:
+    p.mb-4 También, lastimosamente, como confirma la fundación con trabajo (López MJ, 2021), se han tejido algunos mitos respecto al tema de discapacidad, por ejemplo:
 
-    .row.mb-5
-      .col-lg-4.mb-3
-        .tarjetas-up(@mouseover="mostrarIndicador = false")
-          .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/tema3/t3-15.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.bgr_16.p-4
-            .title.d-flex.align-items-center.mb-4
-              span.colr_2
-                i.fas.fa-caret-up.fa-2x.me-3
-                i.fas.fa-caret-down.fa-2x.me-3
-              h4.mb-0.colr_2 Leer más
-            p Se considera que las personas con discapacidad tienen un bajo rendimiento laboral: esto no es cierto, cuando las personas con discapacidad son asignadas a la realización de actividades de acuerdo con sus destrezas, consideración que aplica para cualquier colaborador de una empresa, la productividad siempre estará asociada a la correspondencia entre la asignación realizada y las competencias.
-      .col-lg-4.mb-3
-        .tarjetas-up
-          img(src='@/assets/curso/tema3/t3-16.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.bgr_16.p-4
-            .title.d-flex.align-items-center.mb-4
-              span.colr_2
-                i.fas.fa-caret-up.fa-2x.color-primario.me-3
-                i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.colr_2 Leer más
-            p Los empresarios en ocasiones consideran que se deben realizar altas inversiones para adaptar la empresa a personas con discapacidad: este punto dejó de perder vigencia por dos razones: 1. esquemas como el teletrabajo, la alternancia, facilitan que ciertas tareas puedan ser desempeñadas por las personas desde sus lugares de residencia y 2. a nivel general, hoy en día las personas con discapacidad cuentan con sus propios recursos para desplazarse o movilizarse, lo que minimiza el impacto en términos de adaptación de sus puestos de trabajo.
-      .col-lg-4.mb-3
-        .tarjetas-up
-          img(src='@/assets/curso/tema3/t3-17.png' alt='AvatarTop' style='width:400px')
-          .tarjetas-up_card.bgr_16.p-4
-            .title.d-flex.align-items-center.mb-4
-              span.colr_2
-                i.fas.fa-caret-up.fa-2x.color-primario.me-3
-                i.fas.fa-caret-down.fa-2x.color-primario.me-3
-              h4.mb-0.colr_2 Leer más
-            p Las personas con discapacidad faltan mucho debido a que se enferman reiteradamente: no hay estudios que demuestran que esto es cierto, las enfermedades pueden llegar a cualquier colaborador, por lo que este aspecto está más en el imaginario que en estudios científicos o médicos.
+    .row.align-items-center.justify-content-center.mb-4
+      .col-10.col-md-6.col-lg-3
+        figure
+          img(src='@/assets/curso/tema3/2.png', alt='Imagen decorativa')
+      .col-lg-9
+        .p-4.rounded-4.bgr_4.mb-3
+          p Se considera que las personas con discapacidad tienen un bajo rendimiento laboral: esto no es cierto, cuando las personas con discapacidad son asignadas a la realización de actividades de acuerdo con sus destrezas, consideración que aplica para cualquier colaborador de una empresa, la productividad siempre estará asociada a la correspondencia entre la asignación realizada y las competencias.
+        p Los empresarios en ocasiones consideran que se deben realizar altas inversiones para adaptar la empresa a personas con discapacidad: este punto dejó de perder vigencia por dos razones: 1. esquemas como el teletrabajo, la alternancia, facilitan que ciertas tareas puedan ser desempeñadas por las personas desde sus lugares de residencia y 2. a nivel general, hoy en día las personas con discapacidad cuentan con sus propios recursos para desplazarse o movilizarse, lo que minimiza el impacto en términos de adaptación de sus puestos de trabajo.
+    
+    .p-4.rounded-4.bgr_7.mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-10
+          p.mb-lg-0 Las personas con discapacidad faltan mucho debido a que se enferman reiteradamente: no hay estudios que demuestran que esto es cierto, las enfermedades pueden llegar a cualquier colaborador, por lo que este aspecto está más en el imaginario que en estudios científicos o médicos.
+        .col-6.col-lg-1
+          figure
+          img(src='@/assets/curso/tema3/3.svg', alt='Imagen decorativa')
 
     p.mb-5 Es relevante entender que existen <b>diferentes tipologías de discapacidad.</b> A continuación, se detallan los tipos de discapacidad que más participación tienen dentro de la población
 
-    SlyderB.mb-5(:datos="datosSlyder")(data-aos="zoom-out")
+    div.slider-wrapper.z-2.mb-5
+      .bg-fullwidth
+      .tarjeta.tarjeta--blanca.position-relative.p-4.pt-5.z-2.my-5
+        SlyderA(tipo="b")
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-6
+              h4.mb-4 Personas Personas con discapacidad visual (ciegos)
+              p Este tipo de discapacidad se manifiesta en la persona por la pérdida total o parcial del sentido de la vista. Existen diferentes grados de pérdida de la vista, por lo que también en este grupo de personas se encuentran diferencias.
+            .col-10.col-lg-5
+              figure
+                img(src='@/assets/curso/tema3/4.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-6
+              h4.mb-4 Personas Personas con discapacidad auditiva (sordos)
+              p las consecuencias de la sordera (término que engloba cualquier tipo de pérdida auditiva) variarán de una persona a otra dependiendo no solo del grado, edad de adquisición y tipo de sordera, sino de otros factores contextuales que imprimen características diferenciales tales como los núcleos familiares y de escolaridad en donde se construyan sus procesos de identidad, sentido de pertenencia y adquisición de la primera lengua; los cuales no dependen únicamente de las limitaciones biológicas sino de los complejos procesos de relaciones sociales y culturales, de resistencias y acomodaciones que enmarcan las vidas de las personas sordas. 
+            .col-10.col-lg-5
+              figure
+                img(src='@/assets/curso/tema3/5.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-6
+              h4.mb-4 Personas Personas con movilidad reducida
+              p Limitaciones para moverse o caminar debido a la falta total o parcial de sus piernas. También a aquellas que teniendo sus piernas no tienen movimiento en estas, o sus movimientos tienen restricciones que provocan limitaciones para desplazarse por sí mismas, de tal forma que necesitan la ayuda de otra persona o de algún instrumento como silla de ruedas, muletas o prótesis.
+              p Se incluyen, además, las personas que tienen limitaciones para desplazarse y que no cuentan con ningún tipo de ayuda, así como a las personas que cojean para caminar y aquellas personas que presentan deficiencias en el movimiento de sus manos y brazos, o carecen de uno de estos miembros, se incluyen dentro de este tipo de discapacidad.
+            .col-10.col-lg-5
+              figure
+                img(src='@/assets/curso/tema3/6.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-6
+              h4.mb-4 Personas Personas con discapacidad intelectual o mental
+              p Hace relación a personas que tuvieron un desarrollo mental incompleto o detenido, lo cual impacta negativamente la realización de sus actividades cotidianas. En general las personas con discapacidad intelectual, aunque de forma más lenta, pueden llegar a alcanzar completa autonomía para el cuidado personal, en actividades de la vida diaria del hogar, en el manejo de la comunidad y sus servicios y en el desarrollo de una ocupación productiva de su interés.
+            .col-10.col-lg-5
+              figure
+                img(src='@/assets/curso/tema3/7.png', alt='Imagen de acompañamiento')
 
+    .fullwidth-bg.fullwidth-bg--2
     .bg_grad-09
       .row.justify-center
         .col-12.col-lg-4(data-aos="fade-right")
@@ -146,7 +173,7 @@
           div.p-5
             h3 Protocolos de atención a personas con discapacidad
             p Algunas consideraciones para tener en cuenta en el momento de la atención al cliente, con personas con algún tipo de discapacidad.
-            a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Protocolo_Atencion_cliente.pdf')" target="_blank" type="application/pdf")
+            a.boton.bgr_3.me-3.text-white(:href="obtenerLink('downloads/Protocolo_Atencion_cliente.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 
@@ -159,7 +186,7 @@
 
     h4.mb-5 A nivel Internacional, podemos ver los siguientes hitos:
 
-    LineaTiempoE.color-acento-contenido.mb-5(data-aos="fade-left")
+    LineaTiempoE.color-secundario.mb-5(data-aos="fade-left")
       .row(titulo="1948")
         .col-lg-2.mb-3.mb-lg-0
           figure
@@ -192,7 +219,7 @@
     
     h4.mb-5 A nivel de nacional, en Colombia, también encontramos importantes sucesos que garantizan los derechos de personas con diversidad de condiciones:
 
-    LineaTiempoD.color-secundario.mb-5(data-aos="fade-right")
+    LineaTiempoD.color-primario.mb-5(data-aos="fade-right")
       .row(numero="1991" titulo="Constitución Política de Colombia")
         .col-md-3.mb-3.mb-lg-0
           figure
