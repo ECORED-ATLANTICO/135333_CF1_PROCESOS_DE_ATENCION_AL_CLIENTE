@@ -66,7 +66,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
         p.mb-5 Según la Ley Colombiana 762 de 2002, que aprueba la Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad, la discapacidad es entendida como:
-        .bloque-texto-f.pt-4.px-5
+        .bloque-texto-f.pt-4.px-5.mb-4.mb-lg-0
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
@@ -113,7 +113,7 @@
     .row.align-items-center.justify-content-center.mb-4
       .col-10.col-md-6.col-lg-3
         figure
-          img(src='@/assets/curso/tema3/2.png', alt='Imagen decorativa')
+          img.mb-4.mb-lg-0(src='@/assets/curso/tema3/2.png', alt='Imagen decorativa')
       .col-lg-9
         .p-4.rounded-4.bgr_4.mb-3
           p Se considera que las personas con discapacidad tienen un bajo rendimiento laboral: esto no es cierto, cuando las personas con discapacidad son asignadas a la realización de actividades de acuerdo con sus destrezas, consideración que aplica para cualquier colaborador de una empresa, la productividad siempre estará asociada a la correspondencia entre la asignación realizada y las competencias.

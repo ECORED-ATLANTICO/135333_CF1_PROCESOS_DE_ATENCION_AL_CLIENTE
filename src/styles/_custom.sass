@@ -327,28 +327,10 @@ figcaption, caption
       width: 100%
       left: 0
       top: 73px
-.bg_grad-14
-  position: relative
-  .row, .col
-    position: relative
-  &::before
-    content: ''
-    position: absolute
-    margin: 0
-    top: 27px
-    left: 0
-    width: 100%
-    height: 80%
-    background-color: #D9D9E9
-    background-repeat: no-repeat
-    @media screen and ( max-width: 420px  )
-      height: 90%
-      width: 100%
-      left: 0
-      top: 73px
+
 
 .bgr
-  background-color: #FAF9EA
+  background-color: #FFF2EE
   &_1
     background-image: url("../assets/curso/tema1/t1-8.png")
     background-repeat: no-repeat
@@ -839,9 +821,14 @@ figcaption, caption
 
 
 .tarjeta--azul
-  background-image: url("../assets/curso/tema5/fondo1.svg") !important
-  background-repeat: no-repeat
-  background-size: cover
+  background-color: #FAF9EA
+  &.acordion__activo
+    background-image: url("../assets/curso/tema5/fondo1.png") !important
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    background-color: #DBE3FB
+
 .linea-tiempo-d__item__content__title 
   min-height: 40px
   height: fit-content
@@ -901,6 +888,13 @@ figcaption, caption
     left: -50px
     position: absolute
     content: url('../assets/curso/tema1/bg-1.png')
+
+  &--3::after
+    top: -20px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/tema1/bg-1.png')
+
   &--2::after
     top: 200px
     left: -50px
@@ -909,6 +903,9 @@ figcaption, caption
 
 .bg-color-primario-p1
   background-color: $color-primario-p1
+
+.bg-color-terciario-t1
+  background-color: #BCEFEA
 
 .bloque-texto-f
   background-color: #FFF2EE
@@ -943,3 +940,10 @@ figcaption, caption
     opacity: 0.5
     &--active
       opacity: 1
+
+.z-2
+  position: relative
+  z-index: 2
+
+.accesibilidad
+  z-index: 3

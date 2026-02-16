@@ -9,62 +9,77 @@
     
     p.mb-5 Veamos una visión general de este importante tema a través del siguiente video.
 
-    .bg_grad-01.mb-5
-      .row.justify-center.pt-5.pb-5
-        .col-12.col-md-10
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/87fQFljT7OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/87fQFljT7OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
  
-    p.mb-3 La Seguridad y Salud en el trabajo (SST), según la ley 1562 de 2012, se define como la disciplina que se ocupa de la prevención de lesiones y enfermedades generadas por las circunstancias de trabajo, y de la protección y promoción de la salud de los trabajadores.
-    p.mb-5 Su objetivo es mejorar las condiciones y el entorno de medio ambiente laboral, así como la salud laboral, que implica la promoción y el mantenimiento del bienestar físico, mental y social de los trabajadores en todas las ocupaciones.
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-10.col-md-6.col-lg-3
+        figure
+          img.mb-4.mb-lg-0(src='@/assets/curso/tema5/1.png', alt='Imagen ilustrativa')      
+      .col-lg-7
+        p La Seguridad y Salud en el trabajo (SST), según la ley 1562 de 2012, se define como la disciplina que se ocupa de la prevención de lesiones y enfermedades generadas por las circunstancias de trabajo, y de la protección y promoción de la salud de los trabajadores.
+        p.mb-0 Su objetivo es mejorar las condiciones y el entorno de medio ambiente laboral, así como la salud laboral, que implica la promoción y el mantenimiento del bienestar físico, mental y social de los trabajadores en todas las ocupaciones.
 
-    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 8
-      span <em>Definición de Sistema de Gestión de la Seguridad y Salud en el Trabajo</em>
+    .row.justify-content-center.align-items-center
+      .col-xl-10
+        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
+          h5 Figura 8
+          span Definición de Sistema de Gestión de la Seguridad y Salud en el Trabajo
 
-    .bg_grad-14.mb-5
-      .row.justify-center.p-3.p-lg-0
-        .col-12.col-lg-4(data-aos="fade-right")
-          figure
-            img(src='@/assets/curso/tema5/t5-1.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-6.m_t(data-aos="fade-left")
-          h3 Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST 
-          p.mb-0 Este Sistema consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y salud en el trabajo.
-    .row.mb-5  
-      .col-12.col-lg-12
-        div.bgr_6.my-3.d-flex
-          p.my-3.px-3  <b>Nota.</b>Ley 156 de 2012, Artículo 1.
-
-    .posit_18.color-primario.p-3.mb-5(data-aos="fade-up")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema4/t4-38.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.m-0 Para ampliar la información sobre los <b>decretos que reglamentan y definen los alcances de los Sistemas de Gestión de Seguridad y Salud en el Trabajo</b> puede visitar la página del ministerio del trabajo. Allí se plantean de forma sencilla los objetivos y ventajas de este sistema.   
-            .col-sm-auto.p-lg-4
-              a.boton.color-acento-botones.me-3(href="https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/sistema-de-gestion-de-seguridad-y-salud-en-el-trabajo" target="_blank")
-                span Enlace
-                i.fas.fa-link
-    
+    .fullwidth-bg.fullwidth-bg--1
+    .row.justify-content-center.align-items-center
+      .col-xl-10
+        .p-4.bgr.z-2
+          .row.justify-content-center.align-items-center.bgr
+            .col-10.col-md-8.col-lg-4(data-aos="fade-right")
+              figure
+                img.mb-4.mb-lg-5(src='@/assets/curso/tema5/t5-1.svg', alt='Texto que describa la imagen')
+            .col-12.col-lg-7(data-aos="fade-left")
+              h3 Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST 
+              p.mb-0 Este Sistema consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y salud en el trabajo.
+        .row.mb-5.z-2  
+          .col-12.col-lg-12
+            div.bgr_caption.my-2.d-flex
+              p.my-3.px-3  <b>Nota.</b> Ley 156 de 2012, Artículo 1.
+        .p-3.p-lg-5.bg-color-terciario-t1(data-aos="fade-up").z-2
+          .row.justify-content-center.align-items-center
+            .col-5.col-sm-2.col-lg-2
+              img.mb-4.mg-lg-5(src="@/assets/curso/tema4/t4-38.svg")
+            .col
+              .row.justify-content-center.align-items-center
+                .col-lg-8.mb-3.mb-sm-0
+                  p.m-0 Para ampliar la información sobre los #[strong decretos que reglamentan y definen los alcances de los Sistemas de Gestión de Seguridad y Salud en el Trabajo] puede visitar la página del ministerio del trabajo: https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/sistema-de-gestion-de-seguridad-y-salud-en-el-trabajo. Allí se plantean de forma sencilla los objetivos y ventajas de este sistema.
+                .col-sm-auto.p-lg-4
+                  a.boton.bgr_3.me-3.text-white(href="https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/sistema-de-gestion-de-seguridad-y-salud-en-el-trabajo" target="_blank")
+                    span Enlace
+                    i.fas.fa-link
+        
     separador
 
-    #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 5.1 Factores de Riesgos SST
+    .row.justify-content-center
+      .col-xl-10
+        #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 5.1 Factores de Riesgos SST
     
-    p.mb-5 Los componentes de los factores de riesgos de trabajo son condiciones, propiedades o exposiciones que generen cualquier mal o afectación a la salud del trabajador. Se necesita detectar qué tipo de peligro (físicos, químicos, biológicos, ergonómicos, psicosociales o ambientales) se registra en las compañías, para que se evite la ocurrencia de accidentes, incidentes y enfermedades laborales. La resolución 2646 de 2008, busca mantener y conservar la salud física de los colaboradores, prevenir accidentes y situaciones que puedan poner en riesgo al trabajador.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-10.col-md-6.col-lg-2
+        figure
+          img.mb-4.mb-lg-0(src='@/assets/curso/tema5/2.png', alt='Texto que describa la imagen')
+      .col-lg-8
+        p.mb-0 Los componentes de los factores de riesgos de trabajo son condiciones, propiedades o exposiciones que generen cualquier mal o afectación a la salud del trabajador. Se necesita detectar qué tipo de peligro (físicos, químicos, biológicos, ergonómicos, psicosociales o ambientales) se registra en las compañías, para que se evite la ocurrencia de accidentes, incidentes y enfermedades laborales. La resolución 2646 de 2008, busca mantener y conservar la salud física de los colaboradores, prevenir accidentes y situaciones que puedan poner en riesgo al trabajador.
 
-    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 9
-      span <em>Factores de riesgo</em>
-    
-    figure.mb-5
-      img(src='@/assets/curso/tema5/t5-2.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 9.
+          span Factores de riesgo
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/t5-2-mob.svg", alt="texto alternativo")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/t5-2.svg", alt="texto alternativo")
+        figcaption <strong>Nota.</strong> SENA, 2026
     
     .row.justify-center
-      .col-12.col-md-10(data-aos="zoom-in-down")
+      .col-12.col-xl-10(data-aos="zoom-in-down")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Peligros físicos")
             .col-md-12.px-5
@@ -90,51 +105,68 @@
             .col-md-12.px-5
               p Son los únicos factores que no podemos controlar. Se manifiestan en la naturaleza lluvias, tormentas, inundaciones, desprendimientos, precipitaciones. Debemos ser previsores y prudentes.
     
+
+    .fullwidth-bg.fullwidth-bg--3
     separador
 
-    #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 5.2 Manejo y control SST
+    .row.justify-content-center
+      .col-xl-10
+        #t_5_2.titulo-segundo.color-acento-contenido.z-2
+          h2 5.2 Manejo y control SST
     
-    .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
-        figure.justify-center
-          img(src='@/assets/curso/tema5/t5-3.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8(data-aos="fade-left")
+    .row.justify-content-center.mb-5.z-2
+      .col-12.col-lg-8.col-xl-7
         p Con el objetivo de conceptualizar y entablar los controles en seguridad y salud en el trabajo se debe tener en cuenta que la instalación o lugar de trabajo, debe estar con el Equipo de Protección Personal (EPP) como primera barrera de estabilidad entre el trabajador y el peligro (lo cual es menos efectivo), es indispensable jerarquizarlos para minimizar de forma más positiva la posibilidad de accidentes y patologías de trabajo (riesgos de trabajo). 
         p El objetivo general en el manejo y control de la identificación de los riesgos y la valoración de los peligros en Estabilidad y Salud en el Trabajo (SST), consiste en comprender los riesgos que tienen la posibilidad de producir en el desarrollo de las ocupaciones, con el objeto de que la organización logre establecer los controles necesarios, al punto de asegurar que cualquier peligro sea aceptable.
-        p.mb-0 El trabajo preliminar imprescindible para la evaluación de peligros es decidir los procesos y la lista de ocupaciones o situaciones de la operación para juntar la información elemental, incluyendo tareas rutinarias y no rutinarias, ejemplificando de mantenimiento.
-
-    p.mb-3 La valoración de los peligros es la base para la administración proactiva de Seguridad y Salud en el Trabajo, dirigida por la alta dirección como parte de la administración integral del peligro, con la colaboración y compromiso de todos los niveles de la organización.
-    p.mb-3 Independientemente de la dificultad de la valoración de los peligros, ésta debe ser un proceso sistemático que garantice el cumplimiento de su propósito.
-    p.mb-3 Todos los trabajadores tienen que detectar y comunicar a su empleador los riesgos asociados a su actividad gremial. Los empleadores poseen el deber legal de evaluar los peligros derivados de estas ocupaciones laborales.
-    p.mb-5 La matriz de identificación de riesgos y evaluación de peligros la establece el empresario de acuerdo con las ocupaciones hechas y sus características.
-
-    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-      h5 Figura 10
-      span <em>Tabla tipo matriz de riesgo</em>
+        p.mb-4.mb-lg-0 El trabajo preliminar imprescindible para la evaluación de peligros es decidir los procesos y la lista de ocupaciones o situaciones de la operación para juntar la información elemental, incluyendo tareas rutinarias y no rutinarias, ejemplificando de mantenimiento.
+      .col-10.col-lg-4.col-xl-3.mb-3.mb-lg-0(data-aos="fade-right")
+        figure.justify-center
+          img(src='@/assets/curso/tema5/t5-3.png', alt='Texto que describa la imagen', data-aos="fade-left")
     
-    figure
-      img(src='@/assets/curso/tema5/t5-4.svg', alt='Texto que describa la imagen')
+    .bloque-texto-g.bgr.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema5/3.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.d-block La valoración de los peligros es la base para la administración proactiva de Seguridad y Salud en el Trabajo, dirigida por la alta dirección como parte de la administración integral del peligro, con la colaboración y compromiso de todos los niveles de la organización.
+        p.d-block Independientemente de la dificultad de la valoración de los peligros, ésta debe ser un proceso sistemático que garantice el cumplimiento de su propósito.
+ 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-9.col-xl-8
+        p Todos los trabajadores tienen que detectar y comunicar a su empleador los riesgos asociados a su actividad gremial. Los empleadores poseen el deber legal de evaluar los peligros derivados de estas ocupaciones laborales.
+        p.mb-4.mb-lg-0 La matriz de identificación de riesgos y evaluación de peligros la establece el empresario de acuerdo con las ocupaciones hechas y sus características.
+      .col-10.col-lg-3.col-xl-2
+        figure
+        img(src='@/assets/curso/tema5/4.png', alt='Texto que describa la imagen', data-aos="fade-left")
 
-    .row.mb-5  
-      .col-12.col-lg-12
-        div.bgr_6.my-3.d-flex
-          p.my-3.px-3 <b>Nota.</b> Ejemplo Matriz de riesgo
-    
-    p.mb-5 En el tamaño en que la identificación de riesgos y evaluación de peligros contenga información válida y priorizada posibilita consumar correctamente destinados a prevenir los accidentes de trabajo y enfermedad general, convirtiéndose en una herramienta natural para conceptualizar la Administración de Estabilidad y Salud y por consiguiente el proyecto y cronograma de ocupaciones del SG-SST.
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 10.
+          span Tabla tipo matriz de riesgo
+        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema5/t5-4.svg", alt="texto alternativo")
+        figcaption <strong>Nota.</strong> SENA, 2026
 
-    .posit_18.color-primario.p-3.mb-5(data-aos="fade-down")
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema4/t4-38.svg")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-auto
+        img.d-none.d-lg-flex(src="@/assets/curso/tema5/waves.svg", style="max-width: 90px").mx-auto
+      .col-lg-9
+        p.mb-0 En el tamaño en que la identificación de riesgos y evaluación de peligros contenga información válida y priorizada posibilita consumar correctamente destinados a prevenir los accidentes de trabajo y enfermedad general, convirtiéndose en una herramienta natural para conceptualizar la Administración de Estabilidad y Salud y por consiguiente el proyecto y cronograma de ocupaciones del SG-SST.
+
+
+    .p-3.p-lg-4.bg-color-terciario-t1(data-aos="fade-down").z-2
+      .row.align-items-center
+        .col-5.col-sm-2
+          img.mb-4.mb-lg-0.img120.ms-auto(src="@/assets/curso/tema4/t4-38.svg")
         .col
           .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h4 Descargue el ejemplo de Matriz de identificación de peligros.   
+            .col-lg-8.mb-3.mb-sm-0
+              h4 Descargue el ejemplo de Matriz de identificación de peligros.  
             .col-sm-auto.p-lg-4
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/FORMATO_MATRIZ_DE_IDENTIFICACIÓN_DE_PELIGROS.xlsx')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+              a.boton.bgr_3.me-3.text-white(:href="obtenerLink('downloads/FORMATO_MATRIZ_DE_IDENTIFICACIÓN_DE_PELIGROS.xlsx')" target="_blank")
+                  span Enlace
+                  i.fas.fa-link
+
 
 
 </template>
