@@ -194,7 +194,7 @@
     left: 0
 
   &.color-primario
-    background-color: lighten($color-primario, 55%)
+    background-color: #DBE3FB
     &:before
       background-color: $color-primario
   &.color-secundario
@@ -283,11 +283,10 @@
     li
       // display: flex
     &__vineta
-      background-color: $color-acento-contenido
+      background-color: #A5B9F6
       display: inline-block
       min-width: 24px
       height: 24px
-      color: $white
       position: relative
       margin-right: 8px
       vertical-align: top
@@ -298,6 +297,9 @@
         left: 50%
         transform: translate(-50%,-50%)
         line-height: 1em
+
+      &--secundario
+        background-color: #EAE7AD
 
 .lista-ul
   @extend .lista-ol
