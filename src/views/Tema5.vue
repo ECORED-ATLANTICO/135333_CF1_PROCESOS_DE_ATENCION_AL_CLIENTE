@@ -10,7 +10,7 @@
     p.mb-5 Veamos una visión general de este importante tema a través del siguiente video.
 
     figure
-      .video
+      .video.mb-4.mb-lg-5
         iframe(width="560" height="315" src="https://www.youtube.com/embed/87fQFljT7OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
  
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5

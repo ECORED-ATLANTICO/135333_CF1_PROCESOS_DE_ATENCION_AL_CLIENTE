@@ -10,7 +10,7 @@
     p.mb-3.mb-lg-5 Observe en el siguiente video cómo se define un cliente.
 
     figure
-      .video
+      .video.mb-4.mb-lg-5
         iframe(width="560" height="315" src="https://www.youtube.com/embed/O5WBU66GT5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-3.mb-lg-5 De acuerdo con lo anterior, se podrían resumir las expectativas mínimas que tienen los clientes con una empresa en la siguiente figura:
@@ -94,7 +94,7 @@
     p.mb-3.mb-lg-5 Seguramente algunos ejemplos nos ayudarán a comprender y diferenciar mejor estos conceptos, revíselos a continuación.
 
     figure
-      .video
+      .video.mb-4.mb-lg-5
         iframe(width="560" height="315" src="https://www.youtube.com/embed/juLfCAPnHAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5

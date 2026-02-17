@@ -123,27 +123,6 @@ figcaption, caption
   justify-content: center
   flex-direction: row
 
-
-//FONDOS DE CONTENIDO//
-.bg_grad-01
-  position: relative
-  figure, p, .cajon, .video
-    position: relative
-  &::before
-    content: ''
-    position: absolute
-    margin: 0
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    background-image: url("../assets/curso/fondo-intro.png")
-    background-repeat: no-repeat
-    background-size: contain
-    @media screen and ( max-width: 420px )
-      margin: 0 -23px
-      width: calc(100% + 46px)
-      top: 20px
 .bg_grad-02
   position: relative
   .row
@@ -724,11 +703,8 @@ figcaption, caption
     i:last-child
       display: block
 
-//CLASES SOBRE-ESCRITAS//
-.video iframe
-  height: 86% !important
-  @media screen and (max-width: $bp-max-xs)
-    height: 70% !important
+// //CLASES SOBRE-ESCRITAS//
+
 .tabs-a__tab
   background-color: #DBE3FB
   &__selected

@@ -407,7 +407,7 @@
       .row.justify-center.pt-5.pb-5
         .col-12.col-md-10
           figure
-            .video
+            .video.mb-4.mb-lg-5
               iframe(width="560" height="315" src="https://www.youtube.com/embed/6FGpkm6bEY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .bg_grad-13.mb-5

@@ -8,11 +8,12 @@
           i.fas.fa-info
       h1 Introducción
     
-      p.mb-3.mb-md-5 Le damos la bienvenida al componente <b>Reconocimiento de clientes</b>. Para comenzar satisfactoriamente este recorrido, explore el recurso que se muestra a continuación:
+    p.mb-3.mb-md-5 Le damos la bienvenida al componente <b>Reconocimiento de clientes</b>. Para comenzar satisfactoriamente este recorrido, explore el recurso que se muestra a continuación:
+
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/S36Cb7Prq_w" title="Reconocimiento de clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption #[strong Video:] Reconocimiento de clientes
 
 </template>
 
