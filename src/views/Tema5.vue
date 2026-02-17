@@ -24,7 +24,7 @@
     .row.justify-content-center.align-items-center
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 8
+          h5 Figura 10
           span Definición de Sistema de Gestión de la Seguridad y Salud en el Trabajo
 
     .fullwidth-bg.fullwidth-bg--1
@@ -72,7 +72,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 9.
+          h5 Figura 11
           span Factores de riesgo
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/t5-2-mob.svg", alt="texto alternativo")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/t5-2.svg", alt="texto alternativo")
@@ -142,7 +142,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 10.
+          h5 Figura 12
           span Tabla tipo matriz de riesgo
         img.mb-2(data-aos="fade-up", src="@/assets/curso/tema5/t5-4.svg", alt="texto alternativo")
         figcaption <strong>Nota.</strong> SENA, 2026

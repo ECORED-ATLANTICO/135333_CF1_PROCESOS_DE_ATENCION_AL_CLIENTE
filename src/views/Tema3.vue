@@ -85,7 +85,7 @@
         p.mb-0 La discapacidad es un tema tan relevante dentro de la inclusión, que vale la pena mirarlo con más detalle. En el informe Mundial de la Discapacidad de la OMS y el Banco Mundial, se mencionan algunas cifras que ponen de manifiesto la importancia de la discapacidad, a continuación, se mencionan como contexto algunas consideraciones:
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      h5 Figura 2
+      h5 Figura 4
       span <em>Consideraciones de discapacidad a nivel mundial</em>
     
     .row.mb-3.mb-lg-5(data-aos="zoom-in")
