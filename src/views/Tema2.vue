@@ -9,106 +9,111 @@
     
     p.mb-3.mb-lg-5 Observe en el siguiente video cómo se define un cliente.
 
-    .bg_grad-01
-      .row.justify-center.pt-5.pb-5
-        .col-12.col-md-10
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/O5WBU66GT5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/O5WBU66GT5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-3.mb-lg-5 De acuerdo con lo anterior, se podrían resumir las expectativas mínimas que tienen los clientes con una empresa en la siguiente figura:
 
-    .row
-      .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")
-        .row.bgr_2
-          .col-4.px-0.bgr_4.align-items-center
-            figure.p-3
-              img.img90.tranform_1(src='@/assets/curso/tema2/t2-1.svg', alt='Texto que describa la imagen')
-          .col-8.align-items-center.p-2
-            p.mb-0 Contar con un proveedor al cual le pueda adquirir bienes y servicios de calidad que les permitan satisfacer sus necesidades.
-      .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")  
-        .row.bgr_2
-          .col-4.px-0.bgr_4.align-items-center
-            figure.p-3
-              img.img90.tranform_1(src='@/assets/curso/tema2/t2-2.svg', alt='Texto que describa la imagen')
-          .col-8.align-items-center.p-4
-            p.mb-0 Gestionar sus requerimientos con la empresa de manera ágil y efectiva.
-      .col-12.col-lg-4.mb-3.h-100(data-aos="zoom-in")  
-        .row.bgr_2
-          .col-4.px-0.bgr_4.align-items-center
-            figure.p-3
-              img.img90.tranform_1(src='@/assets/curso/tema2/t2-3.svg', alt='Texto que describa la imagen')
-          .col-8.align-items-center.p-3
-            p.mb-0 Tener acompañamiento por parte de la empresa para optimizar la usabilidad en sus productos.
-    .row.justify-center.mb-5
-      .col-12.col-lg-4.mb-3(data-aos="zoom-in")
-        .row.bgr_2
-          .col-4.px-0.bgr_4.align-items-center
-            figure.p-3
-              img.img90.tranform_1(src='@/assets/curso/tema2/t2-4.svg', alt='Texto que describa la imagen')
-          .col-8.align-items-center.p-4
-            p.mb-0 Validar que la empresa cumple con las promesas que realiza.
-      .col-12.col-lg-4.mb-3(data-aos="zoom-in")  
-        .row.bgr_2
-          .col-4.px-0.bgr_4.align-items-center
-            figure.p-3
-              img.img90.tranform_1(src='@/assets/curso/tema2/t2-5.svg', alt='Texto que describa la imagen')
-          .col-8.align-items-center.p-4
-            p.mb-0 Encontrar solución a sus solicitudes cuando se requiera.
-    
-    .row.justify-center.mb-5(data-aos="fade-up") 
-      .col-12.col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__texto.p-4.posit_3
-            p En la actualidad, las expectativas de los clientes no son solo adquirir productos. Ellos esperan calidad, gestión, acompañamiento y solución a sus solicitudes, dado que las organizaciones se valen de tácticas publicitarias y de promociones para generar ventas.
-            br
-            p Lo que se espera es que siempre las empresas cumplan lo que prometen. En el ámbito empresarial, esto se conoce como <b>“la promesa de servicio”.</b>
-          .bloque-texto-g__img.posit_2(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/t2-6.png')})`}")
-    
-    p.mb-5 El concepto cliente también está estrechamente relacionado con otros conceptos, que incluso pueden confundirse entre sí. A continuación identifican tales conceptos:
 
-    SlyderD.mb-5(:datos="datosSlyder")
+    SlyderF(columnas="col-lg-6 col-xl-4").mb-5
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/t2-1.svg' alt='AvatarTop')
+        p.text-center Contar con un proveedor al cual le pueda adquirir bienes y servicios de calidad que les permitan satisfacer sus necesidades.
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/t2-2.svg' alt='AvatarTop')
+        p.text-center Gestionar sus requerimientos con la empresa de manera ágil y efectiva.
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/t2-3.svg' alt='AvatarTop')
+        p.text-center Tener acompañamiento por parte de la empresa para optimizar la usabilidad en sus productos.
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/t2-4.svg' alt='AvatarTop')
+        p.text-center Validar que la empresa cumple con las promesas que realiza.
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/t2-5.svg' alt='AvatarTop')
+        p.text-center Encontrar solución a sus solicitudes cuando se requiera.
+
+    p.mb-4.mb-lg-5 De acuerdo con lo anterior, se podrían resumir las expectativas mínimas que tienen los clientes con una empresa en la siguiente figura:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-xl-10
+        .bloque-texto-g.bloque-texto-g--inverso.color-secundario-s2.p-3.p-sm-4.p-md-5.z-2
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/1.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.d-block.mb-4 En el contexto de la atención al cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
+            p.d-block.mb-4 #[strong Emisor] - quien emite el mensaje comunicacional, generalmente, es el Agente de Servicio.
+            p #[strong Receptor] (quien recibe la información, usualmente el cliente).
+    
+    p.mb-6 El concepto cliente también está estrechamente relacionado con otros conceptos, que incluso pueden confundirse entre sí. A continuación identifican tales conceptos:
+
+    div.slider-wrapper.z-2.mb-6
+      .bg-fullwidth
+      .tarjeta.tarjeta--blanca.position-relative.p-4.pt-5.z-2.my-5
+        SlyderA(tipo="b")
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-5
+              h4.mb-4 Cliente
+              p Es aquel agente que establece la relación comercial con la empresa, adquiere los productos y paga por ellos.
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema2/2.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-5
+              h4.mb-4 Consumidor
+              p Es aquel agente que utiliza los productos tangibles de una empresa.
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema2/3.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-5
+              h4.mb-4 Usuario
+              p Es el agente que utiliza los productos intangibles de la empresa. Es decir, a aquellos productos/servicios que no tiene percepción física material.
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema2/4.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-5
+              h4.mb-4 Prosumidor
+              p Es aquella persona o empresa que siendo el productor del bien o servicio también hace uso de él, es decir, produce y consume. Pueden existir en todos los niveles de empresa y de cualquier servicio.
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema2/5.png', alt='Imagen de acompañamiento')
 
     p.mb-3.mb-lg-5 Seguramente algunos ejemplos nos ayudarán a comprender y diferenciar mejor estos conceptos, revíselos a continuación.
 
-    .bg_grad-01
-      .row.justify-center.pt-5.pb-5
-        .col-12.col-md-10
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/juLfCAPnHAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/juLfCAPnHAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+      .col-12.col-lg-3(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8.mt-3(data-aos="fade-left")
-        p Hay un interrogante que es frecuente cuando se están analizando a los clientes, el cual es: <b>¿las necesidades de los clientes ya están creadas o se deben crear?</b>, la respuesta es simple: las necesidades ya existen; por esto, las empresas crean o comercializan bienes o servicios, para satisfacer las necesidades de los clientes de la mejor manera posible.
-        p.mb-0 Para dar mayor estructura a la premisa anterior, hacia 1943 Abraham Maslow, en su libro: Teoría de la Motivación Humana, formuló uno de los aportes más relevantes para la historia asociado al comportamiento humano, la <b>pirámide de Maslow.</b> En ella se establece que todas las personas tienen diferentes niveles de necesidades y en la medida en que las más básicas se van cubriendo el ser humano propenderá por ir avanzando en la pirámide y alcanzar las siguientes. Para mayor entendimiento, se detalla a continuación la clasificación de las necesidades que se identifican en la pirámide de Maslow.
+          img.mb-3.mb-lg-0(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
+      .col-12.col-lg-9(data-aos="fade-left")
+        p Hay un interrogante que es frecuente cuando se están analizando a los clientes, el cual es: #[strong ¿las necesidades de los clientes ya están creadas o se deben crear?], la respuesta es simple: las necesidades ya existen; por esto, las empresas crean o comercializan bienes o servicios, para satisfacer las necesidades de los clientes de la mejor posible.
+        p.mb-0 Para dar mayor estructura a la premisa anterior, hacia 1943 Abraham Maslow, en su libro: Teoría de la Motivación Humana, formuló uno de los aportes más relevantes para la historia asociado al comportamiento humano, la #[strong pirámide de Maslow]. En ella se establece que todas las personas tienen diferentes niveles de necesidades y en la medida en que las más básicas se van cubriendo el ser humano propenderá por ir avanzando en la pirámide y alcanzar las siguientes. Para mayor entendimiento, se detalla a continuación la clasificación de las necesidades que se identifican en la pirámide de Maslow.
     
-  
-    .bg_grad-02
-      .row
-        .col-12.col-lg-6
-          .infografia-torta
-            figure
-              img.posit_4(src="@/assets/curso/tema2/t2-22.svg" alt="Adornos flotantes")
-              .indicador--click(v-if="mostrarIndicador").manito1
-              .infografia-torta__img
-                img.posit_5.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-13.svg")
-                img.posit_20.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-13-1.svg")
-                img.posit_6.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-14.svg")
-                img.posit_21.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-14-1.svg")
-                img.posit_7.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-15.svg")
-                img.posit_22.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-15-1.svg")
-                img.posit_8.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-16.svg")
-                img.posit_23.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-16-1.svg")
-                img.posit_9.d-none.d-lg-flex(src="@/assets/curso/tema2/t2-17.svg")
-                img.posit_24.d-flex.d-lg-none(src="@/assets/curso/tema2/t2-17-1.svg")
-                
-            
-          
+    .row.justify-content-center.align-items-center.z-2.mb-5
+      .col-xl-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 2.
+          span Pirámide de Maslow.
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/t2-22-mob.svg", alt="piramide de maslow")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/t2-22.svg", alt="piramide de maslow")
+        figcaption <strong>Nota.</strong> SENA, 2026
+      
     separador
 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -116,41 +121,36 @@
     
     p.mb-5 Existen numerosas clasificaciones de clientes:
 
-    .row
-      .col-lg-3(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/t2-18.svg' alt='AvatarTop')
-          .tarjeta.bgr_5.alto
-            .p-3.ml
-              p.mb-0 Según su relación con la empresa.
-      .col-lg-3(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/t2-19.svg' alt='AvatarTop')
-          .tarjeta.bgr_5.alto
-            .p-3.ml
-              p.mb-0 Según su frecuencia de compra.
-      .col-lg-3(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/t2-20.svg' alt='AvatarTop')
-          .tarjeta.bgr_5.alto
-            .p-3.ml
-              p.mb-0 A partir del volumen de compra.
-      .col-lg-3(data-aos="zoom-in")
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/t2-21.svg' alt='AvatarTop')
-          .tarjeta.bgr_5.alto
-            .p-2.ml_1
-              p.mb-0 Según el nivel de involucramiento con la organización.
+    .row.align-items-stretch
+      .col-lg-3.h-100
+        .position-relative.bgr_6.p-2.rounded-3.h-100.tarjeta-label
+          img.tarjeta-label__icon.position-absolute.img90(src='@/assets/curso/tema2/t2-18.svg' alt='AvatarTop')
+          p.ms-5.mb-0 Según su relación con la empresa.
+      .col-lg-3.h-100
+        .position-relative.bgr_6.p-2.rounded-3.h-100.tarjeta-label
+          img.tarjeta-label__icon.position-absolute.img90(src='@/assets/curso/tema2/t2-19.svg' alt='AvatarTop')
+          p.ms-5.mb-0 Según su frecuencia de compra.
+      .col-lg-3.h-100
+        .position-relative.bgr_6.p-2.rounded-3.h-100.tarjeta-label
+          img.tarjeta-label__icon.position-absolute.img90(src='@/assets/curso/tema2/t2-20.svg' alt='AvatarTop')
+          p.ms-5.mb-0 A partir del volumen de compra.
+      .col-lg-3.h-100
+        .position-relative.bgr_6.p-2.rounded-3.h-100.tarjeta-label
+          img.tarjeta-label__icon.position-absolute.img90(src='@/assets/curso/tema2/t2-21.svg' alt='AvatarTop')
+          p.ms-5.mb-0 Según el nivel de involucramiento con la organización.
 
-    .row.mb-5.justify-center
-      .col-12.col-lg-8.bgr_6.justify-center
-        p.mt-3 <b>Nota</b>: pueden existir más tipos de clasificación que tengan en cuenta otras características.
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-lg-10.col-xl-8
+        .cajon.color-terciario.p-4
+          p #[strong Nota:] pueden existir más tipos de clasificación que tengan en cuenta otras características.
     
-    p.mb-5 Para un Agente de Atención al Cliente es importante identificar en qué clasificación está un cliente, dado que cada empresa tiene establecida su clasificación y tipología, según su visión corporativa. Por lo tanto, no hay un estándar sobre el criterio que prevalece para realizar la clasificación de un cliente. En el siguiente esquema se muestra la clasificación que se abordará en este componente.
+    p.mb-5 Para un #[strong Agente de Atención al Cliente] es importante identificar en qué clasificación está un cliente, dado que cada empresa tiene establecida su clasificación y tipología, según su visión corporativa. Por lo tanto, no hay un estándar sobre el criterio que prevalece para realizar la clasificación de un cliente. En el siguiente esquema se muestra la clasificación que se abordará en este componente.
+
+    .row.justify-content-center.mb-5.z-2
+      .col-lg-10
+        h4(data-aos='zoom-in-right')
+          span.etiqueta-title Clientes según su alcance
+
 
     .row.mb-5
       .col-12.col-lg-6.mb-3
