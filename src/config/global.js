@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
+    Name: 'Reconocimiento de clientes',
     Description:
       'El reconocimiento de clientes es necesario para la interacción asertiva. Se identificará la importancia que tiene el cliente para la empresa, como actor en la sostenibilidad. Asimismo, se apropiará de conceptos claves de inclusión y aplicación de protocolos de servicio y de seguridad y salud en el trabajo, como factores claves del desempeño en su rol como agente de atención al cliente.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -144,12 +144,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -165,11 +165,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
-      },
+      // {
+      //   icono: 'fas fa-file-pdf',
+      //   titulo: 'Descargar PDF',
+      //   download: 'downloads/dist.pdf',
+      // },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -234,74 +234,121 @@ export default {
   ],
   complementario: [
     {
-      tema: '',
-      referencia: 'Quiroa, M. (2021). Concepto Cliente Economipedia.',
-      tipo: 'Página web',
+      tema: '2. Cliente',
+      referencia: 'Quiroa, M. (2021). <i>Concepto Cliente Economipedia</i>.',
+      tipo: 'Diccionario en línea',
       link: 'https://economipedia.com/definiciones/cliente.html',
     },
     {
-      tema: '',
+      tema: '3. Inclusión',
       referencia:
-        'Cisternas, M. (2018). Inclusión social, económica y política de las personas mayores. Comisión Económica para América Latina el Caribe.',
+        'Cisternas, M. (2018). <i>Inclusión social, económica y política de las personas mayores</i>. Comisión Económica para América Latina el Caribe.',
       tipo: 'Artículo',
       link:
         'https://www.cepal.org/es/enfoques/inclusion-social-economica-politica-personas-mayores',
     },
     {
-      tema: '',
+      tema: '3. Inclusión.',
       referencia:
-        'Clark, H. (2020). Resumen del informe de seguimiento de la educación en el mundo. Inclusión y Educación, todos sin excepción.',
+        'Clark, H. (2020). <i>Resumen del informe de seguimiento de la educación en el mundo. Inclusión y Educación, todos sin excepción</i>.',
       tipo: 'Informe',
-      descarga: '/downloads/GEMR_2020-Summary-ES-v8.pdf',
+      link:
+        'https://gem-report-2020.unesco.org/wp-content/uploads/2020/06/GEMR_2020-Summary-ES-v8.pdf',
     },
     {
-      tema: '',
+      tema: '3. Inclusión.',
       referencia:
-        'Ley 762, Por medio de la cual se aprueba la "Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad (2002, julio 31). Congreso de la República de Colombia.',
+        "<i>Ley 762, Por medio de la cual se aprueba la 'Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad'</i> (2002, julio 31). Congreso de la República de Colombia.",
       tipo: 'Ley',
-      descarga: '/downloads/Ley_762_2002.pdf',
+      link:
+        'https://www.defensoria.gov.co/public/Normograma%202013_html/Normas/Ley_762_2002.pdf',
     },
     {
-      tema: '',
+      tema: '3.2 Discapacidad y sus tipos',
       referencia:
-        'Organización Mundial de la Salud [OMS] y Banco Mundial [BM]. (2011). Informe Mundial de la Discapacidad. ',
+        'Organización Mundial de la Salud [OMS] y Banco Mundial [BM]. (2011). <i>Informe Mundial de la Discapacidad</i>.',
       tipo: 'Informe',
-      descarga: '/downloads/informe_discapacidad.pdf',
+      link: 'https://www.who.int/disabilities/world_report/2011/summary_es.pdf',
     },
     {
-      tema: '',
-      referencia: 'UNESCO. (2020). Liderar el ODS 4 - Educación 2030.',
+      tema: '3.2 Normativa',
+      referencia: 'UNESCO. (2020). <i>Liderar el ODS 4 - Educación 2030</i>.',
       tipo: 'Artículo',
       link: 'https://www.un.org/sustainabledevelopment/es/',
     },
     {
-      tema: '',
+      tema: '3.2 Normativa',
       referencia:
-        'Plan Nacional de Desarrollo: Pacto por Colombia, Pacto por la Equidad. (2018). Presidencia de la República de Colombia',
+        '<i>Plan Nacional de Desarrollo: Pacto por Colombia, Pacto por la Equidad</i>. (2018). Presidencia de la República de Colombia',
       tipo: 'Plan Nacional de Desarrollo',
-      descarga: '/downloads/Resumen-PND2018-2022-final.pdf',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Prensa/Resumen-PND2018-2022-final.pdf',
     },
     {
-      tema: '',
+      tema: '3.2 Normativa',
       referencia:
-        'Ley 1098 de 2006. Código de Infancia y Adolescencia. (2006, noviembre 8). Congreso de la República de Colombia.',
+        '<i>Ley 1098 de 2006. Código de Infancia y Adolescencia</i>. (2006, noviembre 8). Congreso de la República de Colombia.',
       tipo: 'Ley',
-      descarga:
-        '/downloads/codigo_de_la_infancia_y_la_adolescencia_colombia.pdf',
+      link:
+        'https://www.oas.org/dil/esp/codigo_de_la_infancia_y_la_adolescencia_colombia.pdf',
     },
     {
-      tema: '',
+      tema: '3.2 Normativa',
       referencia:
-        'Constitución Política de Colombia. (1991, 04 de julio). Congreso de la República de Colombia.',
+        '<i>Constitución Política de Colombia</i>. (1991, 04 de julio). Congreso de la República de Colombia.',
       tipo: 'Ley',
-      descarga: '/downloads/colombia91.pdf',
+      link: 'https://pdba.georgetown.edu/Constitutions/Colombia/colombia91.pdf',
     },
     {
-      tema: '',
+      tema: '3.2 Normativa',
+      referencia: 'UNESCO. (2020). <i>Liderar el ODS 4 - Educación 2030</i>.',
+      tipo: 'Artículo',
+      link: 'https://www.un.org/sustainabledevelopment/es/',
+    },
+    {
+      tema: '3.2 Normativa',
       referencia:
-        'Norma Técnica Colombiana 6047. (2013, 11 de diciembre). Accesibilidad al medio físico. Espacios de servicio al ciudadano en la Administración Pública. Requisitos. Instituto Colombiano de Normas Técnicas y Certificación -ICONTEC-.',
+        '<i>Plan Nacional de Desarrollo: Pacto por Colombia, Pacto por la Equidad</i>. (2018). Presidencia de la República de Colombia',
+      tipo: 'Plan Nacional de Desarrollo',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Prensa/Resumen-PND2018-2022-final.pdf',
+    },
+    {
+      tema: '3.2 Normativa',
+      referencia:
+        '<i>Ley 1098 de 2006. Código de Infancia y Adolescencia</i>. (2006, noviembre 8). Congreso de la República de Colombia.',
+      tipo: 'Ley',
+      link:
+        'https://www.oas.org/dil/esp/codigo_de_la_infancia_y_la_adolescencia_colombia.pdf',
+    },
+    {
+      tema: '3.2 Normativa',
+      referencia:
+        '<i>Constitución Política de Colombia</i>. (1991, 04 de julio). Congreso de la República de Colombia.',
+      tipo: 'Ley',
+      link: 'https://pdba.georgetown.edu/Constitutions/Colombia/colombia91.pdf',
+    },
+    {
+      tema: '3.2 Normativa',
+      referencia: 'UNESCO. (2020). <i>Liderar el ODS 4 - Educación 2030</i>.',
+      tipo: 'Artículo',
+      link: 'https://www.un.org/sustainabledevelopment/es/',
+    },
+    {
+      tema: '3.2 Normativa',
+      referencia:
+        '<i>Plan Nacional de Desarrollo: Pacto por Colombia, Pacto por la Equidad</i>. (2018). Presidencia de la República de Colombia',
+      tipo: 'Plan Nacional de Desarrollo',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Prensa/Resumen-PND2018-2022-final.pdf',
+    },
+    {
+      tema: '3.2 Normativa',
+      referencia:
+        '<i>Norma Técnica Colombiana 6047</i>. (2013, 11 de diciembre). Accesibilidad al medio físico. Espacios de servicio al ciudadano en la Administración Pública. Requisitos. Instituto Colombiano de Normas Técnicas y Certificación -ICONTEC-.',
       tipo: 'Norma Técnica',
-      descarga: '/downloads/NTC6047.pdf',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Programa%20Nacional%20del%20Servicio%20al%20Ciudadano/NTC6047.pdf',
     },
   ],
   referencias: [
