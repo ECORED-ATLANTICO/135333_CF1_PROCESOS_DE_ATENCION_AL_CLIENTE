@@ -334,112 +334,108 @@
 
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
-      .col-lg-8
+      .col-lg-8.mb-4.mb-lg-0
         p Esa es la diferencia que pueden crear sus empleados cuando interactúan con los clientes. Hay empresas que ocupan un lugar destacado en el índice de satisfacción de los clientes, sólo porque sus empleados están bien formados y tienen capacidad para tomar sus propias decisiones. Y lo que es más importante, estos empleados tienen el hábito de que #[strong "el cliente es el rey".]
         p Una vez que sus empleados empiecen a tratar al cliente como si fuera realmente el rey, todo el triángulo del servicio se completará y obtendrá los mejores resultados de todos los procesos empleados.
+        .p-4.bg-color-terciario-t1
+          .row.align-items-center
+            .col-lg-auto
+              img.d-none.d-lg-flex(src="@/assets/curso/tema4/flechas.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              h6 ¿Cómo comercializar con el triángulo de marketing de servicios?
+              p.mb-0 Existen 3 tipos de marketing que se dan dentro del triángulo de servicios:
       .col-10.col-md-6.col-lg-2
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/15.png", alt="texto alt")
     
 
+    .bloque-texto-g.bgr.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema4/16.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        h5.d-block Marketing interno en el triángulo de servicios:
+        p.d-block El marketing holístico es el más utilizado cuando el marketing interno está en marcha. Una empresa de publicidad siempre intenta mantener motivados a sus propios empleados. Les ofrece un montón de fiestas y salidas para que estén de buen humor. Y tienen que estar de buen humor porque el resto del tiempo están utilizando sus cerebros creativos para dar el mejor servicio a sus clientes.
+        p.d-block.mb-0 Además, estas mismas empresas de publicidad capacitan a sus empleados para que tomen las decisiones correctas frente a los clientes. Este empoderamiento contribuye en gran medida a crear motivación y confianza.
+        p Y en eso consiste el marketing interno basado en el triángulo del servicio. Crear confianza y motivación en sus empleados, para que construyan excelentes relaciones con los clientes finales y la empresa obtenga el dinero
 
+    .row.align-items-center.justify-content-center.mb-4.mb-lg-5
+      .col-lg-1.d-none.d-lg-block
+        img(src="@/assets/curso/tema4/waves-3.svg", style="max-width: 90px").mx-auto
+      .col-lg-9
+        h5 Marketing externo: 
+        p.mb-0 El marketing de la empresa hacia los clientes. Este es el tipo de marketing más común que, como clientes, encontramos en el mercado. Los distintos tipos de marketing de servicios pueden ser la publicidad, las promociones de ventas, las relaciones públicas, el marketing directo o, de forma más destacada, el marketing por Internet en la época actual.
 
-
-
-
-
-
-
-
-
-    p.mb-3 Esa es la diferencia que pueden crear sus empleados cuando interactúan con los clientes. Hay empresas que ocupan un lugar destacado en el índice de satisfacción de los clientes, sólo porque sus empleados están bien formados y tienen capacidad para tomar sus propias decisiones. Y lo que es más importante, estos empleados tienen el hábito de que <b>"el cliente es el rey".</b>
-    p.mb-5 Una vez que sus empleados empiecen a tratar al cliente como si fuera realmente el rey, todo el triángulo del servicio se completará y obtendrá los mejores resultados de todos los procesos empleados.
-
-    .bg_grad-11.mb-5
-      .row.justify-content-center
-        .col-12.col-lg-3(data-aos="fade-right")
-          figure
-            img(src='@/assets/curso/tema4/t4-33.svg', alt='Texto que describa la imagen')
-        .col-12.col-lg-6.p-5.mt-0.mt-lg-5(data-aos="fade-left")
-          p.fuente30 ¿Cómo comercializar con el 
-            span.colr_4 triángulo de <em>marketing</em> 
-            |&nbsp; de servicios?
-          p Existen 3 tipos de <em>marketing</em> que se dan dentro del triángulo de servicios:
-
-    .row.mb-5
-      .col-12.col-lg-2.mb-3.mb-lg-0
+    .fullwidth-bg.fullwidth-bg--3
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+      .col-lg-7
+        h5 Marketing interactivo: 
+        p El marketing que tiene lugar en una tienda minorista, en un restaurante, en un centro comercial, en un banco o en cualquier formato en el que el cliente entre en contacto con el empleado, se conoce como marketing interactivo. Este marketing dentro del triángulo de servicios se produce entre los clientes y los empleados.
+        p El marketing interactivo es también una forma muy eficaz de influir en los clientes. Se utiliza sobre todo para ayudar a los clientes a tomar una decisión de compra. Si un ejecutivo de una tienda ha recibido órdenes de que tiene que liquidar las existencias de Samsung, sólo le dirá las cosas positivas de Samsung e intentará convertir su decisión en la compra de Samsung.
+        p Las distintas formas de marketing interactivo incluyen la venta personal, la atención al cliente y la interacción con los clientes en las redes sociales u otras plataformas interactivas de este tipo.
+      .col-10.col-md-6.col-lg-3
         figure
-          img.img200(src='@/assets/curso/tema4/t4-34.svg', alt='Texto que describa la imagen')
-      .col-12.col-lg-10
-        h4 <em>Marketing</em> interno en el triángulo de servicios: 
-        p El <em>marketing</em> holístico es el más utilizado cuando el <em>marketing</em>  interno está en marcha. Una empresa de publicidad siempre intenta mantener motivados a sus propios empleados. Les ofrece un montón de fiestas y salidas para que estén de buen humor. Y tienen que estar de buen humor porque el resto del tiempo están utilizando sus cerebros creativos para dar el mejor servicio a sus clientes.
-        P Además, estas mismas empresas de publicidad capacitan a sus empleados para que tomen las decisiones correctas frente a los clientes. Este empoderamiento contribuye en gran medida a crear motivación y confianza.
-        P Y en eso consiste el <em>marketing</em> interno basado en el triángulo del servicio. Crear confianza y motivación en sus empleados, para que construyan excelentes relaciones con los clientes finales y la empresa obtenga el dinero.
-    .row.mb-5
-      .col-12.col-lg-2.mb-3.mb-lg-0
-        figure
-          img.img200(src='@/assets/curso/tema4/t4-35.svg', alt='Texto que describa la imagen')
-      .col-12.col-lg-10
-        h4 <em>Marketing</em>  externo: 
-        p El <em>marketing</em> de la empresa hacia los clientes. Este es el tipo de <em>marketing</em> más común que, como clientes, encontramos en el mercado. Los distintos tipos de <em>marketing</em> de servicios pueden ser la publicidad, las promociones de ventas, las relaciones públicas, el <em>marketing</em> directo o, de forma más destacada, el <em>marketing</em> por Internet en la época actual.
-    .row.mb-5
-      .col-12.col-lg-2.mb-3.mb-lg-0
-        figure
-          img.img200(src='@/assets/curso/tema4/t4-36.svg', alt='Texto que describa la imagen')
-      .col-12.col-lg-10
-        h4 <em>Marketing</em> interactivo: 
-        p El <em>marketing</em> que tiene lugar en una tienda minorista, en un restaurante, en un centro comercial, en un banco o en cualquier formato en el que el cliente entre en contacto con el empleado, se conoce como <em>marketing</em> interactivo. Este <em>marketing</em> dentro del triángulo de servicios se produce entre los clientes y los empleados.
-        P El <em>marketing</em> interactivo es también una forma muy eficaz de influir en los clientes. Se utiliza sobre todo para ayudar a los clientes a tomar una decisión de compra. Si un ejecutivo de una tienda ha recibido órdenes de que tiene que liquidar las existencias de Samsung, sólo le dirá las cosas positivas de Samsung e intentará convertir su decisión en la compra de Samsung.
-        p Las distintas formas de <em>marketing</em> interactivo incluyen la venta personal, la atención al cliente y la interacción con los clientes en las redes sociales u otras plataformas interactivas de este tipo.
+          img(data-aos="fade-down-right", src="@/assets/curso/tema4/17.png", alt="imagen de acompañamiento")
+    
+    separador
+
+    .row.justify-content-center
+      .col-xl-10
+        #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 4.3 Canales de atención en servicio al cliente
+
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-xl-10
+        .p-4.bgr_7
+          .row.justify-content-evenly.align-items-center.z-2
+            .col-lg-4
+              p El servicio de atención al cliente ha avanzado mucho desde los días en que una llamada telefónica o una visita eran las únicas opciones que tenía un cliente para llegar a una marca. A continuación, se relacionan algunos de los tipos de canales para atención al cliente:
+            .col-10.col-md-6.col-lg-3
+              figure
+                img(data-aos="fade-down-right", src="@/assets/curso/tema4/18.png", alt="Imagen de acompañamiento")
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-xl-10
+        .p-3.bg-color-terciario-t1(data-aos="fade-up").z-2
+          .row.justify-content-center.align-items-center
+            .col-5.col-sm-2.col-lg-2
+              img.mb-4.mg-lg-5(src="@/assets/curso/tema4/t4-38.svg")
+            .col
+              .row.justify-content-center.align-items-center
+                .col-lg-8.mb-3.mb-sm-0
+                  h5 Canales de atención al cliente
+                  p.mb-0 Medios de atención disponibles para que los tiendan puedan canalizar sus preguntas, quejas, o cualquier interacción que requieran sobre un producto o servicio.   
+                .col-sm-auto.p-lg-4
+                  a.boton.bgr_3.me-3.text-white(:href="obtenerLink('downloads/Canales_atención_cliente.pdf')" target="_blank" type="application/pdf")
+                    span Descargar
+                    i.fas.fa-file-download
 
     separador
 
-    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.3 Canales de atención en servicio al cliente
+    .row.justify-content-center
+      .col-xl-10
+        #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 4.4 Momentos de verdad
 
-    .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 8
-      span <em>Canales de atención al cliente</em>
-
-    .bg_grad-12.mb-5
-      .row.justify-center
-        .col-12.col-lg-6.p-5.m_t_2
-          p El servicio de atención al cliente ha avanzado mucho desde los días en que una llamada telefónica o una visita eran las únicas opciones que tenía un cliente para llegar a una marca. A continuación, se relacionan algunos de los tipos de canales para atención al cliente:
-        .col-12.col-lg-4
-          figure
-            img(src='@/assets/curso/tema4/t4-37.svg', alt='Texto que describa la imagen')
-
-    .posit_18.color-primario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema4/t4-38.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              p.mb-0.text-bold Canales de atención al cliente
-              p.m-0.text-small Medios de atención disponibles para que los tiendan puedan canalizar sus preguntas, quejas, o cualquier interacción que requieran sobre un producto o servicio.   
-            .col-sm-auto.p-lg-4
-              a.boton.color-acento-botones.me-3(:href="obtenerLink('downloads/Canales_atención_cliente.pdf')" target="_blank" type="application/pdf")
-                span Descargar
-                i.fas.fa-file-download
-
-    separador
-
-    #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 4.4 Momentos de verdad
-
-    .row.mb-5
-      .col-12.col-lg-8.mt-lg-5(data-aos="fade-right")
-        p El autor Jan Carlzon en el libro “Momento de la verdad” refiere una forma distinta de gestionar organizaciones, Jan Carlzon invierte la pirámide jerárquica que tradicionalmente establecen las organizaciones y en la cual los directivos y ejecutivos ocupan la cima y quienes tenían contacto directo con los clientes ocupan la base piramidal. Debido a los cambios y crecimiento de los mercados y al incremento de la competencia es primordial que las organizaciones se concentren en el cliente y no en el producto, de esta manera pueden diseñar productos dirigidos a satisfacer las necesidades de los clientes, una empresa u organización orientada al cliente, genera mayores oportunidades para fidelizar al cliente y permite la generación de ingresos para la sostenibilidad y permanencia en el mercado. (Carlzon, 1996)
-        p Los momentos de verdad en sí, no generan una valoración positiva o negativa, lo que genera esta valoración es el manejo que se le dé al acercamiento con el cliente, y que convierta dicho encuentro en una experiencia positiva, la organización debe anticiparse a la identificación y a generación de posibles momentos de verdad, y dar el manejo logrando experiencias positivas al cliente.
-      .col-12.col-lg-4(data-aos="fade-left")
-        .titulo-sexto.color-acento-contenido.mb-0
-          h5 Figura 9
-          span <em>Simulación de un cliente en un momento de verdad</em>
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-lg-5.col-xl-4
         figure
-          img(src='@/assets/curso/tema4/t4-39.png', alt='Texto que describa la imagen')
+          img(data-aos="fade-down-right", src="@/assets/curso/tema4/19.png", alt="Imagen de acompañamiento")
+      .col-lg-7.col-xl-6
+        p El autor Jan Carlzon en el libro #[strong “Momento de la verdad”] refiere una forma distinta de gestionar organizaciones, Jan Carlzon invierte la pirámide jerárquica que tradicionalmente establecen las organizaciones y en la cual los directivos y ejecutivos ocupan la cima y quienes tenían contacto directo con los clientes ocupan la base piramidal. Debido a los cambios y crecimiento de los mercados y al incremento de la competencia es primordial que las organizaciones se concentren en el cliente y no en el producto, de esta manera pueden diseñar productos dirigidos a satisfacer las necesidades de los clientes, una empresa u organización orientada al cliente, genera mayores oportunidades para fidelizar al cliente y permite la generación de ingresos para la sostenibilidad y permanencia en el mercado. (Carlzon, 1996)
 
-    p.mb-5 Reflexionemos sobre la siguiente situación:
+    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+      .col-xl-10
+        .p-4.bgr_7.mb-5
+          .row.justify-content-center.align-items-center
+            .col-lg-9
+              p.mb-0 Los momentos de verdad en sí, no generan una valoración positiva o negativa, lo que genera esta valoración es el manejo que se le dé al acercamiento con el cliente, y que convierta dicho encuentro en una experiencia positiva, la organización debe anticiparse a la identificación y a generación de posibles momentos de verdad, y dar el manejo logrando experiencias positivas al cliente.
+            .d-none.d-lg-block.col-lg-2
+              figure
+              img(data-aos="fade-down-right", src="@/assets/curso/tema4/20.png", alt="Imagen de acompañamiento")
+
+
+        p.mb-0 Reflexionemos sobre la siguiente situación:
 
     figure
       .video.mb-4.mb-lg-5
@@ -494,9 +490,6 @@
             .h2 6
           P.text-bold Tercer momento de la verdad 
           p.mb-0 El cliente da su opinión sobre el producto.
-
-          
-
 
 </template>
 
