@@ -58,7 +58,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/t1-1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.d-block.mb-4 En el contexto de la atención al cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
+            p.d-block.mb-4 En el contexto de la Atención al Cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
             p.d-block.mb-4 #[strong Emisor] - quien emite el mensaje comunicacional, generalmente, es el Agente de Servicio.
             p #[strong Receptor] (quien recibe la información, usualmente el cliente).
 
@@ -122,7 +122,7 @@
             p.mb-0 Es aquella que es utilizada por un grupo específico de personas, usualmente pertenecientes a una misma empresa. Se caracteriza porque suele ser de interés solo por parte de un determinado conjunto de personas.
     
     .row
-      .col-12.col-lg-6.bgr.p-4.p-lg-5(data-aos="fade-right")
+      .col-12.col-lg-6.bgr_4.p-4.p-lg-5(data-aos="fade-right")
         p La mala aplicación de los tipos de información puede llevar a las empresas a la desinformación a nivel digital; conocida como <em>fake news</em> (noticias falsas), son un riesgo latente para las organizaciones que generan y consumen información de forma constante.
         p Muchas empresas implementan <b>políticas de buenas prácticas de sistemas de gestión</b>. Incluso, procesos de gestión documental para que la información que se origina en la empresa sea producida, usada y custodiada (guardada) bajo parámetros de calidad y confiabilidad.
       .col-12.col-lg-6.bgr_1(data-aos="fade-left")

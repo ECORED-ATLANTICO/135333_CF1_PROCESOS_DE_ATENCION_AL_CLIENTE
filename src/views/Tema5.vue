@@ -24,7 +24,7 @@
     .row.justify-content-center.align-items-center
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 10
+          h5 Figura 8.
           span Definición de Sistema de Gestión de la Seguridad y Salud en el Trabajo
 
     .fullwidth-bg.fullwidth-bg--1
@@ -72,7 +72,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 11
+          h5 Figura 9.
           span Factores de riesgo
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/t5-2-mob.svg", alt="texto alternativo")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/t5-2.svg", alt="texto alternativo")
@@ -83,7 +83,7 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Peligros físicos")
             .col-md-12.px-5
-              p El es una sensación auditiva generalmente desagradable. Cuando oímos un ruido, primero lo escuchamos a través del oído externo, luego la onda es recibida por el oído medio, que es donde se encuentra el tímpano. Posteriormente, la señal pasa por una cadena de huesecillos y es recibida por el cerebro a través de las células ciliadas. Cuando el ruido es muy fuerte, las células ciliadas se activan y se corre el riesgo de perder la audición. Debemos protegernos con todas las medidas de seguridad posibles, los tipos de ruido pueden ser de impacto, intermitentes y continuos. Las vibraciones pueden ser segmentarias o de todo el cuerpo dependiendo de la herramienta utilizada, pueden afectar a la columna vertebral, al sistema digestivo, e incluso provocar dolores de cabeza. Los reflejos, las sombras, la fatiga y el deslumbramiento son factores producidos por la iluminación, que pueden ser visibles y causar lesiones por deficiencia o exceso. Estos elementos pueden provocar un accidente, por lo que es necesario controlar el tipo de lámparas y respetar los niveles de luz adecuados.
+              p Es una sensación auditiva generalmente desagradable. Cuando oímos un ruido, primero lo escuchamos a través del oído externo, luego la onda es recibida por el oído medio, que es donde se encuentra el tímpano. Posteriormente, la señal pasa por una cadena de huesecillos y es recibida por el cerebro a través de las células ciliadas. Cuando el ruido es muy fuerte, las células ciliadas se activan y se corre el riesgo de perder la audición. Debemos protegernos con todas las medidas de seguridad posibles, los tipos de ruido pueden ser de impacto, intermitentes y continuos. Las vibraciones pueden ser segmentarias o de todo el cuerpo dependiendo de la herramienta utilizada, pueden afectar a la columna vertebral, al sistema digestivo, e incluso provocar dolores de cabeza. Los reflejos, las sombras, la fatiga y el deslumbramiento son factores producidos por la iluminación, que pueden ser visibles y causar lesiones por deficiencia o exceso. Estos elementos pueden provocar un accidente, por lo que es necesario controlar el tipo de lámparas y respetar los niveles de luz adecuados.
               p.mb-0 La temperatura y la humedad del ambiente si son excesivamente altas o bajas pueden producir efectos adversos en las personas. Los valores ideales en el trabajo son 21 °C y 50% de humedad. Las radiaciones ionizantes son ondas electromagnéticas que alteran el estado físico sin ser percibidas en el ambiente, se conocen como rayos X, gamma, beta y alfa. Los efectos son graves a largo plazo, por eso es necesario limitar las ondas y tener un control médico. Y las radiaciones no ionizantes, como el láser, los rayos UV, los infrarrojos, la radioterapia o las microondas, también requieren un control. La presión atmosférica, que puede ser ajustada o normal.
           .row(titulo="Riesgos químicos")
             .col-md-12.px-5
@@ -142,7 +142,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 12
+          h5 Figura 10,
           span Tabla tipo matriz de riesgo
         img.mb-2(data-aos="fade-up", src="@/assets/curso/tema5/t5-4.svg", alt="texto alternativo")
         figcaption <strong>Nota.</strong> SENA, 2026

@@ -35,26 +35,24 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
+
         numero: '1',
         titulo: 'Información',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
+
         numero: '2',
         titulo: 'Cliente',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Clasificación',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Tipología y manejo del cliente',
             hash: 't_2_2',
@@ -63,19 +61,17 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
+
         numero: '3',
         titulo: 'Inclusión',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Discapacidad y sus tipos',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Normativa',
             hash: 't_3_2',
@@ -84,31 +80,27 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
+
         numero: '4',
         titulo: 'Servicio al cliente',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Prestación del servicio al cliente',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Triángulo del servicio',
             hash: 't_4_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.3',
             titulo: 'Canales de atención en servicio al cliente',
             hash: 't_4_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.4',
             titulo: 'Momentos de verdad',
             hash: 't_4_4',
@@ -117,19 +109,17 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
+
         numero: '5',
         titulo: 'Seguridad y salud en el trabajo (SST)',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '5.1',
             titulo: 'Factores de Riesgo SST',
             hash: 't_5_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '5.2',
             titulo: 'Manejo y control SST',
             hash: 't_5_2',
@@ -144,12 +134,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -165,11 +155,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      // {
-      //   icono: 'fas fa-file-pdf',
-      //   titulo: 'Descargar PDF',
-      //   download: 'downloads/dist.pdf',
-      // },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/dist.pdf',
+      },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -256,21 +246,6 @@ export default {
         'https://gem-report-2020.unesco.org/wp-content/uploads/2020/06/GEMR_2020-Summary-ES-v8.pdf',
     },
     {
-      tema: '3. Inclusión.',
-      referencia:
-        "<i>Ley 762, Por medio de la cual se aprueba la 'Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad'</i> (2002, julio 31). Congreso de la República de Colombia.",
-      tipo: 'Ley',
-      link:
-        'https://www.defensoria.gov.co/public/Normograma%202013_html/Normas/Ley_762_2002.pdf',
-    },
-    {
-      tema: '3.2 Discapacidad y sus tipos',
-      referencia:
-        'Organización Mundial de la Salud [OMS] y Banco Mundial [BM]. (2011). <i>Informe Mundial de la Discapacidad</i>.',
-      tipo: 'Informe',
-      link: 'https://www.who.int/disabilities/world_report/2011/summary_es.pdf',
-    },
-    {
       tema: '3.2 Normativa',
       referencia: 'UNESCO. (2020). <i>Liderar el ODS 4 - Educación 2030</i>.',
       tipo: 'Artículo',
@@ -298,49 +273,6 @@ export default {
         '<i>Constitución Política de Colombia</i>. (1991, 04 de julio). Congreso de la República de Colombia.',
       tipo: 'Ley',
       link: 'https://pdba.georgetown.edu/Constitutions/Colombia/colombia91.pdf',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia: 'UNESCO. (2020). <i>Liderar el ODS 4 - Educación 2030</i>.',
-      tipo: 'Artículo',
-      link: 'https://www.un.org/sustainabledevelopment/es/',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia:
-        '<i>Plan Nacional de Desarrollo: Pacto por Colombia, Pacto por la Equidad</i>. (2018). Presidencia de la República de Colombia',
-      tipo: 'Plan Nacional de Desarrollo',
-      link:
-        'https://colaboracion.dnp.gov.co/CDT/Prensa/Resumen-PND2018-2022-final.pdf',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia:
-        '<i>Ley 1098 de 2006. Código de Infancia y Adolescencia</i>. (2006, noviembre 8). Congreso de la República de Colombia.',
-      tipo: 'Ley',
-      link:
-        'https://www.oas.org/dil/esp/codigo_de_la_infancia_y_la_adolescencia_colombia.pdf',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia:
-        '<i>Constitución Política de Colombia</i>. (1991, 04 de julio). Congreso de la República de Colombia.',
-      tipo: 'Ley',
-      link: 'https://pdba.georgetown.edu/Constitutions/Colombia/colombia91.pdf',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia: 'UNESCO. (2020). <i>Liderar el ODS 4 - Educación 2030</i>.',
-      tipo: 'Artículo',
-      link: 'https://www.un.org/sustainabledevelopment/es/',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia:
-        '<i>Plan Nacional de Desarrollo: Pacto por Colombia, Pacto por la Equidad</i>. (2018). Presidencia de la República de Colombia',
-      tipo: 'Plan Nacional de Desarrollo',
-      link:
-        'https://colaboracion.dnp.gov.co/CDT/Prensa/Resumen-PND2018-2022-final.pdf',
     },
     {
       tema: '3.2 Normativa',
@@ -362,12 +294,6 @@ export default {
         'Da Silva, D. (2020, 4 de agosto). <em>Los 11 tipos de clientes y sus características: todo lo que necesitas saber para mejorar la relación con tus clientes.</em> Zendesk. ',
       link:
         'https://www.zendesk.com.mx/blog/tipos-de-clientes-caracteristicas/',
-    },
-    {
-      referencia:
-        'López, MJ. (marzo de 2021). <em>Inclusión laboral: Los 7 mitos más comunes sobre los trabajadores con discapacidad.</em> ',
-      link:
-        'https://www.fundacioncontrabajo.cl/blog/cultura-inclusiva/7-mitos-inclusion-laboral/',
     },
     {
       referencia:

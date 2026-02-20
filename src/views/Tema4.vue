@@ -17,7 +17,7 @@
           .col-lg-auto.d-none.d-xl-block
             img(src="@/assets/curso/tema4/waves.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 Se Actualmente, la estrategia de servicio demanda especial atención en las organizaciones, la competencia permite que los clientes exigen cada vez mayor y mejor atención, en disponer de un producto o un servicio para comercializar por sí solo no es garantía de éxito o de participación en el mercado, por ello cuando los clientes manifiestan que un producto es de su agrado, la empresa debe valorar el proceso de servicio y atención que utilizó para con este cliente, fortalecerlo, aplicarlo con los demás clientes y lograr brindar la misma experiencia positiva con clientes futuros, esto se enmarca como el contexto de relación entre las partes, permite fidelizar clientes.
+            p.mb-0 Actualmente, la estrategia de servicio demanda especial atención en las organizaciones, la competencia permite que los clientes exigen cada vez mayor y mejor atención, en disponer de un producto o un servicio para comercializar por sí solo no es garantía de éxito o de participación en el mercado, por ello cuando los clientes manifiestan que un producto es de su agrado, la empresa debe valorar el proceso de servicio y atención que utilizó para con este cliente, fortalecerlo, aplicarlo con los demás clientes y lograr brindar la misma experiencia positiva con clientes futuros, esto se enmarca como el contexto de relación entre las partes, permite fidelizar clientes.
 
     p.mb-5 Para prestar un adecuado proceso de servicio en atención al cliente, las empresas deben trabajar en:
 
@@ -76,12 +76,12 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
-        .bloque-texto-g.bloque-texto-g--inverso.bg-color-primario-p1.p-3.p-sm-4.p-md-5.z-2
+        .bloque-texto-g.bloque-texto-g--inverso.bgr_9.p-3.p-sm-4.p-md-5.z-2
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema4/t4-3.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p El servicio al cliente está relacionado con todos y cada uno de los procesos implementados durante la prestación de un servicio o la comercialización de un producto, se denomina también servicio de atención al cliente, es un instrumento del marketing que se encarga de generar contacto con los clientes, implementando el uso de diferentes canales que permiten generar relación con el cliente antes, durante y después de la compra o la prestación del servicio. 
+            p El servicio al cliente está relacionado con todos y cada uno de los procesos implementados durante la prestación de un servicio o la comercialización de un producto, se denomina también servicio de atención al cliente, es un instrumento del #[em marketing] que se encarga de generar contacto con los clientes, implementando el uso de diferentes canales que permiten generar relación con el cliente antes, durante y después de la compra o la prestación del servicio. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
@@ -91,13 +91,13 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 5.
+          h5 Figura 4.
           span Prestación Servicio al cliente
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/4-mob.svg", alt="lorem")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/4.svg", alt="lorem")
         figcaption <strong>Nota.</strong> SENA, 2026
 
-    p.mb-5 En la cotidianidad se tiene a confundir los conceptos y consideramos que en las organizaciones el tema de servicio al cliente y atención al cliente es únicamente responsabilidad de los colaboradores de dicha área, pero esto es un gran error, consideremos la siguiente situación:
+    p.mb-5 En la cotidianidad se tienden a confundir los conceptos y consideramos que en las organizaciones el tema de servicio al cliente y atención al cliente es únicamente responsabilidad de los colaboradores de dicha área, pero esto es un gran error, consideremos la siguiente situación:
 
     .tarjeta.bgr_17.p-4.mb-5
       LineaTiempoC.color-acento-botones(text-small)
@@ -131,15 +131,15 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 6.
+          h5 Figura 5.
           span Diferenciación entre óptima y deficiente servicio al cliente.
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/t4-14-mob.svg", alt="alt")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/t4-14.svg", alt="alt")
         figcaption <strong>Nota</strong> SENA, 2026
 
     .fullwidth-bg.fullwidth-bg--3
-    .row
-      .col-xl-9
+    .row.z-2
+      .col-12
         p.mb-3 Existe un documento llamado <b>protocolos del servicio</b> donde las organizaciones tienen establecidos la prestación del servicio al cliente, en él se registran las actuaciones de los empleados o colaboradores en lo referente al proceso de atención o comercialización.
         p.mb-3 Los protocolos son las guías u orientaciones que describen detalladamente el proceso o la forma en que un colaborador debe actuar con el cliente al momento de realizar contacto, dicho protocolo se enmarca por los criterios y la visión de la organización respecto al buen servicio al cliente. 
         p.mb-5 Un #[strong protocolo de servicio al cliente] contiene información como:
@@ -147,7 +147,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 7.
+          h5 Figura 6.
           span Protocolo de servicio al cliente
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/5-mob.svg", alt="protocolo de servicio al cliente")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/5.svg", alt="protocolo de servicio al cliente")
@@ -155,7 +155,8 @@
 
     .row.justify-content-center.mb-6
       .col-xl-10
-        p.mb-0 Así mismo, se debe establecer un Protocolo para atención presencial. Para las situaciones donde hay interacción cara a cara con los clientes. Un protocolo de atención presencial debe contener información como la siguiente:
+        p.mb-4 Así mismo, se debe establecer un Protocolo para atención presencial. Para las situaciones donde hay interacción cara a cara con los clientes. 
+        p.mb-0 Un protocolo de atención presencial debe contener información como la siguiente:
 
     div.slider-wrapper.z-2.mb-6
       .bg-fullwidth
@@ -182,9 +183,10 @@
             .col-10.col-lg-5
               figure
                 img(src='@/assets/curso/tema4/8.png', alt='Imagen de acompañamiento')
-
-    h4(data-aos='zoom-in-right').mb-4.mb-lg-5
-      span.etiqueta-title Protocolo para atención telefónica
+    .row.justify-content-center
+      .col-xl-10
+        h4(data-aos='zoom-in-right').mb-4.mb-lg-5
+          span.etiqueta-title Protocolo para atención telefónica
 
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
@@ -283,8 +285,9 @@
 
     .row.justify-content-center
       .col-xl-10
-        h4.mb-3 Triángulo de Servicio
-        p.mb-5 Hay 6 relaciones principales en el triángulo del servicio. Y en función de estas relaciones, hay tres formas de aplicar las tácticas de marketing y describimos a contin
+        h4(data-aos='zoom-in-right').mb-4.mb-lg-5
+          span.etiqueta-title Triángulo de Servicio
+        p.mb-5 Hay 6 relaciones principales en el triángulo del servicio. Y en función de estas relaciones, hay tres formas de aplicar las tácticas de #[em marketing] y describimos a continuación:
 
     .row.justify-content-center.tema-4.mb-4.mb-lg-5
       .col-xl-10
@@ -342,8 +345,8 @@
             .col-lg-auto
               img.d-none.d-lg-flex(src="@/assets/curso/tema4/flechas.svg", style="max-width: 90px").mx-auto
             .col-lg
-              h6 ¿Cómo comercializar con el triángulo de marketing de servicios?
-              p.mb-0 Existen 3 tipos de marketing que se dan dentro del triángulo de servicios:
+              h6 ¿Cómo comercializar con el triángulo del #[em marketing] de servicios?
+              p.mb-0 Existen 3 tipos de #[em marketing] que se dan dentro del triángulo de servicios:
       .col-10.col-md-6.col-lg-2
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/15.png", alt="texto alt")
@@ -354,25 +357,25 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/16.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        h5.d-block Marketing interno en el triángulo de servicios:
-        p.d-block El marketing holístico es el más utilizado cuando el marketing interno está en marcha. Una empresa de publicidad siempre intenta mantener motivados a sus propios empleados. Les ofrece un montón de fiestas y salidas para que estén de buen humor. Y tienen que estar de buen humor porque el resto del tiempo están utilizando sus cerebros creativos para dar el mejor servicio a sus clientes.
+        h5.d-block #[em Marketing] interno en el triángulo de servicios:
+        p.d-block El #[em marketing] holístico es el más utilizado cuando el #[em marketing] interno está en marcha. Una empresa de publicidad siempre intenta mantener motivados a sus propios empleados. Les ofrece un montón de fiestas y salidas para que estén de buen humor. Y tienen que estar de buen humor porque el resto del tiempo están utilizando sus cerebros creativos para dar el mejor servicio a sus clientes.
         p.d-block.mb-0 Además, estas mismas empresas de publicidad capacitan a sus empleados para que tomen las decisiones correctas frente a los clientes. Este empoderamiento contribuye en gran medida a crear motivación y confianza.
-        p Y en eso consiste el marketing interno basado en el triángulo del servicio. Crear confianza y motivación en sus empleados, para que construyan excelentes relaciones con los clientes finales y la empresa obtenga el dinero
+        p Y en eso consiste el #[em marketing] interno basado en el triángulo del #[em marketing]. Crear confianza y motivación en sus empleados, para que construyan excelentes relaciones con los clientes finales y la empresa obtenga el dinero
 
     .row.align-items-center.justify-content-center.mb-4.mb-lg-5
       .col-lg-1.d-none.d-lg-block
         img(src="@/assets/curso/tema4/waves-3.svg", style="max-width: 90px").mx-auto
       .col-lg-9
-        h5 Marketing externo: 
-        p.mb-0 El marketing de la empresa hacia los clientes. Este es el tipo de marketing más común que, como clientes, encontramos en el mercado. Los distintos tipos de marketing de servicios pueden ser la publicidad, las promociones de ventas, las relaciones públicas, el marketing directo o, de forma más destacada, el marketing por Internet en la época actual.
+        h5 #[em Marketing] externo: 
+        p.mb-0 El #[em marketing] de la empresa hacia los clientes. Este es el tipo de #[em marketing] más común que, como clientes, encontramos en el mercado. Los distintos tipos de #[em marketing] de servicios pueden ser la publicidad, las promociones de ventas, las relaciones públicas, el #[em marketing] directo o, de forma más destacada, el #[em marketing] por Internet en la época actual.
 
     .fullwidth-bg.fullwidth-bg--3
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
-        h5 Marketing interactivo: 
-        p El marketing que tiene lugar en una tienda minorista, en un restaurante, en un centro comercial, en un banco o en cualquier formato en el que el cliente entre en contacto con el empleado, se conoce como marketing interactivo. Este marketing dentro del triángulo de servicios se produce entre los clientes y los empleados.
-        p El marketing interactivo es también una forma muy eficaz de influir en los clientes. Se utiliza sobre todo para ayudar a los clientes a tomar una decisión de compra. Si un ejecutivo de una tienda ha recibido órdenes de que tiene que liquidar las existencias de Samsung, sólo le dirá las cosas positivas de Samsung e intentará convertir su decisión en la compra de Samsung.
-        p Las distintas formas de marketing interactivo incluyen la venta personal, la atención al cliente y la interacción con los clientes en las redes sociales u otras plataformas interactivas de este tipo.
+        h5 #[em Marketing] interactivo: 
+        p El #[em marketing] que tiene lugar en una tienda minorista, en un restaurante, en un centro comercial, en un banco o en cualquier formato en el que el cliente entre en contacto con el empleado, se conoce como #[em marketing] interactivo. Este #[em marketing] dentro del triángulo de servicios se produce entre los clientes y los empleados.
+        p El #[em marketing] interactivo es también una forma muy eficaz de influir en los clientes. Se utiliza sobre todo para ayudar a los clientes a tomar una decisión de compra. Si un ejecutivo de una tienda ha recibido órdenes de que tiene que liquidar las existencias de Samsung, sólo le dirá las cosas positivas de Samsung e intentará convertir su decisión en la compra de Samsung.
+        p Las distintas formas de #[em marketing] interactivo incluyen la venta personal, la atención al cliente y la interacción con los clientes en las redes sociales u otras plataformas interactivas de este tipo.
       .col-10.col-md-6.col-lg-3
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/17.png", alt="imagen de acompañamiento")

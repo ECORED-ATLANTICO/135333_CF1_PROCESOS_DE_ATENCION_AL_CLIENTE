@@ -84,10 +84,6 @@
         p Esto quiere decir que, en línea con lo visto previamente, de alguna manera se podría afirmar que la inclusión es el concepto general y la discapacidad es una especificación técnica y bastante importante que surge dentro de la inclusión.
         p.mb-0 La discapacidad es un tema tan relevante dentro de la inclusión, que vale la pena mirarlo con más detalle. En el informe Mundial de la Discapacidad de la OMS y el Banco Mundial, se mencionan algunas cifras que ponen de manifiesto la importancia de la discapacidad, a continuación, se mencionan como contexto algunas consideraciones:
 
-    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      h5 Figura 4
-      span <em>Consideraciones de discapacidad a nivel mundial</em>
-    
     .row.mb-3.mb-lg-5(data-aos="zoom-in")
       .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_5.h-100.p-4
@@ -117,7 +113,7 @@
       .col-lg-9
         .p-4.rounded-4.bgr_4.mb-3
           p Se considera que las personas con discapacidad tienen un bajo rendimiento laboral: esto no es cierto, cuando las personas con discapacidad son asignadas a la realización de actividades de acuerdo con sus destrezas, consideración que aplica para cualquier colaborador de una empresa, la productividad siempre estará asociada a la correspondencia entre la asignación realizada y las competencias.
-        p Los empresarios en ocasiones consideran que se deben realizar altas inversiones para adaptar la empresa a personas con discapacidad: este punto dejó de perder vigencia por dos razones: 1. esquemas como el teletrabajo, la alternancia, facilitan que ciertas tareas puedan ser desempeñadas por las personas desde sus lugares de residencia y 2. a nivel general, hoy en día las personas con discapacidad cuentan con sus propios recursos para desplazarse o movilizarse, lo que minimiza el impacto en términos de adaptación de sus puestos de trabajo.
+        p Los empresarios en ocasiones consideran que se deben realizar altas inversiones para adaptar la empresa a personas con discapacidad: este punto dejó de perder vigencia por dos razones: i. esquemas como el teletrabajo, la alternancia, facilitan que ciertas tareas puedan ser desempeñadas por las personas desde sus lugares de residencia y ii. a nivel general, hoy en día las personas con discapacidad cuentan con sus propios recursos para desplazarse o movilizarse, lo que minimiza el impacto en términos de adaptación de sus puestos de trabajo.
     
     .p-4.rounded-4.bgr_7.mb-5
       .row.justify-content-center.align-items-center
@@ -127,7 +123,7 @@
           figure
           img(src='@/assets/curso/tema3/3.svg', alt='Imagen decorativa')
 
-    p.mb-5 Es relevante entender que existen <b>diferentes tipologías de discapacidad.</b> A continuación, se detallan los tipos de discapacidad que más participación tienen dentro de la población
+    p.mb-5 Es relevante entender que existen <b>diferentes tipologías de discapacidad.</b> A continuación, se detallan los tipos de discapacidad que más participación tienen dentro de la población.
 
     div.slider-wrapper.z-2.mb-5
       .bg-fullwidth
@@ -184,7 +180,8 @@
 
     p.mb-5 A nivel nacional e internacional, existen varios lineamientos, leyes, decretos y marcos de buenas prácticas asociados a la inclusión y a la discapacidad. A continuación, se exponen algunos de ellos.
 
-    h4.mb-5 A nivel Internacional, podemos ver los siguientes hitos:
+    h4(data-aos='zoom-in-right').mb-4.mb-lg-5
+      span.etiqueta-title A nivel Internacional, podemos ver los siguientes hitos:
 
     LineaTiempoE.color-secundario.mb-5(data-aos="fade-left")
       .row(titulo="1948")

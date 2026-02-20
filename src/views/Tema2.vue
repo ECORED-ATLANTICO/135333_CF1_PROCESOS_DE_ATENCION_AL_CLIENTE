@@ -52,9 +52,9 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema2/1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.d-block.mb-4 En el contexto de la atención al cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
-            p.d-block.mb-4 #[strong Emisor] - quien emite el mensaje comunicacional, generalmente, es el Agente de Servicio.
-            p #[strong Receptor] (quien recibe la información, usualmente el cliente).
+            p.d-block En la actualidad, las expectativas de los clientes no son solo adquirir productos. Ellos esperan calidad, gestión, acompañamiento y solución a sus solicitudes, dado que las organizaciones se valen de tácticas publicitarias y de promociones para generar ventas.
+            p Lo que se espera es que siempre las empresas cumplan lo que prometen. En el ámbito empresarial, esto se conoce como “la promesa de servicio”.
+
     
     p.mb-6 El concepto cliente también está estrechamente relacionado con otros conceptos, que incluso pueden confundirse entre sí. A continuación identifican tales conceptos:
 
@@ -178,11 +178,11 @@
         p.mb-4 la empresa “El Buen Vivir S.A.S.” es una hostería dedicada a prestar servicios de alojamiento y es propiedad de la Familia Jaramillo Rojas, actualmente cuenta con 10 empleados y el fin de semana pasada recibió 30 huéspedes.
         p Para esta situación se puede afirmar que:
         ol.lista-ol--cuadro
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span a
             | La Familia Jaramillo Rojas y sus 10 colaboradores son clientes internos para la empresa.
-          li 
+          li.d-flex 
             .lista-ol--cuadro__vineta
               span b
             | Los 30 huéspedes que recibieron son los clientes externos que atendieron durante el fin de semana.
@@ -431,7 +431,7 @@
         .row.justify-content-around.align-items-center
           .col-lg-7.mb-4.mb-lg-0
             p.mb-4 El éxito con un cliente informado se da cuando se demuestra conocimiento técnico (en las características, beneficios y ventajas) del bien/ servicio sobre el cual se está teniendo la interacción), así como conocer en detalle las condiciones comerciales que aplican para la compra.
-            p Se debe mantener un diálogo basado en los argumentos y con la mayor cantidad de datos posible para no tener imprecisiones o cometer errores con el cliente
+            p Se debe mantener un diálogo basado en los argumentos y con la mayor cantidad de datos posible para no tener imprecisiones o cometer errores con el cliente.
           .col-6.col-md-4.col-lg-2
             figure
               img.img120(src='@/assets/curso/tema2/23.svg', alt='imagen de acompañamiento')
@@ -471,6 +471,46 @@
           .col-6.col-md-4.col-lg-2
             figure
               img.img120(src='@/assets/curso/tema2/27.svg', alt='imagen de acompañamiento')
+
+    SlyderF(columnas="col-lg-6 col-xl-4").mb-5
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/28.svg' alt='AvatarTop')
+        h5.text-center Cliente indeciso
+        p.text-center El acompañamiento es la llave para la interacción con un cliente indeciso, el agente de atención al cliente debe guiar, informar y responder a sus interrogantes.
+        p.text-center Es importante dar espacio para que el cliente tome su propia decisión, dado que cuando esto no sucede el cliente terminará comprando y devolviendo el producto, lo que generará reprocesos para la empresa.
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/29.svg' alt='AvatarTop')
+        h5.text-center Cliente grosero
+        p.text-center Con el cliente grosero se debe ser paciente, y nunca perder el control, ser amables, no importa el contexto, respirar hondo si es necesario y retomar la interacción.
+        p.text-center Los argumentos son una buena forma de desarrollar la conversación, sin caer en acomodarse a las afirmaciones del cliente, dado que nunca se debe perder del radar que se está trabajando para una empresa, por tanto, no se puede ceder en pretensiones que no tienen alcance solo por el hecho de calmarlo o terminar su interacción de forma rápida.
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/30.svg' alt='AvatarTop')
+        h5.text-center Cliente impulsivo
+        p.text-center El #[strong primer] paso con este tipo de clientes es identificar cuál es su necesidad.
+        p.text-center #[strong Segundo], con el cliente impulsivo se debe demostrar seguridad y se debe dar argumentos de forma rápida, clara y puntual para que el cliente no pierda el interés. No dar detalles que no han sido solicitados.
+        p.text-center #[strong Tercero], la variable tiempo es decisoria, por lo que suelen ser impacientes cuando percibe que los procesos no están desarrollándose con la oportunidad requerida, por ello en caso de tener inconvenientes, se debe informar y buscar alternativas que permitan resolver la situación.
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/31.svg' alt='AvatarTop')
+        h5.text-center Cliente negociador
+        p.text-center Dar claridad, estableciendo si es posible negociar o no, es el punto de partida con los clientes negociadores.
+        p.text-center El representante de la empresa debe saber hasta dónde puede negociar, por lo que se debe tener presente que no se podrá ceder en todo lo que espera el cliente. Ponerse en el lugar del otro, es decir ser empáticos, es una variable relevante con este tipo de clientes. No obstante, esta empatía no puede llevar a que se pierda la objetividad.
+        p.text-center Mostrar los beneficios es importante con este tipo de clientes, dado que siempre buscan conseguir un objetivo.
+      .tarjeta.bg-purple-card.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img120.mx-auto(src='@/assets/curso/tema2/32.svg' alt='AvatarTop')
+        h5.text-center Cliente silencioso
+        p.text-center Las preguntas son una forma de validar el interés y el entendimiento por parte del cliente silencioso.
+        p.text-center Despertar la curiosidad es un buen consejo con estos clientes, dado que querrán explorar más y, por tanto, establecerán relación con su interlocutor.
+        p.text-center En caso de que la interacción sea presencial, los gestos no verbales (expresiones del rostro, de los pies o de las manos) pueden dar luces sobre la actitud de este cliente.
 
     .bg_grad-07.mb-5
       .row.justify-center.p-3.p-lg-0
