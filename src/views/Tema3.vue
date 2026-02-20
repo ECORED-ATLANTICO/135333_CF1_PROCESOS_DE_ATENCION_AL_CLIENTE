@@ -7,10 +7,10 @@
         span 3
       h1 Inclusión 
     
-    .row.mb-5.align-items-center
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")  
+    .row.mb-5.align-items-center.justify-content-center
+      .col-12.col-md-8.col-lg-4(data-aos="fade-right")  
         figure.justify-center
-          img(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
+          img.mb-4.mb-lg-0(src='@/assets/curso/tema3/t3-1.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8(data-aos="fade-left")
         p La inclusión es un término mucho más amplio de lo que se piensa, es un concepto que si bien tuvo sus inicios en la perspectiva social ahora permea también el contexto empresarial. Inclusión significa la capacidad de poder derribar barreras, de que todos tengan igualdad de derechos, dar accesibilidad y no ser excluyentes, en últimas la inclusión es un asunto de todos. Lastimosamente, a veces se ve permeada negativamente por diversas barreras, ya que los prejuicios sociales hacen que se jerarquicen las relaciones entre las personas de acuerdo con roles y estereotipos.
         p Para mayor entendimiento, en la siguiente imagen, se muestran los tipos de inclusión que suelen abordarse con mayor frecuencia en los estudios sociales y económicos.
@@ -162,7 +162,7 @@
     .fullwidth-bg.fullwidth-bg--2
     .bg_grad-09
       .row.justify-center
-        .col-12.col-lg-4(data-aos="fade-right")
+        .col-12.col-sm-8.col-lg-4(data-aos="fade-right")
           figure
             img(src='@/assets/curso/tema3/t3-22.svg' alt='AvatarTop')
         .col-12.col-lg-6.align-items-center(data-aos="fade-left")
@@ -217,71 +217,71 @@
     h4.mb-5 A nivel de nacional, en Colombia, también encontramos importantes sucesos que garantizan los derechos de personas con diversidad de condiciones:
 
     LineaTiempoD.color-primario.mb-5(data-aos="fade-right")
-      .row(numero="1991" titulo="Constitución Política de Colombia")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="1991" titulo="Constitución Política de Colombia")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-27.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small La carta Magna en su artículo 7 enuncia que “El estado reconoce y protege la diversidad étnica y cultural de la Nación Colombiana”. Colombia contempla la importancia de la inclusión, dado que la diversidad es una de las variables que apalancan la aplicación de la inclusión. En su artículo 13, la constitución define que: “Todas las personas nacen libres e iguales ante la ley, recibirán la misma protección y trato de las autoridades y gozarán de los mismos derechos, libertades y oportunidades sin ninguna discriminación por razones de sexo, raza, origen nacional o familiar, lengua, religión, opinión política o filosófica”, este es un claro manifiesto del concepto de inclusión.
-      .row(numero="1993" titulo="Ley 100 de 1993")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="1993" titulo="Ley 100 de 1993")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-28.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small Esta es la ley del Sistema de Seguridad Social Integral, allí se plantea que se debe garantizar los derechos de las personas y la comunidad con el fin de obtener una calidad de vida de acuerdo con la dignidad humana. Asimismo, tiene una mención especial y se brindan beneficios especiales a las personas con discapacidad.
-      .row(numero="1994" titulo="Ley General de Educación (Ley 115 de 1994)")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="1994" titulo="Ley General de Educación (Ley 115 de 1994)")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-29.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small En su artículo 46 referencia que: “La educación de las personas con limitaciones físicas, sensoriales, psíquicas, cognoscitivas, emocionales o con capacidades 'intelectuales excepcionales, es parte integrante del servicio público educativo”; ello muestra como la inclusión educativa es un tema de importancia dentro de las políticas nacionales en Colombia.
-      .row(numero="2006" titulo="Código de la Infancia y la Adolescencia (Ley 1098 de 2006)")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="2006" titulo="Código de la Infancia y la Adolescencia (Ley 1098 de 2006)")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-29.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small En su artículo 202 hace mención a los objetivos de las políticas públicas, definiendo qué se debe “Diseñar y poner en marcha acciones para lograr la inclusión de la población infantil más vulnerable a la vida social en condiciones de igualdad”. Este es un punto interesante, ya que pone de manifiesto un aspecto clave de la inclusión social, relacionado con la prioridad que deben tener los niños (as) en la sociedad.
-      .row(numero="2009" titulo="Ley 1346 de 2009")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="2009" titulo="Ley 1346 de 2009")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-30.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small Esta ley define como un principio general La participación e inclusión plenas y efectivas en la sociedad de las personas con discapacidad, asimismo indica que se debe garantizar su derecho a la justicia, a vivir de forma independiente y ser incluidos en la comunidad, el fomento de su máximo desarrollo académico y social; y define que los Estados deberán garantizar la habilitación y rehabilitación de las personas con discapacidad.
-      .row(numero="2013" titulo="Disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad (1618 de 2013)")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="2013" titulo="Disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad (1618 de 2013)")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-31.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0text-small Plantea las obligaciones del Estado y de la Sociedad respecto a las personas con discapacidad, los deberes que como sociedad se tienen con ellos y el derecho a la habilitación y a la rehabilitación, de acuerdo con sus posibilidades y necesidades particulares. A su vez, asigna responsables específicos para garantizar la expedición y aplicación de medidas tendientes a garantizar los derechos de las personas con discapacidad.
-      .row(numero="2013" titulo="Reglamentación Conpes 166 de 2013")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="2013" titulo="Reglamentación Conpes 166 de 2013")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-32.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small Plantea estrategias para que Colombia avance en temas de Inclusión Social y Discapacidad con el fin de fomentar la igualdad en las oportunidades y la calidad de vida de la población con discapacidad. Las perspectivas que aborda este Conpes son: la transformación de lo público implementando el Observatorio Nacional de Discapacidad – OND e incluyendo a esta población en la información de estudios económicos y sociales con carácter nacional.
-      .row(numero="2013" titulo="Norma Técnica Colombiana (NTC) 6047 de 2013")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="2013" titulo="Norma Técnica Colombiana (NTC) 6047 de 2013")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-33.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small Define los requerimientos para la construcción y adecuación de espacios físicos bajo el criterio de ajustes razonables para las entidades de la administración pública y las empresas privadas con funciones públicas, que han sido destinados para el acceso y el servicio de los ciudadanos colombianos. 
-      .row(numero="2017" titulo="Decreto 1421 de 2017")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="2017" titulo="Decreto 1421 de 2017")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-34.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small Aborda la educación inclusiva para la atención de la población con discapacidad, planteando en esta línea los recursos financieros, humanos y técnicos para la atención educativa pertinente y de calidad en la población con discapacidad. También, se plantea el esquema de atención educativa y se plantea como el Ministerio de Educación Nacional (MEN) creará programas para el fomento de la educación superior en la población con discapacidad.
-      .row(numero="2019" titulo="Ley 1966 de 2019")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="2019" titulo="Ley 1966 de 2019")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-35.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small Establece el régimen de aplicación para garantizar los derechos de las personas con discapacidad mayores de edad, se determina su alcance para realizar diligencias jurídicas, se determina, se definen las características de la persona de apoyo y cuando hacer mención al conflicto de intereses.
-      .row(numero="2018-2022" titulo="Plan Nacional de Desarrollo Colombia 2018- 2022")
-        .col-md-3.mb-3.mb-lg-0
+      .row.justify-content-center(numero="2018-2022" titulo="Plan Nacional de Desarrollo Colombia 2018- 2022")
+        .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema3/t3-36.jpg', alt='Texto que describa la imagen')
-        .col-md-8.mb-4.mb-md-0
+        .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small Establece varios capítulos donde se hace alusión al tema de inclusión: en el ítem asociado a la participación ciudadana, se relaciona la promoción del diálogo, la inclusión democrática y la libertad de cultos para la equidad; en su capítulo del trabajo pone explícito el componente de Trabajo decente, acceso a mercados e ingresos dignos: acelerando la inclusión productiva: asimismo, referencian también un capítulo enfocado en el pacto por la inclusión de todas las personas con discapacidad y en el aspecto de inclusión social se plantea el compromiso de sacar 1,5 millones de personas de la pobreza extrema.
 
 

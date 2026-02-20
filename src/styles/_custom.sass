@@ -214,17 +214,16 @@ figcaption, caption
     content: ''
     position: absolute
     margin: 0 
-    top: 45px
+    top: 0
     left: 0
     width: 100%
-    height: 84%
+    height: 100%
     background-color: #BCEFEA
     background-repeat: no-repeat
     background-size: contain
-    @media screen and ( max-width: 420px )
-      margin: 0 -23px
-      width: calc(100% + 46px)
-      top: 60px
+    @media screen and ( min-width: 992px )
+      top: 35px
+      height: 84%
 .bg_grad-10
   position: relative
   .row
@@ -758,6 +757,7 @@ figcaption, caption
       background-image: url("../assets/curso/tema3/fondo1.svg")
       background-repeat: no-repeat
       background-color: #F6F8FE
+      background-size: cover
       padding-top: 10px
 
       @media screen and ( max-width: 420px  )

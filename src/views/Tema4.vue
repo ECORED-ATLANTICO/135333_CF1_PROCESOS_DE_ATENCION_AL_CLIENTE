@@ -8,9 +8,9 @@
       h1 Servicio al cliente
 
     .row.mb-5.align-items-center.justify-content-center
-      .col-12.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
+      .col-12.col-sm-8.col-lg-4.mb-3.mb-lg-0(data-aos="fade-right")
         figure.justify-center
-          img(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
+          img.mb-4.mb-lg-0(src='@/assets/curso/tema4/t4-1.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8(data-aos="fade-left")
         p Lograr una buena comunicación con el cliente es construir una buena relación con él, dicha comunicación debe ser fluida, pero ante todo muy clara y asertiva, se debe concebir que principalmente esta relación es humana: entre dos personas que tienen unas expectativas que se deben escuchar y respetar, lograr esto redunda en una buena prestación del servicio al cliente.
         .row.align-items-center
@@ -201,7 +201,7 @@
       .col-xl-10
         p.mb-0 Un protocolo de servicio al cliente para llamada telefónica contiene orientaciones en aspectos como:
 
-    .row.mb-5.bgr_7.p-5
+    .row.mb-5.bgr_7.p-4.p-lg-5
       .col-12.col-lg-6(data-aos="fade-right")
         ul.lista-ul--color
           li.d-flex 
@@ -252,7 +252,7 @@
 
     .bg_grad-07
       .row.justify-center(data-aos="fade-right")
-        .col-12.col-lg-3
+        .col-12.col-sm-8.col-lg-3
           figure
             img(src='@/assets/curso/tema2/t2-67.svg' alt='AvatarTop')
         .col-12.col-lg-9.align-items-center(data-aos="fade-left")
@@ -266,10 +266,10 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 Triángulo del servicio
 
-    .row.mb-5.align-items-center.z-2
-      .col-12.col-lg-4(data-aos="fade-right")
+    .row.mb-5.align-items-center.z-2.justify-content-center
+      .col-12.col-sm-8.col-lg-4(data-aos="fade-right")
         figure.justify-center
-          img.mb-3.mb-lg-0(src='@/assets/curso/tema4/t4-30.png', alt='Texto que describa la imagen')
+          img.mb-4.mb-lg-0(src='@/assets/curso/tema4/t4-30.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8(data-aos="fade-left")
         p Como sabemos, las relaciones son muy importantes en el sector de los servicios. El triángulo de los servicios describe todas las relaciones que existen entre la empresa, los empleados y los clientes. Además, también destaca la importancia de los sistemas en un sector de servicios y cómo estos sistemas ayudan a conseguir la satisfacción del cliente.
         p.mb-0 El triángulo del servicio puede utilizarse también para comercializar el servicio entre los consumidores. Depende completamente de la interacción que se produce entre el cliente y el proveedor de servicios. Veremos cada una de estas interacciones en detalle y también leeremos cómo comercializar con el cliente en función de la interacción.
@@ -296,42 +296,42 @@
             .row.justify-content-center.align-items-center
               .col-12.col-lg-3.mb-3.mb-lg-0
                 figure
-                  img.img140(src='@/assets/curso/tema4/t4-32.svg', alt='Texto que describa la imagen')
+                  img.img140.mx-auto(src='@/assets/curso/tema4/t4-32.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9
                 p.mb-0 Una de las cosas más importantes es comunicar la estrategia de servicio a los clientes. La mayoría de las empresas de comercio electrónico trabajan hoy en día para convencer a los clientes de que compren únicamente en su portal. Para ello, comunican a los clientes diversas ventajas de servicio.
           .tarjeta.bgr_7.p-4.p-lg-5(titulo="De la empresa a los empleados")
             .row.justify-content-center.align-items-center
               .col-12.col-lg-3.mb-3.mb-lg-0
                 figure
-                  img.img140(src='@/assets/curso/tema4/10.svg', alt='Texto que describa la imagen')
+                  img.img140.mx-auto(src='@/assets/curso/tema4/10.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9
                 p.mb-0 Otra relación importante en el triángulo del servicio es la que existe entre la empresa y los empleados. Imagine una compañía aérea en la que los propios auxiliares de vuelo están frustrados con la empresa. Usted, como cliente, acabará recibiendo los peores servicios.
           .tarjeta.bgr_7.p-4.p-lg-5(titulo="De la empresa a los sistemas")
             .row.justify-content-center.align-items-center
               .col-12.col-lg-3.mb-3.mb-lg-0
                 figure
-                  img.img140(src='@/assets/curso/tema4/11.svg', alt='Texto que describa la imagen')
+                  img.img140.mx-auto(src='@/assets/curso/tema4/11.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9
                 p.mb-0 Para mantener a los clientes contentos, hay que desarrollar sistemas eficaces y productivos. Imagínese su banco en los años 60, donde todo se hacía en papel. Si quería transferir dinero, tenía que rellenar muchos formularios, y el destinatario tenía que rellenar muchos formularios. En definitiva, era un proceso tedioso.
           .tarjeta.bgr_7.p-4.p-lg-5(titulo="De los clientes a los sistemas")
             .row.justify-content-center.align-items-center
               .col-12.col-lg-3.mb-3.mb-lg-0
                 figure
-                  img.img140(src='@/assets/curso/tema4/12.svg', alt='Texto que describa la imagen')
+                  img.img140.mx-auto(src='@/assets/curso/tema4/12.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9
                 p.mb-0 Aunque la construcción de sistemas es importante, estos sistemas deben ser más útiles para los clientes. Tomando el mismo ejemplo de los sistemas bancarios anteriores, es sorprendente que incluso hoy en día, cuando se va a un banco, haya una cola. Fíjese en las tiendas minoristas. Siempre hay una gran cola para pasar por caja.
           .tarjeta.bgr_7.p-4.p-lg-5(titulo="Los empleados al sistema")
             .row.justify-content-center.align-items-center
               .col-12.col-lg-3.mb-3.mb-lg-0
                 figure
-                  img.img140(src='@/assets/curso/tema4/13.svg', alt='Texto que describa la imagen')
+                  img.img140.mx-auto(src='@/assets/curso/tema4/13.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9
                 p.mb-0 Los sistemas no sólo dejan frustrados a los clientes, sino también a los empleados. Imagine un McDonald's en el que los pedidos tomados en la recepción no llegan a la cocina. O imagine un centro de servicios en el que, aunque haya introducido una reclamación, el empleado no recibe su queja y, por tanto, no le llama. En última instancia, es el empleado con el que te vas a enfadar.
           .tarjeta.bgr_7.p-4.p-lg-5(titulo="Empleado-cliente")
             .row.justify-content-center.align-items-center
               .col-12.col-lg-3.mb-3.mb-lg-0
                 figure
-                  img.img140(src='@/assets/curso/tema4/14.svg', alt='Texto que describa la imagen')
+                  img.img140.mx-auto(src='@/assets/curso/tema4/14.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9
                 p.mb-0 La interacción entre el empleado y el cliente también se conoce como el "momento de la verdad" o los "incidentes críticos". Un solo cliente puede quedar insatisfecho con la forma en que el empleado le ha tratado. O ese único cliente puede comprar mucho material en la misma tienda, porque el empleado le trató como un rey o una reina.
 
@@ -347,7 +347,7 @@
             .col-lg
               h6 ¿Cómo comercializar con el triángulo del #[em marketing] de servicios?
               p.mb-0 Existen 3 tipos de #[em marketing] que se dan dentro del triángulo de servicios:
-      .col-10.col-md-6.col-lg-2
+      .col-10.col-md-6.col-lg-2.d-none.d-lg-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/15.png", alt="texto alt")
     
@@ -421,9 +421,9 @@
           h2 4.4 Momentos de verdad
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
-      .col-lg-5.col-xl-4
+      .col-sm-8.col-lg-5.col-xl-4
         figure
-          img(data-aos="fade-down-right", src="@/assets/curso/tema4/19.png", alt="Imagen de acompañamiento")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema4/19.png", alt="Imagen de acompañamiento")
       .col-lg-7.col-xl-6
         p El autor Jan Carlzon en el libro #[strong “Momento de la verdad”] refiere una forma distinta de gestionar organizaciones, Jan Carlzon invierte la pirámide jerárquica que tradicionalmente establecen las organizaciones y en la cual los directivos y ejecutivos ocupan la cima y quienes tenían contacto directo con los clientes ocupan la base piramidal. Debido a los cambios y crecimiento de los mercados y al incremento de la competencia es primordial que las organizaciones se concentren en el cliente y no en el producto, de esta manera pueden diseñar productos dirigidos a satisfacer las necesidades de los clientes, una empresa u organización orientada al cliente, genera mayores oportunidades para fidelizar al cliente y permite la generación de ingresos para la sostenibilidad y permanencia en el mercado. (Carlzon, 1996)
 
@@ -455,39 +455,38 @@
 
     p.mb-5 Existen diferentes tipos de momentos de verdad, revíselos a continuación:
 
-    .row.mb-5
-      .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-up")
+    .row.mb-5.align-items-stretch
+      .col-md-6.col-xl-4.mb-4(data-aos="fade-up")
         .tarjeta-numerada.color-primario.px-5.py-3.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 1
           P.text-bold Momento de la verdad inferior a cero
           p.mb-0 Se produce un evento que inspira al cliente a pensar en realizar una compra.
-      .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-down")
+      .col-md-6.col-xl-4.mb-4(data-aos="fade-down")
         .tarjeta-numerada.color-primario.px-5.py-4.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 2
           P.text-bold Momento cero de la verdad
           p.mb-0 El cliente comienza a investigar un producto.
-      .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-up")
+      .col-md-6.col-xl-4.mb-4(data-aos="fade-up")
         .tarjeta-numerada.color-primario.px-5.py-5.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 3
           P.text-bold Primer momento de la verdad 
           p.mb-0 El cliente está mirando un producto.
-    .row.mb-5
-      .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-right")
+      .col-md-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
         .tarjeta-numerada.color-primario.px-5.py-5.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 4
           P.text-bold Segundo momento de la verdad 
           p.mb-0 El cliente compra el producto.
-      .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-left")
+      .col-md-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-left")
         .tarjeta-numerada.color-primario.px-5.py-3.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 5
           P.text-bold Momento intermedio de la verdad 
           p.mb-0 El periodo de tiempo que transcurre desde que el cliente compra un producto hasta que lo recibe. A veces se denomina Momento de la Verdad Absoluto. 
-      .col-md-4.col-lg-4.col-xl.mb-4.mb-xl-0(data-aos="fade-right")
+      .col-md-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
         .tarjeta-numerada.color-primario.px-5.py-5.h-100
           .tarjeta-numerada__numero.posit_19
             .h2 6

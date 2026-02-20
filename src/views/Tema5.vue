@@ -115,11 +115,11 @@
           h2 5.2 Manejo y control SST
     
     .row.justify-content-center.mb-5.z-2
-      .col-12.col-lg-8.col-xl-7
+      .col-12.col-lg-8.col-xl-7.order-1.order-lg
         p Con el objetivo de conceptualizar y entablar los controles en seguridad y salud en el trabajo se debe tener en cuenta que la instalación o lugar de trabajo, debe estar con el Equipo de Protección Personal (EPP) como primera barrera de estabilidad entre el trabajador y el peligro (lo cual es menos efectivo), es indispensable jerarquizarlos para minimizar de forma más positiva la posibilidad de accidentes y patologías de trabajo (riesgos de trabajo). 
         p El objetivo general en el manejo y control de la identificación de los riesgos y la valoración de los peligros en Estabilidad y Salud en el Trabajo (SST), consiste en comprender los riesgos que tienen la posibilidad de producir en el desarrollo de las ocupaciones, con el objeto de que la organización logre establecer los controles necesarios, al punto de asegurar que cualquier peligro sea aceptable.
         p.mb-4.mb-lg-0 El trabajo preliminar imprescindible para la evaluación de peligros es decidir los procesos y la lista de ocupaciones o situaciones de la operación para juntar la información elemental, incluyendo tareas rutinarias y no rutinarias, ejemplificando de mantenimiento.
-      .col-10.col-lg-4.col-xl-3.mb-3.mb-lg-0(data-aos="fade-right")
+      .col-10.col-sm-6.col-lg-4.col-xl-3.mb-3.mb-lg-0.order.order-lg-1(data-aos="fade-right")
         figure.justify-center
           img(src='@/assets/curso/tema5/t5-3.png', alt='Texto que describa la imagen', data-aos="fade-left")
     
@@ -142,7 +142,7 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 10,
+          h5 Figura 10.
           span Tabla tipo matriz de riesgo
         img.mb-2(data-aos="fade-up", src="@/assets/curso/tema5/t5-4.svg", alt="texto alternativo")
         figcaption <strong>Nota.</strong> SENA, 2026
