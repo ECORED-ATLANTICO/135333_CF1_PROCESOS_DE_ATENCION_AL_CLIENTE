@@ -122,15 +122,16 @@
       .col-10.col-sm-6.col-lg-4.col-xl-3.mb-3.mb-lg-0.order.order-lg-1(data-aos="fade-right")
         figure.justify-center
           img(src='@/assets/curso/tema5/t5-3.png', alt='Texto que describa la imagen', data-aos="fade-left")
-    
-    .bloque-texto-g.bgr.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema5/3.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.d-block La valoración de los peligros es la base para la administración proactiva de Seguridad y Salud en el Trabajo, dirigida por la alta dirección como parte de la administración integral del peligro, con la colaboración y compromiso de todos los niveles de la organización.
-        p.d-block Independientemente de la dificultad de la valoración de los peligros, ésta debe ser un proceso sistemático que garantice el cumplimiento de su propósito.
  
+    .bgr.overflow-hidden.mb-5
+      .row.align-items-center.bgr_15
+        .col-lg-5
+          img.d-none.d-xxl-block(src="@/assets/curso/tema5/3.png", alt="texto alternativo", data-aos="fade-left")
+        .col-lg-6
+          .p-4
+            p La valoración de los peligros es la base para la administración proactiva de Seguridad y Salud en el Trabajo, dirigida por la alta dirección como parte de la administración integral del peligro, con la colaboración y compromiso de todos los niveles de la organización.
+            p.mb-0 Independientemente de la dificultad de la valoración de los peligros, ésta debe ser un proceso sistemático que garantice el cumplimiento de su propósito.
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.col-xl-8
         p Todos los trabajadores tienen que detectar y comunicar a su empleador los riesgos asociados a su actividad gremial. Los empleadores poseen el deber legal de evaluar los peligros derivados de estas ocupaciones laborales.

@@ -121,7 +121,7 @@
     
     p.mb-5 Existen numerosas clasificaciones de clientes:
 
-    .row.align-items-stretch.mb-xl-5
+    .row.align-items-stretch.mb-xl-5.justify-content-center
       .col-md-6.col-lg-4.col-xl-3
         .tarjeta-container.mb-5.mb-md-4.mb-xl-0.custom-mh
           .position-relative.bgr_6.p-2.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
@@ -206,15 +206,15 @@
             h5 Clientes potenciales
             p Son aquellos que cumplen estas tres características:
             ol.lista-ol--cuadro
-              li.mb-4 
+              li.mb-4.d-flex 
                 .lista-ol--cuadro__vineta.lista-ol--cuadro__vineta--secundario
                   span 1
                 | Requieren del bien/ servicio que produce/ vende la empresa.
-              li.mb-4 
+              li.mb-4.d-flex 
                 .lista-ol--cuadro__vineta.lista-ol--cuadro__vineta--secundario
                   span 2
                 | Tienen poder adquisitivo (dinero o medios de pago) para comprarlo.
-              li 
+              li.d-flex
                 .lista-ol--cuadro__vineta.lista-ol--cuadro__vineta--secundario
                   span 3
                 | Tienen poder de decisión sobre la compra, y aun cumpliendo estos elementos no han realizado compras a la empresa.

@@ -100,9 +100,7 @@
           figure.justify-center.mb-4
             img.img70.himg70(src='@/assets/curso/tema3/t3-14.svg' alt='AvatarTop')
           p.p-3.text-center.mb-0 El número de personas con discapacidad está creciendo como resultado del envejecimiento de la población y al incremento global de los problemas crónicos de salud. 
-      .col-12.col-lg-12
-        div.bgr_caption.my-3.d-flex
-          p.my-3.px-3  <b>Nota.</b> Tomado del Informe Mundial de la Discapacidad de la OMS y el Banco Mundial. 2011.  https://apps.who.int/iris/handle/10665/75356
+      
     
     p.mb-4 También, lastimosamente, como confirma la fundación con trabajo (López MJ, 2021), se han tejido algunos mitos respecto al tema de discapacidad, por ejemplo:
 
@@ -232,7 +230,7 @@
       .row.justify-content-center(numero="1994" titulo="Ley General de Educación (Ley 115 de 1994)")
         .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure
-            img(src='@/assets/curso/tema3/t3-29.jpg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema3/t3-38.png', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
           p.mb-0.text-small En su artículo 46 referencia que: “La educación de las personas con limitaciones físicas, sensoriales, psíquicas, cognoscitivas, emocionales o con capacidades 'intelectuales excepcionales, es parte integrante del servicio público educativo”; ello muestra como la inclusión educativa es un tema de importancia dentro de las políticas nacionales en Colombia.
       .row.justify-content-center(numero="2006" titulo="Código de la Infancia y la Adolescencia (Ley 1098 de 2006)")
