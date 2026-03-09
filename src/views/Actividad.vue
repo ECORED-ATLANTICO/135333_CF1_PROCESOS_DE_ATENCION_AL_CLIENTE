@@ -17,337 +17,311 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Reconocimiento integral del cliente',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar la comprensión sobre la importancia del cliente como actor estratégico en la sostenibilidad empresarial, fortaleciendo la aplicación de principios de inclusión, protocolos de servicio y seguridad y salud en el trabajo en la atención al cliente.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!.',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
-          texto: 'PREGUNTA1',
+          texto:
+            'El cliente es un actor fundamental para la sostenibilidad de la empresa.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto: 'PREGUNTA2',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'El reconocimiento de clientes solo es necesario en empresas grandes.',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: 'PREGUNTA3',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'La interacción asertiva mejora la experiencia del cliente.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto: 'PREGUNTA4',
+          texto: 'La inclusión no es relevante en la atención al cliente.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            'Los protocolos de servicio orientan el comportamiento del agente de atención.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: 'PREGUNTA5',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
               id: 'b',
-              texto: 'OPCION2',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto: 'PREGUNTA6',
+          texto:
+            'La seguridad y salud en el trabajo (SST) no influye en el servicio al cliente.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto: 'PREGUNTA7',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            'Reconocer el tipo de cliente facilita una atención personalizada.',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
+              id: 'b',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto: 'PREGUNTA8',
+          texto:
+            'Todos los clientes tienen las mismas necesidades y expectativas.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            'La inclusión implica respetar la diversidad cultural y social.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'OPCION2',
+              texto: 'Verdadero',
               esCorrecta: true,
             },
             {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto: 'PREGUNTA9',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'OPCION1',
-              esCorrecta: false,
-            },
-            {
               id: 'b',
-              texto: 'OPCION2',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
+              texto: 'Falso',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: 'PREGUNTA10',
+          texto: 'El cliente no influye en la reputación de la empresa.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'OPCION1',
+              texto: 'Verdadero',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'OPCION2',
+              texto: 'Falso',
               esCorrecta: true,
             },
-            {
-              id: 'c',
-              texto: 'OPCION3',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'OPCION4',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto: 'PREGUNTA11',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            'La empatía es una competencia clave en la atención al cliente.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto: 'PREGUNTA12',
+          texto: 'Aplicar protocolos mejora la calidad del servicio.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 13,
+          texto: 'El desconocimiento del cliente no afecta la interacción.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 14,
+          texto: 'La SST también protege al cliente dentro de la organización.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -362,52 +336,15 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto: 'PREGUNTA13',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto: 'PREGUNTA14',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto: 'PREGUNTA15',
+          texto:
+            'La comunicación clara es parte del reconocimiento del cliente.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -422,8 +359,123 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto: 'El cliente solo es importante en el momento de la venta.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto: 'La inclusión fortalece la imagen corporativa.',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            'El servicio al cliente es responsabilidad exclusiva del área comercial.',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            'El reconocimiento del cliente no contribuye al logro de objetivos organizacionales.',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            'La propuesta de valor del contenido digital debe diferenciar la marca frente a la competencia.',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Verdadero',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre las normas.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',

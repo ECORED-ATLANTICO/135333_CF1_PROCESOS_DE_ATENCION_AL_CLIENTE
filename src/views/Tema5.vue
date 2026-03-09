@@ -7,7 +7,7 @@
         span 5
       h1 Seguridad y salud en el trabajo (SST) 
     
-    p.mb-5 Veamos una visión general de este importante tema a través del siguiente video.
+    p.mb-5 Observe una visión general de este importante tema a través del siguiente video.
 
     figure
       .video.mb-4.mb-lg-5
@@ -18,14 +18,8 @@
         figure
           img.mb-4.mb-lg-0(src='@/assets/curso/tema5/1.png', alt='Imagen ilustrativa')      
       .col-lg-7
-        p La Seguridad y Salud en el trabajo (SST), según la ley 1562 de 2012, se define como la disciplina que se ocupa de la prevención de lesiones y enfermedades generadas por las circunstancias de trabajo, y de la protección y promoción de la salud de los trabajadores.
+        p La seguridad y salud en el trabajo (SST), según la ley 1562 de 2012, se define como la disciplina que se ocupa de la prevención de lesiones y enfermedades generadas por las circunstancias de trabajo, y de la protección y promoción de la salud de los trabajadores.
         p.mb-0 Su objetivo es mejorar las condiciones y el entorno de medio ambiente laboral, así como la salud laboral, que implica la promoción y el mantenimiento del bienestar físico, mental y social de los trabajadores en todas las ocupaciones.
-
-    .row.justify-content-center.align-items-center
-      .col-xl-10
-        .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
-          h5 Figura 8.
-          span Definición de Sistema de Gestión de la Seguridad y Salud en el Trabajo
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center
@@ -49,7 +43,7 @@
             .col
               .row.justify-content-center.align-items-center
                 .col-lg-8.mb-3.mb-sm-0
-                  p.m-0 Para ampliar la información sobre los #[strong decretos que reglamentan y definen los alcances de los Sistemas de Gestión de Seguridad y Salud en el Trabajo] puede visitar la página del ministerio del trabajo: https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/sistema-de-gestion-de-seguridad-y-salud-en-el-trabajo. Allí se plantean de forma sencilla los objetivos y ventajas de este sistema.
+                  p.m-0 Para ampliar la información sobre los #[strong decretos que reglamentan y definen los alcances de los sistemas de gestión de Seguridad y salud en el trabajo] puede visitar el siguiente enlace. Allí se plantean de forma sencillas los objetivos y ventajas de este sistema
                 .col-sm-auto.p-lg-4
                   a.boton.bgr_3.me-3.text-white(href="https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/sistema-de-gestion-de-seguridad-y-salud-en-el-trabajo" target="_blank")
                     span Enlace
@@ -72,11 +66,11 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 9.
+          h5 Figura 8.
           span Factores de riesgo
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/t5-2-mob.svg", alt="texto alternativo")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/t5-2.svg", alt="texto alternativo")
-        figcaption <strong>Nota.</strong> SENA, 2026
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/t5-2-mob.svg", alt="Los factores de riesgo son: mecánicos, químicos, eléctricos, físico-químicos, biológicos, públicos, psicosociales, ambientales, ergonómicos.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/t5-2.svg", alt="Los factores de riesgo son: mecánicos, químicos, eléctricos, físico-químicos, biológicos, públicos, psicosociales, ambientales, ergonómicos.")
+        figcaption <strong>Nota.</strong> SENA, 2026.
     
     .row.justify-center
       .col-12.col-xl-10(data-aos="zoom-in-down")
@@ -117,7 +111,7 @@
     .row.justify-content-center.mb-5.z-2
       .col-12.col-lg-8.col-xl-7.order-1.order-lg
         p Con el objetivo de conceptualizar y entablar los controles en seguridad y salud en el trabajo se debe tener en cuenta que la instalación o lugar de trabajo, debe estar con el Equipo de Protección Personal (EPP) como primera barrera de estabilidad entre el trabajador y el peligro (lo cual es menos efectivo), es indispensable jerarquizarlos para minimizar de forma más positiva la posibilidad de accidentes y patologías de trabajo (riesgos de trabajo). 
-        p El objetivo general en el manejo y control de la identificación de los riesgos y la valoración de los peligros en Estabilidad y Salud en el Trabajo (SST), consiste en comprender los riesgos que tienen la posibilidad de producir en el desarrollo de las ocupaciones, con el objeto de que la organización logre establecer los controles necesarios, al punto de asegurar que cualquier peligro sea aceptable.
+        p El objetivo general en el manejo y control de la identificación de los riesgos y la valoración de los peligros en estabilidad y salud en el Trabajo (SST), consiste en comprender los riesgos que tienen la posibilidad de producir en el desarrollo de las ocupaciones, con el objeto de que la organización logre establecer los controles necesarios, al punto de asegurar que cualquier peligro sea aceptable.
         p.mb-4.mb-lg-0 El trabajo preliminar imprescindible para la evaluación de peligros es decidir los procesos y la lista de ocupaciones o situaciones de la operación para juntar la información elemental, incluyendo tareas rutinarias y no rutinarias, ejemplificando de mantenimiento.
       .col-10.col-sm-6.col-lg-4.col-xl-3.mb-3.mb-lg-0.order.order-lg-1(data-aos="fade-right")
         figure.justify-center
@@ -143,16 +137,15 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Figura 10.
-          span Tabla tipo matriz de riesgo
+          span.text-bold Tabla tipo matriz de riesgo
         img.mb-2(data-aos="fade-up", src="@/assets/curso/tema5/t5-4.svg", alt="texto alternativo")
-        figcaption <strong>Nota.</strong> SENA, 2026
+        figcaption <strong>Nota.</strong> SENA, 2026.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-auto
         img.d-none.d-lg-flex(src="@/assets/curso/tema5/waves.svg", style="max-width: 90px").mx-auto
       .col-lg-9
-        p.mb-0 En el tamaño en que la identificación de riesgos y evaluación de peligros contenga información válida y priorizada posibilita consumar correctamente destinados a prevenir los accidentes de trabajo y enfermedad general, convirtiéndose en una herramienta natural para conceptualizar la Administración de Estabilidad y Salud y por consiguiente el proyecto y cronograma de ocupaciones del SG-SST.
+        p.mb-0 En el tamaño en que la identificación de riesgos y evaluación de peligros contenga información válida y priorizada posibilita consumar correctamente destinados a prevenir los accidentes de trabajo y enfermedad general, convirtiéndose en una herramienta natural para conceptualizar la Administración de estabilidad y salud y por consiguiente el proyecto y cronograma de ocupaciones del SG-SST.
 
 
     .p-3.p-lg-4.bg-color-terciario-t1(data-aos="fade-down").z-2

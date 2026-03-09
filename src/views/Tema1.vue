@@ -58,18 +58,18 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/t1-1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.d-block.mb-4 En el contexto de la Atención al Cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
-            p.d-block.mb-4 #[strong Emisor] - quien emite el mensaje comunicacional, generalmente, es el Agente de Servicio.
-            p #[strong Receptor] (quien recibe la información, usualmente el cliente).
+            p.d-block.mb-4 En el contexto de la atención al cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
+            p.d-block.mb-4 #[strong Emisor] - quien emite el mensaje comunicacional, generalmente, es el agente de servicio.
+            p #[strong Receptor] quien recibe la información, usualmente el cliente.
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
-          span Titulo de la imagen
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/t1-2-mob.svg", alt="La figura muestra los cuatro tipos de kilates de oro que se presentan en joyería.")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/t1-2.svg", alt="La figura muestra los cuatro tipos de kilates de oro que se presentan en joyería.")
+          span Interacción entre emisor y receptor
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/t1-2-mob.svg", alt="En la figura de interacción se detalla los componentes básicos que son: la disponibilidad, la finalidad, generación de conocimiento, ser confiable y precisa.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/t1-2.svg", alt="En la figura de interacción se detalla los componentes básicos que son: la disponibilidad, la finalidad, generación de conocimiento, ser confiable y precisa.")
         figcaption <strong>Fuente:</strong> SENA, 2025
 
     separador

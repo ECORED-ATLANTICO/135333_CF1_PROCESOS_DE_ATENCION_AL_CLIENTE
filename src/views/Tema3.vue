@@ -29,7 +29,7 @@
         .row.justify-content-center.align-items-center
           .col-12.col-md-9.col-lg-7
             h4 Inclusión social
-            p La CEPAL (2018) define la inclusión social como “el aseguramiento de que todas las personas puedan ejercer sus derechos y garantías, aprovechando sus habilidades y beneficiándose de las oportunidades que se encuentran en su entorno”. En este sentido, no basta con asociar este término solo a los derechos, ya que incluye adicionalmente la posibilidad que las personas puedan tener participación activa en diferentes escenarios
+            p La CEPAL (2018) define la inclusión social como “el aseguramiento de que todas las personas puedan ejercer sus derechos y garantías, aprovechando sus habilidades y beneficiándose de las oportunidades que se encuentran en su entorno”. En este sentido, no basta con asociar este término solo a los derechos, ya que incluye adicionalmente la posibilidad que las personas puedan tener participación activa en diferentes escenarios.
           .col-6.col-md-3.col-lg-2
             figure
               img(src='@/assets/curso/tema3/t3-3.svg', alt='Texto que describa la imagen')
@@ -65,14 +65,14 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
-        p.mb-5 Según la Ley Colombiana 762 de 2002, que aprueba la Convención Interamericana para la Eliminación de todas las Formas de Discriminación contra las Personas con Discapacidad, la discapacidad es entendida como:
+        p.mb-5 Según la Ley colombiana 762 de 2002, que aprueba la Convención Interamericana para la eliminación de todas las formas de discriminación contra las personas con discapacidad, la discapacidad es entendida como:
         .bloque-texto-f.pt-4.px-5.mb-4.mb-lg-0
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto Una deficiencia física, mental o sensorial, ya sea de naturaleza permanente o temporal, que limita la capacidad de ejercer una o más actividades esenciales de la vida diaria, que puede ser causada o agravada por el entorno económico y social
           .bloque-texto-f__autor
-            p.mb-0 (CIPETFDPD, 2002, p. 2)
+            p.mb-0 (CIPETFDPD, 2002, p. 2).
       .col-10.col-md-6.col-lg-3
         figure
           img(src='@/assets/curso/tema3/1.png', alt='Texto que describa la imagen')
@@ -89,7 +89,7 @@
         .bgr_5.h-100.p-4
           figure.justify-center.mb-4  
             img.img70.himg70(src='@/assets/curso/tema3/t3-12.svg' alt='AvatarTop')
-          p.p-3.text-center.mb-0 Se estima que más de mil millones de personas viven con discapacidad, o sea, alrrededor de 15% de la población mundial.
+          p.p-3.text-center.mb-0 Se estima que más de mil millones de personas viven con discapacidad, o sea, alrrededor de 15 % de la población mundial.
       .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_6.h-100.p-4
           figure.justify-center.mb-4  
@@ -129,21 +129,21 @@
         SlyderA(tipo="b")
           .row.z-2.justify-content-center.align-items-center
             .col-lg-6
-              h4.mb-4 Personas Personas con discapacidad visual (ciegos)
+              h4.mb-4 Personas con discapacidad visual (ciegos)
               p Este tipo de discapacidad se manifiesta en la persona por la pérdida total o parcial del sentido de la vista. Existen diferentes grados de pérdida de la vista, por lo que también en este grupo de personas se encuentran diferencias.
             .col-10.col-lg-5
               figure
                 img(src='@/assets/curso/tema3/4.png', alt='Imagen de acompañamiento')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-6
-              h4.mb-4 Personas Personas con discapacidad auditiva (sordos)
-              p las consecuencias de la sordera (término que engloba cualquier tipo de pérdida auditiva) variarán de una persona a otra dependiendo no solo del grado, edad de adquisición y tipo de sordera, sino de otros factores contextuales que imprimen características diferenciales tales como los núcleos familiares y de escolaridad en donde se construyan sus procesos de identidad, sentido de pertenencia y adquisición de la primera lengua; los cuales no dependen únicamente de las limitaciones biológicas sino de los complejos procesos de relaciones sociales y culturales, de resistencias y acomodaciones que enmarcan las vidas de las personas sordas. 
+              h4.mb-4 Personas con discapacidad auditiva (sordos)
+              p Las consecuencias de la sordera (término que engloba cualquier tipo de pérdida auditiva) variarán de una persona a otra dependiendo no solo del grado, edad de adquisición y tipo de sordera, sino de otros factores contextuales que imprimen características diferenciales tales como los núcleos familiares y de escolaridad en donde se construyan sus procesos de identidad, sentido de pertenencia y adquisición de la primera lengua; los cuales no dependen únicamente de las limitaciones biológicas sino de los complejos procesos de relaciones sociales y culturales, de resistencias y acomodaciones que enmarcan las vidas de las personas sordas. 
             .col-10.col-lg-5
               figure
                 img(src='@/assets/curso/tema3/5.png', alt='Imagen de acompañamiento')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-6
-              h4.mb-4 Personas Personas con movilidad reducida
+              h4.mb-4 Personas con movilidad reducida
               p Limitaciones para moverse o caminar debido a la falta total o parcial de sus piernas. También a aquellas que teniendo sus piernas no tienen movimiento en estas, o sus movimientos tienen restricciones que provocan limitaciones para desplazarse por sí mismas, de tal forma que necesitan la ayuda de otra persona o de algún instrumento como silla de ruedas, muletas o prótesis.
               p Se incluyen, además, las personas que tienen limitaciones para desplazarse y que no cuentan con ningún tipo de ayuda, así como a las personas que cojean para caminar y aquellas personas que presentan deficiencias en el movimiento de sus manos y brazos, o carecen de uno de estos miembros, se incluyen dentro de este tipo de discapacidad.
             .col-10.col-lg-5
@@ -151,7 +151,7 @@
                 img(src='@/assets/curso/tema3/6.png', alt='Imagen de acompañamiento')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-6
-              h4.mb-4 Personas Personas con discapacidad intelectual o mental
+              h4.mb-4 Personas con discapacidad intelectual o mental
               p Hace relación a personas que tuvieron un desarrollo mental incompleto o detenido, lo cual impacta negativamente la realización de sus actividades cotidianas. En general las personas con discapacidad intelectual, aunque de forma más lenta, pueden llegar a alcanzar completa autonomía para el cuidado personal, en actividades de la vida diaria del hogar, en el manejo de la comunidad y sus servicios y en el desarrollo de una ocupación productiva de su interés.
             .col-10.col-lg-5
               figure

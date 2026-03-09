@@ -13,7 +13,7 @@
       .video.mb-4.mb-lg-5
         iframe(width="560" height="315" src="https://www.youtube.com/embed/O5WBU66GT5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mb-3.mb-lg-5 De acuerdo con lo anterior, se podrían resumir las expectativas mínimas que tienen los clientes con una empresa en la siguiente figura:
+    p.mb-3.mb-lg-5 De acuerdo con lo anterior, se podrían resumir las expectativas mínimas que tienen los clientes con una empresa:
 
 
     SlyderF(columnas="col-lg-6 col-xl-4").mb-5
@@ -42,8 +42,6 @@
           .col-8
             img.img120.mx-auto(src='@/assets/curso/tema2/t2-5.svg' alt='AvatarTop')
         p.text-center Encontrar solución a sus solicitudes cuando se requiera.
-
-    p.mb-4.mb-lg-5 De acuerdo con lo anterior, se podrían resumir las expectativas mínimas que tienen los clientes con una empresa en la siguiente figura:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10
@@ -110,9 +108,9 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span Pirámide de Maslow.
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/t2-22-mob.svg", alt="piramide de maslow")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/t2-22.svg", alt="piramide de maslow")
-        figcaption <strong>Nota.</strong> SENA, 2026
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/t2-22-mob.svg", alt="En la figura se detalla la jerarquización de las necesidades humanas en cinco niveles, autorrealización, reconocimiento, afiliación y afecto, necesidades de seguridad y necesidades fisiológicas.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/t2-22.svg", alt="En la figura se detalla la jerarquización de las necesidades humanas en cinco niveles, autorrealización, reconocimiento, afiliación y afecto, necesidades de seguridad y necesidades fisiológicas.")
+        figcaption <strong>Nota.</strong> SENA, 2026.
       
     separador
 
@@ -148,7 +146,7 @@
         .cajon.color-terciario.p-4
           p.mb-0 #[strong Nota:] pueden existir más tipos de clasificación que tengan en cuenta otras características.
     
-    p.mb-5 Para un #[strong Agente de Atención al Cliente] es importante identificar en qué clasificación está un cliente, dado que cada empresa tiene establecida su clasificación y tipología, según su visión corporativa. Por lo tanto, no hay un estándar sobre el criterio que prevalece para realizar la clasificación de un cliente. En el siguiente esquema se muestra la clasificación que se abordará en este componente.
+    p.mb-5 Para un #[strong agente de atención al cliente] es importante identificar en qué clasificación está un cliente, dado que cada empresa tiene establecida su clasificación y tipología, según su visión corporativa. Por lo tanto, no hay un estándar sobre el criterio que prevalece para realizar la clasificación de un cliente. En el siguiente esquema se muestra la clasificación que se abordará en este componente.
 
 
     h4(data-aos='zoom-in-right').mb-4.mb-lg-5
@@ -161,7 +159,7 @@
         .rounded-4.overflow-hidden.h-100
           img(data-aos="fade-up", src="@/assets/curso/tema2/7.png", alt="piramide de maslow")
           .bgr_6.p-4.custom-mh
-            h5 Clientes Internos
+            h5 Clientes internos
             p.mb-0 Son aquellos que tienen una relación directa con la empresa, por lo que la empresa puede influenciar de cierta forma su comportamiento, adicional a esto tienen como característica fundamental que tienen algún tipo de impacto en la producción del bien o la prestación del servicio; por definición los clientes internos son: los propietarios de la compañía, colaboradores, directivos, accionistas.
       .col-md-8.col-lg-6
         .rounded-4.overflow-hidden.h-100
@@ -175,13 +173,13 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
         p #[strong Con este ejemplo se clarifican mejor estos conceptos:]
-        p.mb-4 la empresa “El Buen Vivir S.A.S.” es una hostería dedicada a prestar servicios de alojamiento y es propiedad de la Familia Jaramillo Rojas, actualmente cuenta con 10 empleados y el fin de semana pasada recibió 30 huéspedes.
+        p.mb-4 La empresa “El Buen Vivir S.A.S.” es una hostería dedicada a prestar servicios de alojamiento y es propiedad de la Familia Jaramillo Rojas, actualmente cuenta con 10 empleados y el fin de semana pasada recibió 30 huéspedes.
         p Para esta situación se puede afirmar que:
         ol.lista-ol--cuadro
           li.d-flex 
             .lista-ol--cuadro__vineta
               span a
-            | La Familia Jaramillo Rojas y sus 10 colaboradores son clientes internos para la empresa.
+            | La familia Jaramillo Rojas y sus 10 colaboradores son clientes internos para la empresa.
           li.d-flex 
             .lista-ol--cuadro__vineta
               span b
@@ -233,11 +231,9 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 3.
           span Clasificaciones de los clientes actuales
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/9-mob.svg", alt="La figura muestra los cuatro tipos de kilates de oro que se presentan en joyería.")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/9.svg", alt="La figura muestra los cuatro tipos de kilates de oro que se presentan en joyería.")
-        figcaption <strong>Nota.</strong> SENA, 2026
-
-    p.mb-4.mb-lg-5 Veamos entonces, en la siguiente infografía, los detalles de esta nueva clasificación del cliente ya adquirido, es decir, que ha hecho una compra alguna vez en nuestra empresa.
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/9-mob.svg", alt="En la figura se detalla las clasificaciones de los clientes: según su vigencia, según su volumen de compra, según su frecuencia de compra y según su nivel de satisfacción.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/9.svg", alt="En la figura se detalla las clasificaciones de los clientes: según su vigencia, según su volumen de compra, según su frecuencia de compra y según su nivel de satisfacción.")
+        figcaption <strong>Nota.</strong> SENA, 2026.
     
     h4(data-aos='zoom-in-right').mb-4.mb-lg-5
       span.etiqueta-title Clientes según su vigencia
@@ -287,7 +283,7 @@
         .rounded-4.overflow-hidden.h-100
           .bgr_4.p-4.custom-mh
             p #[strong Ejemplo]
-            p El Restaurante #[strong “El Buen Sabor S.A.S.”] tiene identificado que en promedio la factura de un cliente cuando va a cenar es de COP $70.000. El comensal de la mesa uno solicita dos entradas y dos copas de vino por lo que el valor de su factura es de COP $42.000, por su parte el comensal de la mesa dos solicita una entrada, dos platos fuertes y dos sodas lo que se le genera una factura por valor de COP $98.000.
+            p El restaurante #[strong “El Buen Sabor S.A.S.”] tiene identificado que en promedio la factura de un cliente cuando va a cenar es de COP $70.000. El comensal de la mesa uno solicita dos entradas y dos copas de vino por lo que el valor de su factura es de COP $42.000, por su parte el comensal de la mesa dos solicita una entrada, dos platos fuertes y dos sodas lo que se le genera una factura por valor de COP $98.000.
 
     .row.justify-content-center.mb-4.mb-lg-5.z-2
       .col-xl-10
@@ -318,8 +314,8 @@
       .col-lg-8
         p.mb-4 #[strong Ejemplo]
         p.mb-4 #[strong Se tiene la siguiente situación:] la empresa Tenis El Comodín E.U. identifica que sus clientes en promedio compran un par de tenis cada seis meses, por lo que establecen como clientes con compra frecuente aquellos que compran tenis antes de cumplir ese período de tiempo.
-        p #[strong Clientes habitual:] los que compran tenis cada seis meses.
-        p.mb-4.mb-lg-0 #[strong Clientes ocasional:] los que compran un par de tenis después de dicho período.
+        p #[strong Clientes habituales:] los que compran tenis cada seis meses.
+        p.mb-4.mb-lg-0 #[strong Clientes ocasionales:] los que compran un par de tenis después de dicho período.
       .col-10.col-md-6.col-lg-2
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema2/15.png", alt="piramide de maslow")
@@ -329,7 +325,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.2 Tipología y manejo del cliente
 
-    p.mb-6 En la interacción con los clientes se debe detectar con qué tipo de clientes se está tratando con el fin de tratar de manejar una comunicación asertiva y esto se debe a que cada cliente según sus necesidades, expectativas e incluso personalidad gestionará las relaciones con la empresa. Es por ello, que desde la Psicología y las teorías de comportamiento del consumidor se han seleccionado algunas tipologías de clientes (Maldonado, 2014), aquí la reseña de algunas de ellas:
+    p.mb-6 En la interacción con los clientes se debe detectar con qué tipo de clientes se está tratando con el fin de tratar de manejar una comunicación asertiva y esto se debe a que cada cliente según sus necesidades, expectativas e incluso personalidad gestionará las relaciones con la empresa. Es por ello, que desde la psicología y las teorías de comportamiento del consumidor se han seleccionado algunas tipologías de clientes (Maldonado, 2014), aquí la reseña de algunas de ellas:
     
     div.slider-wrapper.z-2.mb-6
       .bg-fullwidth
@@ -366,7 +362,7 @@
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 Cliente desconfiado
-              p El cliente desconfiado, no cree fácilmente ni en las personas, ni en las circunstancias, no cree que algo puede ser consecuencia del destino, por tanto, duda de todo y de todos. Es susceptible, trata de dominar a su interlocutor para poner a flaquear a la otra persona. Suele rechazar los argumentos y validará las cosas con frecuencia buscando puntos débiles
+              p El cliente desconfiado, no cree fácilmente ni en las personas, ni en las circunstancias, no cree que algo puede ser consecuencia del destino, por tanto, duda de todo y de todos. Es susceptible, trata de dominar a su interlocutor para poner a flaquear a la otra persona. Suele rechazar los argumentos y validará las cosas con frecuencia buscando puntos débiles.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema2/20.png', alt='Imagen de acompañamiento')
@@ -455,7 +451,7 @@
       .py-4.py-md-5(titulo="Cliente desconfiado")
         .row.justify-content-around.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            p.mb-0 Lo opuesto a la desconfianza es la confianza, por tanto, eso es lo primero que se debe transmitir, por tanto, el Agente de Servicio, debe indicar nombres- apellidos, cargo y empresa a la que se está representando.
+            p.mb-0 Lo opuesto a la desconfianza es la confianza, por tanto, eso es lo primero que se debe transmitir, por tanto, el agente de servicio, debe indicar nombres - apellidos, cargo y empresa a la que se está representando.
             p.mb-4 Se debe siempre mostrar interés por el cliente, hacerle preguntas para que se sienta tenido en cuenta, no afirmar nada que no se puede evidenciar. 
             p.mb-0 No mostrarse muy insistente, ni discutir.
             p Darle la razón al cliente siempre que la tenga, sin dejarse dominar, ya que esto también podrá generar desconfianza.
@@ -520,7 +516,7 @@
         .col-12.col-lg-7.col-xl-6.align-items-center(data-aos="fade-left")
           div
             h3 Importante
-            p Tenga presente que, si bien cada cliente tiene un rasgo característico asociado a su tipología, en ciertas circunstancias pueden sacar a relucir varios perfiles, por lo que es vital el conocimiento y el empoderamiento que tenga el Agente de Servicio para desarrollar con éxito una interacción.
+            p Tenga presente que, si bien cada cliente tiene un rasgo característico asociado a su tipología, en ciertas circunstancias pueden sacar a relucir varios perfiles, por lo que es vital el conocimiento y el empoderamiento que tenga el agente de servicio para desarrollar con éxito una interacción.
 
 </template>
 

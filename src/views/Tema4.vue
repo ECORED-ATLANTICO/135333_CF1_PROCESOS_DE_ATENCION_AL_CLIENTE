@@ -92,10 +92,10 @@
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 4.
-          span Prestación Servicio al cliente
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/4-mob.svg", alt="lorem")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/4.svg", alt="lorem")
-        figcaption <strong>Nota.</strong> SENA, 2026
+          span Prestación servicio al cliente
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/4-mob.svg", alt="En la figura se detalla como es el proceso de atención al cliente, comercialización de productos y ventas de servicios.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/4.svg", alt="En la figura se detalla como es el proceso de atención al cliente, comercialización de productos y ventas de servicios.")
+        figcaption <strong>Nota.</strong> SENA, 2026.
 
     p.mb-5 En la cotidianidad se tienden a confundir los conceptos y consideramos que en las organizaciones el tema de servicio al cliente y atención al cliente es únicamente responsabilidad de los colaboradores de dicha área, pero esto es un gran error, consideremos la siguiente situación:
 
@@ -125,17 +125,17 @@
         .col-12.col-lg-7.col-xl-7.align-items-center
           div.p-5
             h5 ¿El contexto que se presenta es falla de atención al cliente o una falla de servicio al cliente?
-            p.mb-0 Estamos frente a un contexto de falla de servicio al cliente, ya que la atención al cliente que prestó Ross fue el adecuado y dio cumplimiento al protocolo establecido para ello. Ahora hablar de servicio al cliente con calidad involucra el servicio, la atención conceptos de relación estrecha en el tema ya que para ofrecer una excelente atención es preciso de quienes tienen contacto con el cliente, deben tener habilidades de empatía, asertividad y comunicación, así como tener una mirada integral de la organización y específicamente del servicio.
+            p.mb-0 Estamos frente a un contexto de falla de servicio al cliente, ya que la atención al cliente que prestó Ross fue el adecuado y dio cumplimiento al protocolo establecido para ello. Ahora hablar de servicio al cliente con calidad involucra el servicio y la atención, ya que para pfrecer una excelente atención es preciso de quienes tienen contacto con el cliente, deben tener habilidades de empatía, asertividad y comunicación, así como tener una mirada integral de la organización y específicamente del servicio.
 
 
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 5.
-          span Diferenciación entre óptima y deficiente servicio al cliente.
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/t4-14-mob.svg", alt="alt")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/t4-14.svg", alt="alt")
-        figcaption <strong>Nota</strong> SENA, 2026
+          span Diferenciación entre óptima y deficiente servicio al cliente
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/t4-14-mob.svg", alt="Se detalla en la figura la óptima atención en servicio al cliente: solicitud de producto, acuerdo de entrega y pago de producto; y deficiente servicio al cliente: producto no procesado, producto no despachado y producto no entregado.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/t4-14.svg", alt="Se detalla en la figura la óptima atención en servicio al cliente: solicitud de producto, acuerdo de entrega y pago de producto; y deficiente servicio al cliente: producto no procesado, producto no despachado y producto no entregado.")
+        figcaption <strong>Nota</strong> SENA, 2026.
 
     .fullwidth-bg.fullwidth-bg--3
     .row.z-2
@@ -149,13 +149,13 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 6.
           span Protocolo de servicio al cliente
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/5-mob.svg", alt="protocolo de servicio al cliente")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/5.svg", alt="protocolo de servicio al cliente")
-        figcaption <strong>Nota.</strong> SENA, 2026
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/5-mob.svg", alt="El protocolo de servicio al cliente se detalla de la siguiente manera: - Título: protocolo para atención y servicio al cliente. - Definición: es la guía para que los colaboradores conozcan las directrices. Política: información y acompañamiento por parte de la organización en el proceso que soliciten. ")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/5.svg", alt="El protocolo de servicio al cliente se detalla de la siguiente manera: - Título: protocolo para atención y servicio al cliente. - Definición: es la guía para que los colaboradores conozcan las directrices. Política: información y acompañamiento por parte de la organización en el proceso que soliciten. ")
+        figcaption <strong>Nota.</strong> SENA, 2026.
 
     .row.justify-content-center.mb-6
       .col-xl-10
-        p.mb-4 Así mismo, se debe establecer un Protocolo para atención presencial. Para las situaciones donde hay interacción cara a cara con los clientes. 
+        p.mb-4 Así mismo, se debe establecer un protocolo para atención presencial. Para las situaciones donde hay interacción cara a cara con los clientes. 
         p.mb-0 Un protocolo de atención presencial debe contener información como la siguiente:
 
     div.slider-wrapper.z-2.mb-6
@@ -279,9 +279,9 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 7.
           span Triángulo del servicio
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/t4-31-mob.svg", alt="Triángulo del servicio")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/t4-31.svg", alt="Triángulo del servicio")
-        figcaption <strong>Nota.</strong> SENA, 2026
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/t4-31-mob.svg", alt="El triángulo del servicio está compuesto por la Compañía, los empleados y los clientes.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/t4-31.svg", alt="El triángulo del servicio está compuesto por la Compañía, los empleados y los clientes.")
+        figcaption <strong>Nota.</strong> SENA, 2026.
 
     .row.justify-content-center
       .col-xl-10
@@ -360,7 +360,7 @@
         h5.d-block #[em Marketing] interno en el triángulo de servicios:
         p.d-block El #[em marketing] holístico es el más utilizado cuando el #[em marketing] interno está en marcha. Una empresa de publicidad siempre intenta mantener motivados a sus propios empleados. Les ofrece un montón de fiestas y salidas para que estén de buen humor. Y tienen que estar de buen humor porque el resto del tiempo están utilizando sus cerebros creativos para dar el mejor servicio a sus clientes.
         p.d-block.mb-0 Además, estas mismas empresas de publicidad capacitan a sus empleados para que tomen las decisiones correctas frente a los clientes. Este empoderamiento contribuye en gran medida a crear motivación y confianza.
-        p Y en eso consiste el #[em marketing] interno basado en el triángulo del #[em marketing]. Crear confianza y motivación en sus empleados, para que construyan excelentes relaciones con los clientes finales y la empresa obtenga el dinero
+        p Y en eso consiste el #[em marketing] interno basado en el triángulo del #[em marketing]. Crear confianza y motivación en sus empleados, para que construyan excelentes relaciones con los clientes finales y la empresa obtenga el dinero.
 
     .row.align-items-center.justify-content-center.mb-4.mb-lg-5
       .col-lg-1.d-none.d-lg-block
@@ -425,7 +425,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema4/19.png", alt="Imagen de acompañamiento")
       .col-lg-7.col-xl-6
-        p El autor Jan Carlzon en el libro #[strong “Momento de la verdad”] refiere una forma distinta de gestionar organizaciones, Jan Carlzon invierte la pirámide jerárquica que tradicionalmente establecen las organizaciones y en la cual los directivos y ejecutivos ocupan la cima y quienes tenían contacto directo con los clientes ocupan la base piramidal. Debido a los cambios y crecimiento de los mercados y al incremento de la competencia es primordial que las organizaciones se concentren en el cliente y no en el producto, de esta manera pueden diseñar productos dirigidos a satisfacer las necesidades de los clientes, una empresa u organización orientada al cliente, genera mayores oportunidades para fidelizar al cliente y permite la generación de ingresos para la sostenibilidad y permanencia en el mercado. (Carlzon, 1996)
+        p El autor Jan Carlzon en el libro #[strong “Momento de la verdad”] refiere una forma distinta de gestionar organizaciones, Jan Carlzon invierte la pirámide jerárquica que tradicionalmente establecen las organizaciones y en la cual los directivos y ejecutivos ocupan la cima y quienes tenían contacto directo con los clientes ocupan la base piramidal. Debido a los cambios y crecimiento de los mercados y al incremento de la competencia es primordial que las organizaciones se concentren en el cliente y no en el producto, de esta manera pueden diseñar productos dirigidos a satisfacer las necesidades de los clientes, una empresa u organización orientada al cliente, genera mayores oportunidades para fidelizar al cliente y permite la generación de ingresos para la sostenibilidad y permanencia en el mercado. (Carlzon, 1996).
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-xl-10
@@ -485,7 +485,7 @@
           .tarjeta-numerada__numero.posit_19
             .h2 5
           P.text-bold Momento intermedio de la verdad 
-          p.mb-0 El periodo de tiempo que transcurre desde que el cliente compra un producto hasta que lo recibe. A veces se denomina Momento de la Verdad Absoluto. 
+          p.mb-0 El periodo de tiempo que transcurre desde que el cliente compra un producto hasta que lo recibe. A veces se denomina momento de la verdad absoluto. 
       .col-md-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
         .tarjeta-numerada.color-primario.px-5.py-5.h-100
           .tarjeta-numerada__numero.posit_19
