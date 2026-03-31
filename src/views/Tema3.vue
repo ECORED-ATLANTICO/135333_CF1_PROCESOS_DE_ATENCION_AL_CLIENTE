@@ -70,9 +70,7 @@
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          h4.text-regular.bloque-texto-f__texto Una deficiencia física, mental o sensorial, ya sea de naturaleza permanente o temporal, que limita la capacidad de ejercer una o más actividades esenciales de la vida diaria, que puede ser causada o agravada por el entorno económico y social
-          .bloque-texto-f__autor
-            p.mb-0 (CIPETFDPD, 2002, p. 2).
+          h4.text-regular.bloque-texto-f__texto Una deficiencia física, mental o sensorial, ya sea de naturaleza permanente o temporal, que limita la capacidad de ejercer una o más actividades esenciales de la vida diaria, que puede ser causada o agravada por el entorno económico y social. (CIPETFDPD, 2002, p. 2).
       .col-10.col-md-6.col-lg-3
         figure
           img(src='@/assets/curso/tema3/1.png', alt='Texto que describa la imagen')
@@ -121,7 +119,7 @@
           figure
           img(src='@/assets/curso/tema3/3.svg', alt='Imagen decorativa')
 
-    p.mb-5 Es relevante entender que existen <b>diferentes tipologías de discapacidad.</b> A continuación, se detallan los tipos de discapacidad que más participación tienen dentro de la población.
+    p.mb-5 Es relevante entender que existen diferentes tipologías de discapacidad. A continuación, se detallan los tipos de discapacidad que más participación tienen dentro de la población.
 
     div.slider-wrapper.z-2.mb-5
       .bg-fullwidth
@@ -250,7 +248,7 @@
           figure
             img(src='@/assets/curso/tema3/t3-31.jpg', alt='Texto que describa la imagen')
         .col-lg-8.mb-4.mb-lg-0
-          p.mb-0text-small Plantea las obligaciones del Estado y de la Sociedad respecto a las personas con discapacidad, los deberes que como sociedad se tienen con ellos y el derecho a la habilitación y a la rehabilitación, de acuerdo con sus posibilidades y necesidades particulares. A su vez, asigna responsables específicos para garantizar la expedición y aplicación de medidas tendientes a garantizar los derechos de las personas con discapacidad.
+          p.mb-0.text-small Plantea las obligaciones del Estado y de la Sociedad respecto a las personas con discapacidad, los deberes que como sociedad se tienen con ellos y el derecho a la habilitación y a la rehabilitación, de acuerdo con sus posibilidades y necesidades particulares. A su vez, asigna responsables específicos para garantizar la expedición y aplicación de medidas tendientes a garantizar los derechos de las personas con discapacidad.
       .row.justify-content-center(numero="2013" titulo="Reglamentación Conpes 166 de 2013")
         .col-sm-8.col-lg-3.mb-3.mb-lg-0
           figure

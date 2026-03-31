@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-3.mb-md-5 Le damos la bienvenida al componente <b>Reconocimiento de clientes</b>. Para comenzar satisfactoriamente este recorrido, explore el recurso que se muestra a continuación:
+    p.mb-3.mb-md-5 Le damos la bienvenida al componente Reconocimiento de clientes. Para comenzar satisfactoriamente este recorrido, explore el recurso que se muestra a continuación:
 
     figure.mb-5
       .video.mb-2

@@ -13,19 +13,17 @@
           img.mb-4.mb-lg-0(src='@/assets/curso/tema1/1.png', alt='Imagen ilustrativa')
 
       .col-lg-7
-        p La información es un tema de alto interés en el contexto empresarial, ya que es la base para tomar decisiones. Sin embargo, se debe mencionar primero el concepto de <b>“datos”</b> porque estos son los que posibilitan la existencia de la información.
+        p La información es un tema de alto interés en el contexto empresarial, ya que es la base para tomar decisiones. Sin embargo, se debe mencionar primero el concepto de “datos” porque estos son los que posibilitan la existencia de la información.
         p.mb-0 Los datos son números, cifras, incluso palabras, que están almacenados en algún repositorio. En términos técnicos, son la representación de una variable cuantitativa (números) o cualitativa (cualidades o características). Teniendo presente lo referenciado, se puede afirmar que la información es un conjunto de datos con contexto o significado. A modo de ejemplo, se tiene los siguientes casos:
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 1
-      span Ejemplo dato - información
+      h5 Tabla 1.
+      span Ejemplos con la relación entre dato e información
     .row.justify-center.mb-5(data-aos="fade-up")
       .col-12.col-xl-8
         .tabla-a.color-primario
-          .tabla-b__header
-            h5.mb-0 Ejemplos con la relación entre dato e información
           table
-            caption <strong>Nota.</strong> SENA, 2026.
+            caption <strong>Nota.</strong> SENA, (2026).
             thead
               tr
                 th.colr.w-200px Dato
@@ -59,8 +57,8 @@
           )
           .bloque-texto-g__texto.p-4
             p.d-block.mb-4 En el contexto de la atención al cliente la información es vital, dado que es lo que motiva la interacción y el interés entre:
-            p.d-block.mb-4 #[strong Emisor] - quien emite el mensaje comunicacional, generalmente, es el agente de servicio.
-            p #[strong Receptor] quien recibe la información, usualmente el cliente.
+            p.d-block.mb-4 Emisor - quien emite el mensaje comunicacional, generalmente, es el agente de servicio.
+            p Receptor - quien recibe la información, usualmente el cliente.
 
     .fullwidth-bg.fullwidth-bg--1
     .row.justify-content-center.align-items-center.z-2.mb-5
@@ -70,14 +68,14 @@
           span Interacción entre emisor y receptor
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema1/t1-2-mob.svg", alt="En la figura de interacción se detalla los componentes básicos que son: la disponibilidad, la finalidad, generación de conocimiento, ser confiable y precisa.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema1/t1-2.svg", alt="En la figura de interacción se detalla los componentes básicos que son: la disponibilidad, la finalidad, generación de conocimiento, ser confiable y precisa.")
-        figcaption <strong>Fuente:</strong> SENA, 2025
+        figcaption <strong>Nota.</strong> SENA, (2026).
 
     separador
     
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Tipos de información
 
-    p.mb-5 Existen diferentes tipos de información, los cuales se pueden clasificar desde diferentes perspectivas, según su: fuente, el objeto comunicacional, criterios de programación en sistemas, entre otros; sin embargo, la clasificación más referenciada a nivel empresarial es la asociada con la relación que existe entre quien la produce/publica (emisor) y los potenciales usuarios requirentes (receptores), esta clasificación se muestra a continuación:
+    p.mb-5 Existen diferentes tipos de información, los cuales se pueden clasificar desde diferentes perspectivas, según su: fuente, el objeto comunicacional, criterios de programación en sistemas, entre otros; sin embargo, la clasificación más referenciada a nivel empresarial es la asociada con la relación que existe entre quien la produce / publica (emisor) y los potenciales usuarios requirentes (receptores), esta clasificación se muestra a continuación:
 
     TabsA.color-primario.mb-5(data-aos="fade-down")
       .tarjeta.bg-color-primario-p1.p-4(titulo="Información confidencial")
@@ -111,7 +109,7 @@
               img.img140(src='@/assets/curso/tema1/t1-6.svg', alt='Texto que describa la imagen')
           .col-12.col-lg-9    
             h4 Información externa
-            p.mb-0 Es un tipo de información que ha sido creada para ser divulgada y consultada por personas/entes por fuera de la organización/entidad que la produjo. No obstante, quién construye la información define cuál debe ser su uso.
+            p.mb-0 Es un tipo de información que ha sido creada para ser divulgada y consultada por personas / entes por fuera de la organización/entidad que la produjo. No obstante, quién construye la información define cuál debe ser su uso.
       .tarjeta.bg-color-primario-p1.p-4(titulo="Información interna")
         .row.align-items-center.p-4
           .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
@@ -124,7 +122,7 @@
     .row
       .col-12.col-lg-6.bgr_4.p-4.p-lg-5(data-aos="fade-right")
         p La mala aplicación de los tipos de información puede llevar a las empresas a la desinformación a nivel digital; conocida como <em>fake news</em> (noticias falsas), son un riesgo latente para las organizaciones que generan y consumen información de forma constante.
-        p Muchas empresas implementan <b>políticas de buenas prácticas de sistemas de gestión</b>. Incluso, procesos de gestión documental para que la información que se origina en la empresa sea producida, usada y custodiada (guardada) bajo parámetros de calidad y confiabilidad.
+        p Muchas empresas implementan políticas de buenas prácticas de sistemas de gestión. Incluso, procesos de gestión documental para que la información que se origina en la empresa sea producida, usada y custodiada (guardada) bajo parámetros de calidad y confiabilidad.
       .col-12.col-lg-6.bgr_1(data-aos="fade-left")
         figure
           img.d-flex.d-lg-none.opacity-0(src='@/assets/curso/tema1/t1-8.png', alt='Texto que describa la imagen')

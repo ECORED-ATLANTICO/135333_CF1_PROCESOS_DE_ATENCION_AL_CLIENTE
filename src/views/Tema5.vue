@@ -9,9 +9,10 @@
     
     p.mb-5 Observe una visión general de este importante tema a través del siguiente video.
 
-    figure
-      .video.mb-4.mb-lg-5
+    figure.mb-5
+      .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/87fQFljT7OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption #[strong Video:] Seguridad y salud en el trabajo (SST)
  
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5
       .col-10.col-md-6.col-lg-3
@@ -70,7 +71,7 @@
           span Factores de riesgo
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema5/t5-2-mob.svg", alt="Los factores de riesgo son: mecánicos, químicos, eléctricos, físico-químicos, biológicos, públicos, psicosociales, ambientales, ergonómicos.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema5/t5-2.svg", alt="Los factores de riesgo son: mecánicos, químicos, eléctricos, físico-químicos, biológicos, públicos, psicosociales, ambientales, ergonómicos.")
-        figcaption <strong>Nota.</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
     
     .row.justify-center
       .col-12.col-xl-10(data-aos="zoom-in-down")
@@ -139,7 +140,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           span.text-bold Tabla tipo matriz de riesgo
         img.mb-2(data-aos="fade-up", src="@/assets/curso/tema5/t5-4.svg", alt="texto alternativo")
-        figcaption <strong>Nota.</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-auto

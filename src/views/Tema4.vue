@@ -95,7 +95,7 @@
           span Prestación servicio al cliente
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/4-mob.svg", alt="En la figura se detalla como es el proceso de atención al cliente, comercialización de productos y ventas de servicios.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/4.svg", alt="En la figura se detalla como es el proceso de atención al cliente, comercialización de productos y ventas de servicios.")
-        figcaption <strong>Nota.</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
 
     p.mb-5 En la cotidianidad se tienden a confundir los conceptos y consideramos que en las organizaciones el tema de servicio al cliente y atención al cliente es únicamente responsabilidad de los colaboradores de dicha área, pero esto es un gran error, consideremos la siguiente situación:
 
@@ -151,7 +151,7 @@
           span Protocolo de servicio al cliente
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/5-mob.svg", alt="El protocolo de servicio al cliente se detalla de la siguiente manera: - Título: protocolo para atención y servicio al cliente. - Definición: es la guía para que los colaboradores conozcan las directrices. Política: información y acompañamiento por parte de la organización en el proceso que soliciten. ")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/5.svg", alt="El protocolo de servicio al cliente se detalla de la siguiente manera: - Título: protocolo para atención y servicio al cliente. - Definición: es la guía para que los colaboradores conozcan las directrices. Política: información y acompañamiento por parte de la organización en el proceso que soliciten. ")
-        figcaption <strong>Nota.</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
 
     .row.justify-content-center.mb-6
       .col-xl-10
@@ -281,7 +281,7 @@
           span Triángulo del servicio
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/t4-31-mob.svg", alt="El triángulo del servicio está compuesto por la Compañía, los empleados y los clientes.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/t4-31.svg", alt="El triángulo del servicio está compuesto por la Compañía, los empleados y los clientes.")
-        figcaption <strong>Nota.</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
 
     .row.justify-content-center
       .col-xl-10
@@ -440,9 +440,10 @@
 
         p.mb-0 Reflexionemos sobre la siguiente situación:
 
-    figure
-      .video.mb-4.mb-lg-5
+    figure.mb-5
+      .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/6FGpkm6bEY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption #[strong Video:] Momentos de verdad
 
     .bg_grad-13.mb-5
       .row.justify-content-center

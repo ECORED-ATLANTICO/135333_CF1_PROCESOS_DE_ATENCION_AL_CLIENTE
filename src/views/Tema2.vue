@@ -9,9 +9,10 @@
     
     p.mb-3.mb-lg-5 Observe en el siguiente video cómo se define un cliente.
 
-    figure
-      .video.mb-4.mb-lg-5
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/O5WBU66GT5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-5
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/O5WBU66GT5s" title="Reconocimiento de clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption #[strong Video:] Reconocimiento de clientes
 
     p.mb-3.mb-lg-5 De acuerdo con lo anterior, se podrían resumir las expectativas mínimas que tienen los clientes con una empresa:
 
@@ -77,7 +78,7 @@
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 Usuario
-              p Es el agente que utiliza los productos intangibles de la empresa. Es decir, a aquellos productos/servicios que no tiene percepción física material.
+              p Es el agente que utiliza los productos intangibles de la empresa. Es decir, a aquellos productos / servicios que no tiene percepción física material.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema2/4.png', alt='Imagen de acompañamiento')
@@ -91,9 +92,10 @@
 
     p.mb-3.mb-lg-5 Seguramente algunos ejemplos nos ayudarán a comprender y diferenciar mejor estos conceptos, revíselos a continuación.
 
-    figure
-      .video.mb-4.mb-lg-5
+    figure.mb-5
+      .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/juLfCAPnHAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption #[strong Video:] Diferencias de cliente
 
     .row.mb-5
       .col-12.col-lg-3(data-aos="fade-right")
@@ -107,10 +109,10 @@
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
-          span Pirámide de Maslow.
+          span Pirámide de Maslow
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/t2-22-mob.svg", alt="En la figura se detalla la jerarquización de las necesidades humanas en cinco niveles, autorrealización, reconocimiento, afiliación y afecto, necesidades de seguridad y necesidades fisiológicas.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/t2-22.svg", alt="En la figura se detalla la jerarquización de las necesidades humanas en cinco niveles, autorrealización, reconocimiento, afiliación y afecto, necesidades de seguridad y necesidades fisiológicas.")
-        figcaption <strong>Nota.</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
       
     separador
 
@@ -146,13 +148,13 @@
         .cajon.color-terciario.p-4
           p.mb-0 #[strong Nota:] pueden existir más tipos de clasificación que tengan en cuenta otras características.
     
-    p.mb-5 Para un #[strong agente de atención al cliente] es importante identificar en qué clasificación está un cliente, dado que cada empresa tiene establecida su clasificación y tipología, según su visión corporativa. Por lo tanto, no hay un estándar sobre el criterio que prevalece para realizar la clasificación de un cliente. En el siguiente esquema se muestra la clasificación que se abordará en este componente.
+    p.mb-5 Para un agente de atención al cliente es importante identificar en qué clasificación está un cliente, dado que cada empresa tiene establecida su clasificación y tipología, según su visión corporativa. Por lo tanto, no hay un estándar sobre el criterio que prevalece para realizar la clasificación de un cliente. En el siguiente esquema se muestra la clasificación que se abordará en este componente.
 
 
     h4(data-aos='zoom-in-right').mb-4.mb-lg-5
       span.etiqueta-title Clientes según su alcance
 
-    p.mb-4.mb-lg-5 El alcance se  define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: Internos o Externos.
+    p.mb-4.mb-lg-5 El alcance se  define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: internos o externos.
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
       .col-md-8.col-lg-6.mb-4.mb-lg-0
@@ -207,7 +209,7 @@
               li.mb-4.d-flex 
                 .lista-ol--cuadro__vineta.lista-ol--cuadro__vineta--secundario
                   span 1
-                | Requieren del bien/ servicio que produce/ vende la empresa.
+                | Requieren del bien / servicio que produce/ vende la empresa.
               li.mb-4.d-flex 
                 .lista-ol--cuadro__vineta.lista-ol--cuadro__vineta--secundario
                   span 2
@@ -221,8 +223,8 @@
         .rounded-4.overflow-hidden.h-100
           .bgr_7.p-4.custom-mh
             p #[strong Como ejemplo, se plantea esta situación:]
-            p.mb-4 La empresa #[strong “Textiles La Doña Ltda.”] fundada en enero de 2021 tiene registrados en su sistema de información 200 clientes que han comprado alguna prenda en la empresa desde su creación, al realizar una exploración con los vendedores ellos informan que tienen 20 personas interesados en realizar compras, pero que, sin embargo, 12 de ellos no tienen trabajo, ni forma de adquirir los productos de la empresa.
-            p #[strong En este caso, se podría inferir que:] la empresa Textiles La Doña Ltda. tiene 200 clientes actuales y 8 clientes potenciales (son 8 porque recordemos que para ser potencial no solo se debe necesitar el producto, sino también tener recursos para adquirirlo).
+            p.mb-4 La empresa “Textiles La Doña Ltda.” fundada en enero de 2021 tiene registrados en su sistema de información 200 clientes que han comprado alguna prenda en la empresa desde su creación, al realizar una exploración con los vendedores ellos informan que tienen 20 personas interesados en realizar compras, pero que, sin embargo, 12 de ellos no tienen trabajo, ni forma de adquirir los productos de la empresa.
+            p En este caso, se podría inferir que: la empresa Textiles La Doña Ltda. tiene 200 clientes actuales y 8 clientes potenciales (son 8 porque recordemos que para ser potencial no solo se debe necesitar el producto, sino también tener recursos para adquirirlo).
 
     p.mb-5 Cabe mencionar, que varios estudios han concluido que para una empresa es más #[strong costo - eficiente], mantener sus clientes actuales que traer nuevos, debido al gran esfuerzo en términos de costo y tiempo que implica la adquisición de nuevos. Por ello, los clientes actuales también tienen su propia clasificación, con el fin de focalizar los esfuerzos de manera clara. Dicha clasificación se evidencia en el siguiente esquema.
 
@@ -233,7 +235,7 @@
           span Clasificaciones de los clientes actuales
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/9-mob.svg", alt="En la figura se detalla las clasificaciones de los clientes: según su vigencia, según su volumen de compra, según su frecuencia de compra y según su nivel de satisfacción.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/9.svg", alt="En la figura se detalla las clasificaciones de los clientes: según su vigencia, según su volumen de compra, según su frecuencia de compra y según su nivel de satisfacción.")
-        figcaption <strong>Nota.</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
     
     h4(data-aos='zoom-in-right').mb-4.mb-lg-5
       span.etiqueta-title Clientes según su vigencia
@@ -250,14 +252,14 @@
               h5 Clientes activos
               p.mb-4 Son aquellos que actualmente realizan compras a la empresa o las han realizado hace poco. 
               h5 Clientes inactivos
-              p.mb-0 Son aquellos que realizaron compras hace bastante tiempo y por tanto, ya no tienen relación comercial con la empresa, por lo que se infiere que están adquiriendo los productos con la competencia o que dejaron de utilizar el bien/ servicio.
+              p.mb-0 Son aquellos que realizaron compras hace bastante tiempo y por tanto, ya no tienen relación comercial con la empresa, por lo que se infiere que están adquiriendo los productos con la competencia o que dejaron de utilizar el bien / servicio.
             .d-none.d-lg-block.col-lg-2
               figure
                 img(data-aos="fade-down-right", src="@/assets/curso/tema2/12.png", alt="imagen de acompoñamiento")
         
         p.mb-4 #[strong Ejemplo]
         p.mb-4 #[strong Para mostrar estos conceptos de forma aplicada, se tiene la siguiente situación:]
-        La empresa #[strong “Seguros Locales S.A.”] dedicada a la venta de seguros todo riesgo para vehículos tiene registrados 8000 clientes en su base de datos, de ellos 6000 realizaron su compra al menos en los trece últimos meses.
+        p La empresa “Seguros Locales S.A.” dedicada a la venta de seguros todo riesgo para vehículos tiene registrados 8000 clientes en su base de datos, de ellos 6000 realizaron su compra al menos en los trece últimos meses.
     
     .fullwidth-bg.fullwidth-bg--4
     .row.justify-content-center.mb-4.mb-lg-5.z-2
@@ -393,7 +395,7 @@
                 figure
                   img.mb-4.mb-xl-0(data-aos="fade-down-right", src="@/assets/curso/tema2/t2-53.svg", alt="piramide de maslow")
               .col-xl-6
-                p.mb-0 El cliente grosero, suele sentir que tiene siempre la razón por lo que es bastante dominante, tiene mal carácter y mal humor, discute frecuentemente, tiende a ser ofensivo y/o agresivo. Puede llegar a ser irrespetuoso y desobligante. Suele defender lo que considera justo privilegiando su postura y olvida los intereses de los demás
+                p.mb-0 El cliente grosero, suele sentir que tiene siempre la razón por lo que es bastante dominante, tiene mal carácter y mal humor, discute frecuentemente, tiende a ser ofensivo y / o agresivo. Puede llegar a ser irrespetuoso y desobligante. Suele defender lo que considera justo privilegiando su postura y olvida los intereses de los demás
           .tarjeta.bgr_7.p-4.p-lg-5(titulo="Cliente Impulsivo")
             .row.justify-content-center.align-items-center
               .col-6.col-sm-4
@@ -426,7 +428,7 @@
       .py-4.py-md-5(titulo="Cliente informado")
         .row.justify-content-around.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            p.mb-4 El éxito con un cliente informado se da cuando se demuestra conocimiento técnico (en las características, beneficios y ventajas) del bien/ servicio sobre el cual se está teniendo la interacción), así como conocer en detalle las condiciones comerciales que aplican para la compra.
+            p.mb-4 El éxito con un cliente informado se da cuando se demuestra conocimiento técnico (en las características, beneficios y ventajas) del bien / servicio sobre el cual se está teniendo la interacción), así como conocer en detalle las condiciones comerciales que aplican para la compra.
             p Se debe mantener un diálogo basado en los argumentos y con la mayor cantidad de datos posible para no tener imprecisiones o cometer errores con el cliente.
           .col-6.col-md-4.col-lg-2
             figure
@@ -443,7 +445,7 @@
         .row.justify-content-around.align-items-center
           .col-lg-7.mb-4.mb-lg-0
             p.mb-4 El cliente minucioso es meticuloso, por ende, el tip consiste en la atención a los detalles, se debe mostrar seriedad, seguridad e interés.
-            p.mb-0 Dar un trato amable y respetuoso.
+            p.mb-4 Dar un trato amable y respetuoso.
             p Suministrar respuestas claras y con foco en el objetivo, es decir, dar respuestas precisas.
           .col-6.col-md-4.col-lg-2
             figure
@@ -451,9 +453,9 @@
       .py-4.py-md-5(titulo="Cliente desconfiado")
         .row.justify-content-around.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            p.mb-0 Lo opuesto a la desconfianza es la confianza, por tanto, eso es lo primero que se debe transmitir, por tanto, el agente de servicio, debe indicar nombres - apellidos, cargo y empresa a la que se está representando.
+            p.mb-4 Lo opuesto a la desconfianza es la confianza, por tanto, eso es lo primero que se debe transmitir, por tanto, el agente de servicio, debe indicar nombres - apellidos, cargo y empresa a la que se está representando.
             p.mb-4 Se debe siempre mostrar interés por el cliente, hacerle preguntas para que se sienta tenido en cuenta, no afirmar nada que no se puede evidenciar. 
-            p.mb-0 No mostrarse muy insistente, ni discutir.
+            p.mb-4 No mostrarse muy insistente, ni discutir.
             p Darle la razón al cliente siempre que la tenga, sin dejarse dominar, ya que esto también podrá generar desconfianza.
           .col-6.col-md-4.col-lg-2
             figure
@@ -461,8 +463,8 @@
       .py-4.py-md-5(titulo="Cliente hablador")
         .row.justify-content-around.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            p.mb-0 Lo primero es la cortesía, sin ser sobreactuado, es decir, ser amables, educados, pero manteniendo la distancia.
-            p.mb-0 Lo segundo, es tratar de mantener el control de una forma respetuosa, dado que en caso contrario el cliente hablador no permitirá que se desarrolle la interacción de forma adecuada.
+            p.mb-4 Lo primero es la cortesía, sin ser sobreactuado, es decir, ser amables, educados, pero manteniendo la distancia.
+            p.mb-4 Lo segundo, es tratar de mantener el control de una forma respetuosa, dado que en caso contrario el cliente hablador no permitirá que se desarrolle la interacción de forma adecuada.
             p Tercero, se debe siempre encaminar la conversación sobre el objetivo de la interacción, por tanto, se deben realizar preguntas enfocadas en la obtención de las respuestas necesarias, manteniendo el liderazgo de la conversación.
           .col-6.col-md-4.col-lg-2
             figure
@@ -488,9 +490,9 @@
           .col-8
             img.img120.mx-auto(src='@/assets/curso/tema2/30.svg' alt='AvatarTop')
         h5.text-center Cliente impulsivo
-        p.text-center El #[strong primer] paso con este tipo de clientes es identificar cuál es su necesidad.
-        p.text-center #[strong Segundo], con el cliente impulsivo se debe demostrar seguridad y se debe dar argumentos de forma rápida, clara y puntual para que el cliente no pierda el interés. No dar detalles que no han sido solicitados.
-        p.text-center #[strong Tercero], la variable tiempo es decisoria, por lo que suelen ser impacientes cuando percibe que los procesos no están desarrollándose con la oportunidad requerida, por ello en caso de tener inconvenientes, se debe informar y buscar alternativas que permitan resolver la situación.
+        p.text-center El primer paso con este tipo de clientes es identificar cuál es su necesidad.
+        p.text-center Segundo, con el cliente impulsivo se debe demostrar seguridad y se debe dar argumentos de forma rápida, clara y puntual para que el cliente no pierda el interés. No dar detalles que no han sido solicitados.
+        p.text-center Tercero, la variable tiempo es decisoria, por lo que suelen ser impacientes cuando percibe que los procesos no están desarrollándose con la oportunidad requerida, por ello en caso de tener inconvenientes, se debe informar y buscar alternativas que permitan resolver la situación.
       .tarjeta.bg-purple-card.p-4
         .row.justify-content-center.mb-3
           .col-8
