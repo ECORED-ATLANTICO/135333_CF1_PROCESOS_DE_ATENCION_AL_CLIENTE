@@ -135,7 +135,7 @@
           span Diferenciación entre óptima y deficiente servicio al cliente
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema4/t4-14-mob.svg", alt="Se detalla en la figura la óptima atención en servicio al cliente: solicitud de producto, acuerdo de entrega y pago de producto; y deficiente servicio al cliente: producto no procesado, producto no despachado y producto no entregado.")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema4/t4-14.svg", alt="Se detalla en la figura la óptima atención en servicio al cliente: solicitud de producto, acuerdo de entrega y pago de producto; y deficiente servicio al cliente: producto no procesado, producto no despachado y producto no entregado.")
-        figcaption <strong>Nota</strong> SENA, 2026.
+        figcaption <strong>Nota.</strong> SENA, (2026).
 
     .fullwidth-bg.fullwidth-bg--3
     .row.z-2

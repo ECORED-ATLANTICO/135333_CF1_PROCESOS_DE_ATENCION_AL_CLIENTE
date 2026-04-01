@@ -43,8 +43,8 @@
               img.mb-4.mg-lg-5(src="@/assets/curso/tema4/t4-38.svg")
             .col
               .row.justify-content-center.align-items-center
-                .col-lg-8.mb-3.mb-sm-0
-                  p.m-0 Para ampliar la información sobre los #[strong decretos que reglamentan y definen los alcances de los sistemas de gestión de Seguridad y salud en el trabajo] puede visitar el siguiente enlace. Allí se plantean de forma sencillas los objetivos y ventajas de este sistema
+                .col-lg-8.mb-3.mb-lg-0
+                  p.mb-0 Para ampliar la información sobre los #[strong decretos que reglamentan y definen los alcances de los sistemas de gestión de Seguridad y salud en el trabajo] puede visitar el siguiente enlace. Allí se plantean de forma sencillas los objetivos y ventajas de este sistema.
                 .col-sm-auto.p-lg-4
                   a.boton.bgr_3.me-3.text-white(href="https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/sistema-de-gestion-de-seguridad-y-salud-en-el-trabajo" target="_blank")
                     span Enlace
