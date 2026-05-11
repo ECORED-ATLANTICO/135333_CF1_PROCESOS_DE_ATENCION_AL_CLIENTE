@@ -102,7 +102,7 @@
         figure
           img.mb-3.mb-lg-0(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
       .col-12.col-lg-9(data-aos="fade-left")
-        p Hay un interrogante que es frecuente cuando se están analizando a los clientes, el cual es: #[strong ¿las necesidades de los clientes ya están creadas o se deben crear?], la respuesta es simple: las necesidades ya existen; por esto, las empresas crean o comercializan bienes o servicios, para satisfacer las necesidades de los clientes de la mejor posible.
+        p Hay un interrogante que es frecuente cuando se están analizando a los clientes, el cual es: #[strong ¿las necesidades de los clientes ya están creadas o se deben crear?], la respuesta es simple: las necesidades ya existen; por esto, las empresas crean o comercializan bienes o servicios, para satisfacer las necesidades de los clientes de la mejor manera posible.
         p.mb-0 Para dar mayor estructura a la premisa anterior, hacia 1943 Abraham Maslow, en su libro: Teoría de la Motivación Humana, formuló uno de los aportes más relevantes para la historia asociado al comportamiento humano, la #[strong pirámide de Maslow]. En ella se establece que todas las personas tienen diferentes niveles de necesidades y en la medida en que las más básicas se van cubriendo el ser humano propenderá por ir avanzando en la pirámide y alcanzar las siguientes. Para mayor entendimiento, se detalla a continuación la clasificación de las necesidades que se identifican en la pirámide de Maslow.
     
     .row.justify-content-center.align-items-center.z-2.mb-5
@@ -245,7 +245,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema2/11.png", alt="imagen de acompoñamiento")
       .col-lg-9
-        p La vigencia implica identificar los clientes que generan ingresos (entradas de dinero a la compañía), en este sentido se identifican dos tipos de clientes, loa activos y los inactivos.
+        p La vigencia implica identificar los clientes que generan ingresos (entradas de dinero a la compañía), en este sentido se identifican dos tipos de clientes, los activos y los inactivos.
         .p-4.rounded.bgr_2.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-10
@@ -295,7 +295,7 @@
     h4(data-aos='zoom-in-right').mb-4.mb-lg-5.z-2
       span.etiqueta-title Clientes según su frecuencia de compra
 
-    p.mb-4.mb-lg-5 La frecuencia hace relación al cada cuanto, en este orden de ideas, se mide en número de veces en un periodo de tiempo.
+    p.mb-4.mb-lg-5 La frecuencia hace relación a cada cuanto, en este orden de ideas, se mide en número de veces en un periodo de tiempo.
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
       .col-md-8.col-lg-6.mb-4.mb-lg-0

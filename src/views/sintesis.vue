@@ -10,9 +10,9 @@
         p.mb-0 Con el estudio del presente componente de formación se apropia conocimientos con el reconocimiento del cliente donde se identifican los aspectos más relevantes para la atención en los temas de clasificación, tipología, inclusión, normativa, servicio al cliente y seguridad y salud en el trabajo. En esencia comprender al cliente en lo que requieren, que los motiva, que necesitan, como identificar sus necesidades y lo que les molesta para crear una fidelización al servicio o producto que se ofrezca.
     
     .row.justify-content-center
-      .col-auto.mb-5
+      .col-12
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="En el componente se detalla el reconocimiento de clientes, información, cliente, inclusión, servicio al cliente, seguridad y salud del trabajo.")
+          img.mb-5(src="@/assets/curso/sintesis.svg", alt="En el componente se detalla el reconocimiento de clientes, información, cliente, inclusión, servicio al cliente, seguridad y salud del trabajo.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

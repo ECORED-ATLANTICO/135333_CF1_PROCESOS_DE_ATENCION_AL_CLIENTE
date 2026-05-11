@@ -366,8 +366,8 @@ export default {
 
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Animador y productor audiovisual ',
-          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Zuleidy María Ruíz Torres',

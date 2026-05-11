@@ -75,7 +75,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Tipos de información
 
-    p.mb-5 Existen diferentes tipos de información, los cuales se pueden clasificar desde diferentes perspectivas, según su: fuente, el objeto comunicacional, criterios de programación en sistemas, entre otros; sin embargo, la clasificación más referenciada a nivel empresarial es la asociada con la relación que existe entre quien la produce / publica (emisor) y los potenciales usuarios requirentes (receptores), esta clasificación se muestra a continuación:
+    p.mb-5 Existen diferentes tipos de información, los cuales se pueden clasificar desde diferentes perspectivas, según su fuente, el objeto comunicacional, criterios de programación en sistemas, entre otros; sin embargo, la clasificación más referenciada a nivel empresarial es la asociada con la relación que existe entre quien la produce / publica (emisor) y los potenciales usuarios requirentes (receptores), esta clasificación se muestra a continuación:
 
     TabsA.color-primario.mb-5(data-aos="fade-down")
       .tarjeta.bg-color-primario-p1.p-4(titulo="Información confidencial")
