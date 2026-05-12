@@ -48,7 +48,7 @@
 
     .row.justify-content-center.align-items-center(data-aos="fade-up").mb-4.mb-lg-5
       .col-lg-10
-        p.mb-4 En la tabla anterior se observa la relación entre ambos conceptos. Por una parte se cuentan con cuatro datos, tres de ellos cuantitativos ($200.000, 16 y 12) y uno de ellos cualitativo (Servicial). En este sentido, el usuario de la información solo tiene esa visualización sin mayor contexto. Cuando se toman estos datos y se les da un alcance o se asocian a una situación se identifica la importancia de cada dato y se pasa ahora a hacer mención de información.
+        p.mb-4 En la tabla anterior está la relación entre ambos conceptos. Por una parte, se cuentan con cuatro datos, tres de ellos cuantitativos ($200.000, 16 y 12) y uno de ellos cualitativo (Servicial). En este sentido, el usuario de la información solo tiene esa visualización sin mayor contexto. Cuando se toman estos datos y se les da un alcance o se asocian a una situación se identifica la importancia de cada dato y se pasa ahora a hacer mención de información.
 
 
         .bloque-texto-g.bloque-texto-g--inverso.color-secundario-s2.p-3.p-sm-4.p-md-5.z-2
@@ -75,7 +75,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Tipos de información
 
-    p.mb-5 Existen diferentes tipos de información, los cuales se pueden clasificar desde diferentes perspectivas, según su fuente, el objeto comunicacional, criterios de programación en sistemas, entre otros; sin embargo, la clasificación más referenciada a nivel empresarial es la asociada con la relación que existe entre quien la produce / publica (emisor) y los potenciales usuarios requirentes (receptores), esta clasificación se muestra a continuación:
+    p.mb-5 Existen diferentes tipos de información, los cuales se pueden clasificar desde diferentes perspectivas, según su fuente, el objeto comunicacional, criterios de programación en sistemas, entre otros; sin embargo, la clasificación más referenciada a nivel empresarial es la asociada con la relación que existe entre quien la produce / publica (emisor) y los potenciales usuarios requirentes (receptores), esta clasificación se evidencia a continuación:
 
     TabsA.color-primario.mb-5(data-aos="fade-down")
       .tarjeta.bg-color-primario-p1.p-4(titulo="Información confidencial")

@@ -7,7 +7,7 @@
         span 5
       h1 Seguridad y salud en el trabajo (SST) 
     
-    p.mb-5 Observe una visión general de este importante tema a través del siguiente video.
+    p.mb-5 A continuación, una visión general de este importante tema a través del siguiente video.
 
     figure.mb-5
       .video.mb-2
@@ -44,7 +44,7 @@
             .col
               .row.justify-content-center.align-items-center
                 .col-lg-8.mb-3.mb-lg-0
-                  p.mb-0 Para ampliar la información sobre los #[strong decretos que reglamentan y definen los alcances de los sistemas de gestión de Seguridad y salud en el trabajo] puede visitar el siguiente enlace. Allí se plantean de forma sencillas los objetivos y ventajas de este sistema.
+                  p.mb-0 Para ampliar la información sobre los #[strong decretos que reglamentan y definen los alcances de los Sistemas de Gestión de Seguridad y Salud en el Trabajo] puede visitar el siguiente enlace. Allí se plantean de forma sencilla los objetivos y ventajas de este sistema.
                 .col-sm-auto.p-lg-4
                   a.boton.bgr_3.me-3.text-white(href="https://www.mintrabajo.gov.co/relaciones-laborales/riesgos-laborales/sistema-de-gestion-de-seguridad-y-salud-en-el-trabajo" target="_blank")
                     span Enlace
@@ -76,29 +76,35 @@
     .row.justify-center
       .col-12.col-xl-10(data-aos="zoom-in-down")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          .row(titulo="Peligros físicos")
+          .row(titulo="Riesgos mecánicos/locativos")
             .col-md-12.px-5
-              p Es una sensación auditiva generalmente desagradable. Cuando oímos un ruido, primero lo escuchamos a través del oído externo, luego la onda es recibida por el oído medio, que es donde se encuentra el tímpano. Posteriormente, la señal pasa por una cadena de huesecillos y es recibida por el cerebro a través de las células ciliadas. Cuando el ruido es muy fuerte, las células ciliadas se activan y se corre el riesgo de perder la audición. Debemos protegernos con todas las medidas de seguridad posibles, los tipos de ruido pueden ser de impacto, intermitentes y continuos. Las vibraciones pueden ser segmentarias o de todo el cuerpo dependiendo de la herramienta utilizada, pueden afectar a la columna vertebral, al sistema digestivo, e incluso provocar dolores de cabeza. Los reflejos, las sombras, la fatiga y el deslumbramiento son factores producidos por la iluminación, que pueden ser visibles y causar lesiones por deficiencia o exceso. Estos elementos pueden provocar un accidente, por lo que es necesario controlar el tipo de lámparas y respetar los niveles de luz adecuados.
-              p.mb-0 La temperatura y la humedad del ambiente si son excesivamente altas o bajas pueden producir efectos adversos en las personas. Los valores ideales en el trabajo son 21 °C y 50% de humedad. Las radiaciones ionizantes son ondas electromagnéticas que alteran el estado físico sin ser percibidas en el ambiente, se conocen como rayos X, gamma, beta y alfa. Los efectos son graves a largo plazo, por eso es necesario limitar las ondas y tener un control médico. Y las radiaciones no ionizantes, como el láser, los rayos UV, los infrarrojos, la radioterapia o las microondas, también requieren un control. La presión atmosférica, que puede ser ajustada o normal.
+              p Condiciones inseguras de instalaciones, falta de señalización, superficies de trabajo defectuosas, o manejo de maquinaria sin protección.
           .row(titulo="Riesgos químicos")
             .col-md-12.px-5
               p Se producen por procesos químicos y por el medio ambiente. Ejemplos claros son los polvos (orgánicos e inorgánicos), las fibras, los líquidos (nieblas o aerosoles), los gases o vapores, los humos metálicos o no metálicos y las partículas. Enfermedades como las alergias, la asfixia o los virus se producen por inhalación, absorción o ingestión. Debemos protegernos con mascarillas, guantes y delimitar la zona de trabajo.
+          .row(titulo="Riesgos eléctricos")
+            .col-md-12.px-5
+              p Los factores de riesgo eléctrico en salud ocupacional incluyen el contacto directo/indirecto con partes energizadas, equipos defectuosos, falta de mantenimiento, arcos eléctricos y sobrecargas.
+          .row(titulo="Riesgos físicos")
+            .col-md-12.px-5
+              p Es una sensación auditiva generalmente desagradable. Cuando oímos un ruido, primero lo escuchamos a través del oído externo, luego la onda es recibida por el oído medio, que es donde se encuentra el tímpano. Posteriormente, la señal pasa por una cadena de huesecillos y es recibida por el cerebro a través de las células ciliadas. Cuando el ruido es muy fuerte, las células ciliadas se activan y se corre el riesgo de perder la audición. Debemos protegernos con todas las medidas de seguridad posibles, los tipos de ruido pueden ser de impacto, intermitentes y continuos. Las vibraciones pueden ser segmentarias o de todo el cuerpo dependiendo de la herramienta utilizada, pueden afectar a la columna vertebral, al sistema digestivo, e incluso provocar dolores de cabeza. Los reflejos, las sombras, la fatiga y el deslumbramiento son factores producidos por la iluminación, que pueden ser visibles y causar lesiones por deficiencia o exceso. Estos elementos pueden provocar un accidente, por lo que es necesario controlar el tipo de lámparas y respetar los niveles de luz adecuados.
+              p.mb-0 La temperatura y la humedad del ambiente si son excesivamente altas o bajas pueden producir efectos adversos en las personas. Los valores ideales en el trabajo son 21 °C y 50 % de humedad. Las radiaciones ionizantes son ondas electromagnéticas que alteran el estado físico sin ser percibidas en el ambiente, se conocen como rayos X, gamma, beta y alfa. Los efectos son graves a largo plazo, por eso es necesario limitar las ondas y tener un control médico. Y las radiaciones no ionizantes, como el láser, los rayos UV, los infrarrojos, la radioterapia o las microondas, también requieren un control. La presión atmosférica, que puede ser ajustada o normal.
           .row(titulo="Riesgos biológicos")
             .col-md-12.px-5
               p Las enfermedades causadas por virus, bacterias, hongos, parásitos, picaduras, mordeduras, raquitismo y diversos fluidos corporales se deben al contacto con todo tipo de seres vivos o plantas, a través de la sangre, la orina, las heces, el pelo y la leche. Para evitarlos, se recomienda llevar un control de las vacunas y, sobre todo, protegerse con el equipo adecuado.
-          .row(titulo="Riesgos ergonómicos")
+          .row(titulo="Riesgos públicos")
             .col-md-12.px-5
-              p La ergonomía es la ciencia que busca la adaptación integral al puesto de trabajo y al hombre. Los principales factores de riesgo ergonómico son: las posturas inadecuadas, que pueden ser prolongadas, mantenidas, forzadas o antigravitatorias; el levantamiento de pesos, los movimientos repetitivos. Pueden provocar daños físicos y molestias.
-              p.mb-0 Este tipo de riesgo ofrece cifras relativamente altas, ocupando el 60% de las enfermedades en los puestos de trabajo y el 25% se deben a la manipulación de golpes. Al levantar pesos, la espalda debe estar completamente recta y las rodillas dobladas. Si se trata de un trabajo físico, hay que estirar los músculos y las articulaciones antes de empezar para evitar futuras lesiones. Hay que utilizar métodos seguros en todo momento.
+              p Son situaciones del entorno, violencia o delincuencia que amenazan la integridad física y la vida de los trabajadores en el espacio público. Incluyen robos, atracos, secuestros, atentados, asonadas, manifestaciones y accidentes de tránsito.
           .row(titulo="Riesgos psicosociales")
             .col-md-12.px-5
-              p Este riesgo depende de la gestión organizativa, de las características del trabajo y de las características del grupo social, es realmente importante identificar, evaluar e intervenir en todos los aspectos socio-demográficos del empleado: recursos humanos: estilo de dirección, pagos, contratación, aspectos extra-laborales: amigos, tiempo libre, familia, individuales: personalidad, absentismo, edad, antecedentes, etc, algunas manifestaciones pueden ser: estrés, fatiga, monotonía, para prevenirlas es recomendable un compromiso por parte de la dirección para la priorización de los hallazgos. La estabilidad y un buen ambiente nos ayudará a disminuir estos riesgos.
-          .row(titulo="Condiciones de seguridad")
-            .col-md-12.px-5
-              p La clasificación para este tipo de riesgo con mecánica como elementos o parte de máquinas, herramientas, equipos, piezas y materiales proyectados; eléctrica de alta o baja presión o estática; locativa como superficies de trabajo, condiciones de orden y limpieza y caída de objetos. Estos tipos de riesgos se reflejan en trabajos en altura, superficies inseguras, mal uso de herramientas, equipos defectuosos. Debemos asegurarnos siempre de revisar la maquinaria en la que trabajamos para evitar posibles incidentes.
+              p Este riesgo depende de la gestión organizativa, de las características del trabajo y de las características del grupo social, es realmente importante identificar, evaluar e intervenir en todos los aspectos socio-demográficos del empleado: recursos humanos: estilo de dirección, pagos, contratación, aspectos extralaborales: amigos, tiempo libre, familia, individuales: personalidad, absentismo, edad, antecedentes, etc., algunas manifestaciones pueden ser: estrés, fatiga, monotonía, para prevenirlas es recomendable un compromiso por parte de la dirección para la priorización de los hallazgos. La estabilidad y un buen ambiente nos ayudará a disminuir estos riesgos.
           .row(titulo="Riesgos ambientales")
             .col-md-12.px-5
               p Son los únicos factores que no podemos controlar. Se manifiestan en la naturaleza lluvias, tormentas, inundaciones, desprendimientos, precipitaciones. Debemos ser previsores y prudentes.
+          .row(titulo="Riesgos ergonómicos")
+            .col-md-12.px-5
+              p La ergonomía es la ciencia que busca la adaptación integral al puesto de trabajo y al hombre. Los principales factores de riesgo ergonómico son: las posturas inadecuadas, que pueden ser prolongadas, mantenidas, forzadas o antigravitatorias; el levantamiento de pesos, los movimientos repetitivos. Pueden provocar daños físicos y molestias.
+              p.mb-0 Este tipo de riesgo ofrece cifras relativamente altas, ocupando el 60% de las enfermedades en los puestos de trabajo y el 25 % se deben a la manipulación de golpes. Al levantar pesos, la espalda debe estar completamente recta y las rodillas dobladas. Si se trata de un trabajo físico, hay que estirar los músculos y las articulaciones antes de empezar para evitar futuras lesiones. Hay que utilizar métodos seguros en todo momento.
     
 
     .fullwidth-bg.fullwidth-bg--3
@@ -138,9 +144,10 @@
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col
         .titulo-sexto.color-acento-contenido.mb-4
-          span.text-bold Tabla tipo matriz de riesgo
-        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema5/t5-4.svg", alt="texto alternativo")
-        figcaption <strong>Nota.</strong> SENA, (2026).
+          h5 Figura 9.
+          span Tabla tipo matriz de identificación de peligros
+        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema5/t5-4.svg", alt="El ejemplo de matriz de identificación de peligros se relaciona: Clasificación, efectos posibles, controles existentes, evaluación del riesgo, medidas de control y riesgo residual.")
+        figcaption Nota. SENA, (2026).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-auto
@@ -156,7 +163,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col-lg-8.mb-3.mb-sm-0
-              h4 Descargue el ejemplo de Matriz de identificación de peligros.  
+              h4 Descargue el ejemplo de TABLA_TIPO_MATRIZ_DE_IDENTIFICACIÓN_DE_PELIGROS que se encuentra en la carpeta Anexos.
             .col-sm-auto.p-lg-4
               a.boton.bgr_3.me-3.text-white(:href="obtenerLink('downloads/FORMATO_MATRIZ_DE_IDENTIFICACIÓN_DE_PELIGROS.xlsx')" target="_blank")
                   span Enlace

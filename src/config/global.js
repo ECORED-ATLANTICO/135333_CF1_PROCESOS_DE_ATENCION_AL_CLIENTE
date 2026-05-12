@@ -146,11 +146,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -222,67 +217,6 @@ export default {
         'Asignación monetaria que da un cliente a un producto en función de la necesidad que satisface o de la usabilidad que representa.',
     },
   ],
-  complementario: [
-    {
-      tema: '2. Cliente',
-      referencia: 'Quiroa, M. (2021). <i>Concepto Cliente Economipedia</i>.',
-      tipo: 'Diccionario en línea',
-      link: 'https://economipedia.com/definiciones/cliente.html',
-    },
-    {
-      tema: '3. Inclusión',
-      referencia:
-        'Cisternas, M. (2018). <i>Inclusión social, económica y política de las personas mayores</i>. Comisión Económica para América Latina el Caribe.',
-      tipo: 'Artículo',
-      link:
-        'https://www.cepal.org/es/enfoques/inclusion-social-economica-politica-personas-mayores',
-    },
-    {
-      tema: '3. Inclusión.',
-      referencia:
-        'Clark, H. (2020). <i>Resumen del informe de seguimiento de la educación en el mundo. Inclusión y Educación, todos sin excepción</i>.',
-      tipo: 'Informe',
-      link:
-        'https://gem-report-2020.unesco.org/wp-content/uploads/2020/06/GEMR_2020-Summary-ES-v8.pdf',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia: 'UNESCO. (2020). <i>Liderar el ODS 4 - Educación 2030</i>.',
-      tipo: 'Artículo',
-      link: 'https://www.un.org/sustainabledevelopment/es/',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia:
-        '<i>Plan Nacional de Desarrollo: Pacto por Colombia, Pacto por la Equidad</i>. (2018). Presidencia de la República de Colombia',
-      tipo: 'Plan Nacional de Desarrollo',
-      link:
-        'https://colaboracion.dnp.gov.co/CDT/Prensa/Resumen-PND2018-2022-final.pdf',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia:
-        '<i>Ley 1098 de 2006. Código de Infancia y Adolescencia</i>. (2006, noviembre 8). Congreso de la República de Colombia.',
-      tipo: 'Ley',
-      link:
-        'https://www.oas.org/dil/esp/codigo_de_la_infancia_y_la_adolescencia_colombia.pdf',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia:
-        '<i>Constitución Política de Colombia</i>. (1991, 04 de julio). Congreso de la República de Colombia.',
-      tipo: 'Ley',
-      link: 'https://pdba.georgetown.edu/Constitutions/Colombia/colombia91.pdf',
-    },
-    {
-      tema: '3.2 Normativa',
-      referencia:
-        '<i>Norma Técnica Colombiana 6047</i>. (2013, 11 de diciembre). Accesibilidad al medio físico. Espacios de servicio al ciudadano en la Administración Pública. Requisitos. Instituto Colombiano de Normas Técnicas y Certificación -ICONTEC-.',
-      tipo: 'Norma Técnica',
-      link:
-        'https://colaboracion.dnp.gov.co/CDT/Programa%20Nacional%20del%20Servicio%20al%20Ciudadano/NTC6047.pdf',
-    },
-  ],
   referencias: [
     {
       referencia:
@@ -317,8 +251,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Miguel de Jesús Paredes Maestre ',
-          cargo: 'Responsable de línea de producción',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de la línea de producción',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -348,22 +282,67 @@ export default {
           cargo: 'Instructor, especialista técnico en inclusión',
           centro: 'Centro de Comercio Regional - Antioquia',
         },
+        {
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y Los Servicios - CIES Regional - Norte de Santander',
+        },
+        {
+          nombre: 'Alex Baudelino García Gómez',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y Los Servicios - CIES Regional - Norte de Santander',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor metodológico',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Paticia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+        },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carmen Alicia Martínez Torres ',
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Leyson Fabian Castaño Perez',
+          cargo: 'Soporte organizacional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Diseñador web',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Yuly Rey',
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
           nombre: 'Fabio Fonseca Arguelles',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
-
+        {
+          nombre: 'Carlos Andrés Díaz Pinto',
+          cargo: 'Desarrollo Front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
         {
           nombre: 'Nelson Iván Vera Briceño',
           cargo: 'Animador y productor audiovisual',
@@ -404,9 +383,20 @@ export default {
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
+        {
+          nombre: 'Erika Viviana Sandoval Rojas',
+          cargo: 'Validación Ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Yuli Marcela Gómez Tarazona',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
       ],
     },
-
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [

@@ -7,7 +7,7 @@
         span 2
       h1 Cliente
     
-    p.mb-3.mb-lg-5 Observe en el siguiente video cómo se define un cliente.
+    p.mb-3.mb-lg-5 Se detalla en el siguiente video cómo se define un cliente.
 
     figure.mb-5
       .video.mb-2
@@ -90,7 +90,7 @@
               figure
                 img(src='@/assets/curso/tema2/5.png', alt='Imagen de acompañamiento')
 
-    p.mb-3.mb-lg-5 Seguramente algunos ejemplos nos ayudarán a comprender y diferenciar mejor estos conceptos, revíselos a continuación.
+    p.mb-3.mb-lg-5 Seguramente algunos ejemplos nos ayudarán a comprender y diferenciar mejor estos conceptos en el video diferencias de cliente.
 
     figure.mb-5
       .video.mb-2
@@ -148,13 +148,13 @@
         .cajon.color-terciario.p-4
           p.mb-0 #[strong Nota:] pueden existir más tipos de clasificación que tengan en cuenta otras características.
     
-    p.mb-5 Para un agente de atención al cliente es importante identificar en qué clasificación está un cliente, dado que cada empresa tiene establecida su clasificación y tipología, según su visión corporativa. Por lo tanto, no hay un estándar sobre el criterio que prevalece para realizar la clasificación de un cliente. En el siguiente esquema se muestra la clasificación que se abordará en este componente.
+    p.mb-5 Para un agente de atención al cliente es importante identificar en qué clasificación está un cliente, dado que cada empresa tiene establecida su clasificación y tipología, según su visión corporativa. Por lo tanto, no hay un estándar sobre el criterio que prevalece para realizar la clasificación de un cliente.
 
 
     h4(data-aos='zoom-in-right').mb-4.mb-lg-5
       span.etiqueta-title Clientes según su alcance
 
-    p.mb-4.mb-lg-5 El alcance se  define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: internos o externos.
+    p.mb-4.mb-lg-5 El alcance se define como la cercanía y nivel de relación que tiene la empresa con ellos. En este sentido, según su alcance, pueden ser: internos o externos.
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
       .col-md-8.col-lg-6.mb-4.mb-lg-0
@@ -175,7 +175,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-7
         p #[strong Con este ejemplo se clarifican mejor estos conceptos:]
-        p.mb-4 La empresa “El Buen Vivir S.A.S.” es una hostería dedicada a prestar servicios de alojamiento y es propiedad de la Familia Jaramillo Rojas, actualmente cuenta con 10 empleados y el fin de semana pasada recibió 30 huéspedes.
+        p.mb-4 La empresa “El Buen Vivir S.A.S.” es una hostería dedicada a prestar servicios de alojamiento y es propiedad de la familia Jaramillo Rojas, actualmente cuenta con 10 empleados y el fin de semana pasada recibió 30 huéspedes.
         p Para esta situación se puede afirmar que:
         ol.lista-ol--cuadro
           li.d-flex 
@@ -395,7 +395,7 @@
                 figure
                   img.mb-4.mb-xl-0(data-aos="fade-down-right", src="@/assets/curso/tema2/t2-53.svg", alt="piramide de maslow")
               .col-xl-6
-                p.mb-0 El cliente grosero, suele sentir que tiene siempre la razón por lo que es bastante dominante, tiene mal carácter y mal humor, discute frecuentemente, tiende a ser ofensivo y / o agresivo. Puede llegar a ser irrespetuoso y desobligante. Suele defender lo que considera justo privilegiando su postura y olvida los intereses de los demás
+                p.mb-0 El cliente grosero, suele sentir que tiene siempre la razón por lo que es bastante dominante, tiene mal carácter y mal humor, discute frecuentemente, tiende a ser ofensivo y / o agresivo. Puede llegar a ser irrespetuoso y desobligante. Suele defender lo que considera justo privilegiando su postura y olvida los intereses de los demás.
           .tarjeta.bgr_7.p-4.p-lg-5(titulo="Cliente Impulsivo")
             .row.justify-content-center.align-items-center
               .col-6.col-sm-4
@@ -418,8 +418,7 @@
               .col-xl-6
                 p.mb-0 El cliente silencioso es una persona tímida y generalmente analítica. Escucha con detenimiento, aunque no pregunta mucho, es difícil interpretar por parte del interlocutor porque no se sabe realmente qué está pensando y cuál es su postura frente a lo que se le está explicando.
     
-    p.mb-3 En cuanto al manejo de los clientes, hay que entender que son seres humanos y su personalidad, emociones, preceptos e ideologías también se verán reflejadas en sus interacciones comerciales. En este orden de ideas, lo primero que un agente de atención al cliente debe realizar es identificar con qué tipo de cliente está tratando; después de identificarlo se deben aplicar las pautas para el manejo de clientes.
-    p.mb-5 En el siguiente esquema, se detallan algunas recomendaciones para cada una de las tipologías de cliente que se mencionó antes.
+    p.mb-5 En cuanto al manejo de los clientes, hay que entender que son seres humanos y su personalidad, emociones, preceptos e ideologías también se verán reflejadas en sus interacciones comerciales. En este orden de ideas, lo primero que un agente de atención al cliente debe realizar es identificar con qué tipo de cliente está tratando; después de identificarlo se deben aplicar las pautas para el manejo de clientes.
 
     h4(data-aos='zoom-in-right').mb-4.mb-lg-5.z-2
       span.etiqueta-title Manejo del cliente, según su tipo
@@ -453,7 +452,7 @@
       .py-4.py-md-5(titulo="Cliente desconfiado")
         .row.justify-content-around.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            p.mb-4 Lo opuesto a la desconfianza es la confianza, por tanto, eso es lo primero que se debe transmitir, por tanto, el agente de servicio, debe indicar nombres - apellidos, cargo y empresa a la que se está representando.
+            p.mb-4 Lo opuesto a la desconfianza es la confianza, por tanto, eso es lo primero que se debe transmitir, por tanto, el agente de servicio, debe indicar nombres- apellidos, cargo y empresa a la que se está representando.
             p.mb-4 Se debe siempre mostrar interés por el cliente, hacerle preguntas para que se sienta tenido en cuenta, no afirmar nada que no se puede evidenciar. 
             p.mb-4 No mostrarse muy insistente, ni discutir.
             p Darle la razón al cliente siempre que la tenga, sin dejarse dominar, ya que esto también podrá generar desconfianza.

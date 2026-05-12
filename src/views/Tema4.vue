@@ -62,7 +62,7 @@
     .fullwidth-bg.fullwidth-bg--3
     .row.justify-content-center.align-items-center.z-2
       .col-lg-8
-        p El servicio al cliente es la interacción entre el comprador de un producto y la empresa que lo vende. Un buen servicio de atención al cliente es fundamental para el éxito de la empresa, ya que garantiza la fidelidad a la marca de un cliente a otro. Las innovaciones recientes se han centrado en la automatización de los sistemas de atención al cliente, pero el elemento humano es, en algunos casos, indispensable. La política de inclusión en el servicio al cliente crea un ambiente diverso ofreciendo mayores oportunidades a sus colaboradores y genera oportunidades de mejora la vida laboral.
+        p El servicio al cliente es la interacción entre el comprador de un producto y la empresa que lo vende. Un buen servicio de atención al cliente es fundamental para el éxito de la empresa, ya que garantiza la fidelidad a la marca de un cliente a otro. Las innovaciones recientes se han centrado en la automatización de los sistemas de atención al cliente, pero el elemento humano es, en algunos casos, indispensable. La política de inclusión en el servicio al cliente crea un ambiente diverso ofreciendo mayores oportunidades a sus colaboradores y genera oportunidades de mejorar la vida laboral.
       .col-10.col-md-6.col-lg-2
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/2.png", alt="imagen de acompañamiento")
@@ -103,19 +103,19 @@
       LineaTiempoC.color-acento-botones(text-small)
         div(titulo="1")
           figure.p-4
-            img(src='@/assets/curso/tema4/t4-8.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/t4-8.svg', alt='Eloisa: visita una tienda de ropa, busca un traje de fiesta para un evento familiar, que será en 15 días.Fue atendida por Ross quien la asesoró en la prenda realizó el proceso de venta.')
         div(titulo="2")
           figure.p-4
-            img(src='@/assets/curso/tema4/t4-9.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/t4-9.svg', alt='Eloisa: necesito la entrega en 15 días... Rosa: por su puesto, es parte de nuestro servicio.')
         div(titulo="3")
           figure.p-4
-            img(src='@/assets/curso/tema4/t4-10.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/t4-10.svg', alt='Al pasar a diseño sufre retrasos, porque los accesorios se agotaron y no hay disponibles en el mercado. El producto no puede ser entregado en los tiempos solicitados por Eloisa.')
         div(titulo="4")
           figure.p-4
-            img(src='@/assets/curso/tema4/t4-11.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/t4-11.svg', alt='Cuando se llega el momento de hacer la entrega, Eloisa no va a recibir su pedido, la empresa se comunica con ella y le explica la situación presentada y refiere que no puede atender su pedido solo hasta 10 días después del compromiso inicial de entrega.')
         div(titulo="5")
           figure.p-4
-            img(src='@/assets/curso/tema4/t4-12.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema4/t4-12.svg', alt='Realicé una atención cordial, amable y atenta. Atiende su requerimiento y cerré la venta del producto con el compromiso de entrega según el protocolo establecido. No va a recibir su pedido. Se puede atender su pedido solo hasta 10 días después del compromiso inicial de entrega.')
 
     .bg_grad-10.mb-5
       .row.justify-center
@@ -125,7 +125,7 @@
         .col-12.col-lg-7.col-xl-7.align-items-center
           div.p-5
             h5 ¿El contexto que se presenta es falla de atención al cliente o una falla de servicio al cliente?
-            p.mb-0 Estamos frente a un contexto de falla de servicio al cliente, ya que la atención al cliente que prestó Ross fue el adecuado y dio cumplimiento al protocolo establecido para ello. Ahora hablar de servicio al cliente con calidad involucra el servicio y la atención, ya que para pfrecer una excelente atención es preciso de quienes tienen contacto con el cliente, deben tener habilidades de empatía, asertividad y comunicación, así como tener una mirada integral de la organización y específicamente del servicio.
+            p.mb-0 Estamos frente a un contexto de falla de servicio al cliente, ya que la atención al cliente que prestó Ross fue el adecuado y dio cumplimiento al protocolo establecido para ello. Ahora hablar de servicio al cliente con calidad involucra el servicio y la atención, ya que para ofrecer una excelente atención es preciso de quienes tienen contacto con el cliente, deben tener habilidades de empatía, asertividad y comunicación, así como tener una mirada integral de la organización y específicamente del servicio.
 
 
     .row.justify-content-center.align-items-center.z-2.mb-5
@@ -272,7 +272,7 @@
           img.mb-4.mb-lg-0(src='@/assets/curso/tema4/t4-30.png', alt='Texto que describa la imagen')
       .col-12.col-lg-8(data-aos="fade-left")
         p Como sabemos, las relaciones son muy importantes en el sector de los servicios. El triángulo de los servicios describe todas las relaciones que existen entre la empresa, los empleados y los clientes. Además, también destaca la importancia de los sistemas en un sector de servicios y cómo estos sistemas ayudan a conseguir la satisfacción del cliente.
-        p.mb-0 El triángulo del servicio puede utilizarse también para comercializar el servicio entre los consumidores. Depende completamente de la interacción que se produce entre el cliente y el proveedor de servicios. Veremos cada una de estas interacciones en detalle y también leeremos cómo comercializar con el cliente en función de la interacción.
+        p.mb-0 El triángulo del servicio puede utilizarse también para comercializar el servicio entre los consumidores. Depende completamente de la interacción que se produce entre el cliente y el proveedor de servicios. Se explica cada una de estas interacciones en detalle y también el cómo comercializar con el cliente en función de la interacción.
 
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
@@ -407,7 +407,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg-8.mb-3.mb-sm-0
                   h5 Canales de atención al cliente
-                  p.mb-0 Medios de atención disponibles para que los tiendan puedan canalizar sus preguntas, quejas, o cualquier interacción que requieran sobre un producto o servicio.   
+                  p.mb-0 Medios de atención disponibles para que los tiendan puedan canalizar sus preguntas, quejas, o cualquier interacción que requieran sobre un producto o servicio revisar en la carpeta Anexos: Canales_atención_cliente.   
                 .col-sm-auto.p-lg-4
                   a.boton.bgr_3.me-3.text-white(:href="obtenerLink('downloads/Canales_atención_cliente.pdf')" target="_blank" type="application/pdf")
                     span Descargar
@@ -443,7 +443,7 @@
     figure.mb-5
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/6FGpkm6bEY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption #[strong Video:] Momentos de verdad
+      figcaption #[strong Video:] Momentos de verdad.
 
     .bg_grad-13.mb-5
       .row.justify-content-center
@@ -454,7 +454,7 @@
           h5 ¿Cree usted que Juan obtuvo momentos de verdad? 
           p El desafío al que se enfrentan las organizaciones en lo que respecta a los momentos de la verdad es identificar todos los posibles puntos de contacto con el cliente y optimizar cada uno de ellos, ya sea una experiencia recurrente, como el envío de un extracto de facturación, o una comunicación única con un representante de ventas por teléfono.
 
-    p.mb-5 Existen diferentes tipos de momentos de verdad, revíselos a continuación:
+    p.mb-5 Existen diferentes tipos de momentos de verdad, relacionados a continuación:
 
     .row.mb-5.align-items-stretch
       .col-md-6.col-xl-4.mb-4(data-aos="fade-up")
