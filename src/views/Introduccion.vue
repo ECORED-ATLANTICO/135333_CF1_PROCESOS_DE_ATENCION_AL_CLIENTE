@@ -12,8 +12,8 @@
 
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/S36Cb7Prq_w" title="Reconocimiento de clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption #[strong Video:] reconocimiento de clientes: introducción.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/BKe0iC3JO3U" title="Reconocimiento de clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption #[strong Video:] Reconocimiento de clientes
 
 </template>
 
