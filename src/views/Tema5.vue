@@ -145,7 +145,7 @@
       .col
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 9.
-          span Tabla tipo matriz de identificación de peligros
+          span Tabla tipo matriz de riesgo
         img.mb-2(data-aos="fade-up", src="@/assets/curso/tema5/t5-4.svg", alt="El ejemplo de matriz de identificación de peligros se relaciona: Clasificación, efectos posibles, controles existentes, evaluación del riesgo, medidas de control y riesgo residual.")
         figcaption Nota. SENA, (2026).
 
