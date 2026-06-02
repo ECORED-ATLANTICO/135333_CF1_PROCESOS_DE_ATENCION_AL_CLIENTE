@@ -13,7 +13,7 @@
           img.mb-4.mb-lg-0(src='@/assets/curso/tema3/t3-1.png', alt='')
       .col-12.col-lg-8(data-aos="fade-left")
         p La inclusión es un término mucho más amplio de lo que se piensa, es un concepto que si bien tuvo sus inicios en la perspectiva social ahora permea también el contexto empresarial. Inclusión significa la capacidad de poder derribar barreras, de que todos tengan igualdad de derechos, dar accesibilidad y no ser excluyentes, en últimas la inclusión es un asunto de todos. Lastimosamente, a veces se ve permeada negativamente por diversas barreras, ya que los prejuicios sociales hacen que se jerarquicen las relaciones entre las personas de acuerdo con roles y estereotipos.
-        p Para mayor entendimiento, a continuación los tipos de inclusión que suelen abordarse con mayor frecuencia en los estudios sociales y económicos.
+        p Para mayor entendimiento, a continuación se presentan los tipos de inclusión que suelen abordarse con mayor frecuencia en los estudios sociales y económicos.
     
     .fullwidth-bg.fullwidth-bg--2
     TabsB.color-secundario(data-aos="zoom-in")
