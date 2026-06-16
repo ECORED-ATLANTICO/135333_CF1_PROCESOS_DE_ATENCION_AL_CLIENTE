@@ -166,7 +166,7 @@
               h4 Descargue el ejemplo de TABLA_TIPO_MATRIZ_DE_IDENTIFICACIÓN_DE_PELIGROS.
             .col-sm-auto.p-lg-4
               a.boton.bgr_3.me-3.text-white(:href="obtenerLink('downloads/FORMATO_MATRIZ_DE_IDENTIFICACIÓN_DE_PELIGROS.xlsx')" target="_blank")
-                  span Enlace
+                  span Descargar
                   i.fas.fa-link
 
 
