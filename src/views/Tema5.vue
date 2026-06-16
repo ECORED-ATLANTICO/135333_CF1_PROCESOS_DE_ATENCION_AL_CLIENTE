@@ -163,7 +163,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col-lg-8.mb-3.mb-sm-0
-              h4 Descargue el ejemplo de TABLA_TIPO_MATRIZ_DE_IDENTIFICACIÓN_DE_PELIGROS que se encuentra en la carpeta Anexos.
+              h4 Descargue el ejemplo de TABLA_TIPO_MATRIZ_DE_IDENTIFICACIÓN_DE_PELIGROS.
             .col-sm-auto.p-lg-4
               a.boton.bgr_3.me-3.text-white(:href="obtenerLink('downloads/FORMATO_MATRIZ_DE_IDENTIFICACIÓN_DE_PELIGROS.xlsx')" target="_blank")
                   span Enlace

@@ -407,7 +407,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg-8.mb-3.mb-sm-0
                   h5 Canales de atención al cliente
-                  p.mb-0 Medios de atención disponibles para que los tiendan puedan canalizar sus preguntas, quejas, o cualquier interacción que requieran sobre un producto o servicio revisar en la carpeta Anexos: Canales_atención_cliente.   
+                  p.mb-0 Medios de atención disponibles para que los tiendan puedan canalizar sus preguntas, quejas, o cualquier interacción que requieran sobre un producto o servicio.
                 .col-sm-auto.p-lg-4
                   a.boton.bgr_3.me-3.text-white(:href="obtenerLink('downloads/Canales_atención_cliente.pdf')" target="_blank" type="application/pdf")
                     span Descargar

@@ -339,7 +339,7 @@ export default {
         },
         {
           nombre: 'Carlos Andrés Díaz Pinto',
-          cargo: 'Desarrollo Front-end',
+          cargo: 'Desarrollo <em>Front-end</em>',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
